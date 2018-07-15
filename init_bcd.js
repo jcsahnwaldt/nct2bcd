@@ -2,61 +2,56 @@
 
 const fs = require('fs');
 
-let bcdDir = process.argv[2];
-let mapFile = process.argv[3];
-if (! bcdDir || ! mapFile) {
+const bcdDir = process.argv[2];
+const bcdFile = process.argv[3];
+if (! bcdDir || ! bcdFile) {
   const cmd = process.argv[1].split('\\').pop().split('/').pop();
   console.log('Usage:');
-  console.log(`node ${cmd} bcd-dir map-file`);
+  console.log(`node ${cmd} bcd-dir bcd-file`);
   console.log('Example:');
-  console.log(`node ${cmd} browser-compat-data map.json`);
-  console.log('merges data from all *.json files in browser-compat-data/javascript/ into map.json');
+  console.log(`node ${cmd} browser-compat-data bcd.json`);
+  console.log('merge data from browser-compat-data/javascript/{,**/}*.json into bcd.json');
   return;
 }
 
-if (! bcdDir.endsWith('/')) bcdDir += '/';
+const jsDir = bcdDir + (bcdDir.endsWith('/') ? '' : '/') + 'javascript/';
 
 // recursively yield all files in dir
-function *files(dir) {
-  const names = fs.readdirSync(dir);
+function *files(base, dir) {
+  const names = fs.readdirSync(base + dir);
   for (const name of names) {
     const path = dir + name;
-    const stats = fs.lstatSync(path);
-    if (stats.isDirectory()) yield *files(path + '/');
+    const stats = fs.lstatSync(base + path);
+    if (stats.isDirectory()) yield *files(base, path + '/');
     else if (stats.isFile()) yield path;
   }
 }
 
-// add property paths to dst, replace __compat objects by simple values, drop deprecated features
-function buildTree(dst, src) {
-
-  if (dst === undefined) {
-    // don't use {} - we set 'toString' properties etc.
-    dst = Object.create(null);
-    // set initial value for NCT path
-    dst.__nct = '';
-  }
-
-  for (const [key, val] of Object.entries(src)) {
+// add property paths to bcd, drop deprecated features
+function add(bcd, tree, path, file) {
+  for (const [key, val] of Object.entries(tree)) {
     if (key === '__compat') {
-      // Node: if there are duplicate paths, add logging code to print the paths
-      if (dst.__nct) throw new Error('duplicate path');
-      dst.__mdn = val.mdn_url ? val.mdn_url : '';
+      if (val.status.deprecated) continue;
+      if (bcd[path]) throw new Error('duplicate path '+path);
+      bcd[path] = {
+        // undefined is dropped in JSON, use explicit empty value instead
+        mdn_url: val.mdn_url ? val.mdn_url : '',
+        bcd_file: file,
+      };
     }
-    else if (! (val.__compat && val.__compat.status.deprecated)) {
-      dst[key] = buildTree(dst[key], val);
+    else {
+      add(bcd, val, path + (path === '' ? '' : '/') + key, file);
     }
   }
-
-  return dst;
 }
 
-let tree;
-for (const path of files(bcdDir + 'javascript/')) {
-  const json = fs.readFileSync(path, 'utf8');
-  const obj = JSON.parse(json);
-  tree = buildTree(tree, obj);
+let bcd = Object.create(null);
+for (const path of files(jsDir, '')) {
+  const json = fs.readFileSync(jsDir + path, 'utf8');
+  const all = JSON.parse(json);
+  const js = all.javascript;
+  add(bcd, js, '', path);
 }
 
-const json = JSON.stringify(tree, null, 2);
-fs.writeFileSync(mapFile, json, 'utf8');
+const json = JSON.stringify(bcd, null, 2);
+fs.writeFileSync(bcdFile, json, 'utf8');
