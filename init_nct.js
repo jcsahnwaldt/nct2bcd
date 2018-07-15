@@ -14,37 +14,38 @@ if (! nctDir || ! nctFile) {
   return;
 }
 
-if (! nctDir.endsWith('/')) nctDir += '/';
-
-function readKeys(path) {
-  const json = fs.readFileSync(path, 'utf8');
-  const obj = JSON.parse(json);
-  
-  const keys = Object.create(null);
-  for (const [tag, data] of Object.entries(obj)) {
-    if (tag.startsWith('_')) continue;
-    for (const key of Object.keys(data)) {
-      if (key.startsWith('_')) continue;
-      if (keys[key] !== undefined) throw new Error('duplicate key '+key);
-      keys[key] = null;
-    }
+function add(tree, data, ...path) {
+  if (path.length === 0) return;
+  const first = path.shift();
+  if (path.length === 0) {
+    if (tree[first] !== undefined) throw new Error('duplicate path');
+    tree[first] = data;
   }
-
-  return Object.keys(keys);
+  else {
+    if (tree[first] === undefined) tree[first] = Object.create(null);
+    add(tree[first], data, ...path);
+  }
 }
 
-const keys = readKeys(nctDir + 'testers.json');
-let counts = [0, 0, 0, 0];
-const map = Object.create(null);
-for (const key of keys) {
-  const parts = key.split('›');
-  if (! map[parts[1]]) map[parts[1]] = [];
-  if (! map[parts[1]].includes(parts[0])) map[parts[1]].push(parts[0]);
-  counts[parts.length]++;
+const tree = Object.create(null);
+
+// Note: Almost all node-compat-table/results/v8/*.json files
+// have the same keys as node-compat-table/testers.json.
+// Only the v8/0.*.json and the v8/bleeding.json files have
+// different keys.
+const file = nctDir + (nctDir.endsWith('/') ? '' : '/') + 'testers.json';
+
+let json = fs.readFileSync(file, 'utf8');
+const nct = JSON.parse(json);
+
+for (const [tag, data] of Object.entries(nct)) {
+  if (tag.startsWith('_')) continue;
+  for (const key of Object.keys(data)) {
+    if (key.startsWith('_')) continue;
+    const parts = key.split('›');
+    add(tree, {bcd_path: ''}, tag, ...parts);
+  }
 }
 
-for (const [p1, p0] of Object.entries(map)) {
-  if (p0.length > 1) console.log(p1, p0);
-}
-
-console.log(counts);
+json = JSON.stringify(tree, null, 2);
+fs.writeFileSync(nctFile, json, 'utf8');
