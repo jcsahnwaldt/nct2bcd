@@ -15,7 +15,6 @@ if (! nctDir || ! nctFile) {
 }
 
 function add(tree, data, ...path) {
-  if (path.length === 0) return;
   const first = path.shift();
   if (path.length === 0) {
     if (tree[first] !== undefined) throw new Error('duplicate path');
