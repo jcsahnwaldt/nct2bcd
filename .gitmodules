@@ -1,8 +1,0 @@
-[submodule "node-compat-table"]
-	path = node-compat-table
-	url = https://github.com/williamkapke/node-compat-table.git
-	branch = gh-pages
-[submodule "browser-compat-data"]
-	path = browser-compat-data
-	url = git@github.com:jcsahnwaldt/browser-compat-data.git
-	branch = dummy
