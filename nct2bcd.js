@@ -2,19 +2,19 @@
 
 const fs = require('fs');
 
-let source = process.argv[2];
-let target = process.argv[3];
-if (! source || ! target) {
+let bcdDir = process.argv[2];
+let mapFile = process.argv[3];
+if (! bcdDir || ! mapFile) {
   const cmd = process.argv[1].split('\\').pop().split('/').pop();
   console.log('Usage:');
-  console.log(`node ${cmd} source-dir target-file`);
+  console.log(`node ${cmd} bcd-dir map-file`);
   console.log('Example:');
-  console.log(`node ${cmd} browser-compat-data nct2bcd.json`);
-  console.log('merges data from all *.json files in browser-compat-data/javascript/ into nct2bcd.json');
+  console.log(`node ${cmd} browser-compat-data map.json`);
+  console.log('merges data from all *.json files in browser-compat-data/javascript/ into map.json');
   return;
 }
 
-if (! source.endsWith('/')) source += '/';
+if (! bcdDir.endsWith('/')) bcdDir += '/';
 
 // recursively yield all files in dir
 function *files(dir) {
@@ -50,11 +50,11 @@ function addPaths(dst, src) {
 
 let tree;
 
-for (const path of files(source + 'javascript/')) {
+for (const path of files(bcdDir + 'javascript/')) {
   const json = fs.readFileSync(path, 'utf8');
   const obj = JSON.parse(json);
   tree = addPaths(tree, obj);
 }
 
 const json = JSON.stringify(tree, null, 2);
-fs.writeFileSync(target, json, 'utf8');
+fs.writeFileSync(mapFile, json, 'utf8');
