@@ -33,21 +33,4 @@ function readKeys(path) {
   return Object.keys(keys);
 }
 
-const testers = readKeys(nctDir + 'testers.json');
-
-const v8dir = nctDir + 'results/v8/';
-for (const name of fs.readdirSync(v8dir)) {
-  if (name.startsWith('0.') || name === 'bleeding.json') continue;
-  const path = v8dir + name;
-  const keys = readKeys(path);
-  let count = 0;
-  for (const key of keys) {
-    if (! testers.includes(key)) {
-      console.log(key);
-      count++;
-    }
-  }
-  if (count !== 0) {
-    console.log(path, keys.length, count);
-  }
-}
+const keys = readKeys(nctDir + 'testers.json');
