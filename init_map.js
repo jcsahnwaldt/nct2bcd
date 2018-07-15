@@ -28,20 +28,23 @@ function *files(dir) {
 }
 
 // add property paths to dst, replace __compat objects by simple values, drop deprecated features
-function addPaths(dst, src) {
+function buildTree(dst, src) {
+
   if (dst === undefined) {
     // don't use {} - we set 'toString' properties etc.
     dst = Object.create(null);
+    // set initial value for NCT path
     dst.__nct = '';
   }
 
   for (const [key, val] of Object.entries(src)) {
     if (key === '__compat') {
-      if (dst.__nct) throw 'duplicate path';
+      // Node: if there are duplicate paths, add logging code to print the paths
+      if (dst.__nct) throw new Error('duplicate path');
       dst.__mdn = val.mdn_url ? val.mdn_url : '';
     }
     else if (! (val.__compat && val.__compat.status.deprecated)) {
-      dst[key] = addPaths(dst[key], val);
+      dst[key] = buildTree(dst[key], val);
     }
   }
 
@@ -49,11 +52,10 @@ function addPaths(dst, src) {
 }
 
 let tree;
-
 for (const path of files(bcdDir + 'javascript/')) {
   const json = fs.readFileSync(path, 'utf8');
   const obj = JSON.parse(json);
-  tree = addPaths(tree, obj);
+  tree = buildTree(tree, obj);
 }
 
 const json = JSON.stringify(tree, null, 2);
