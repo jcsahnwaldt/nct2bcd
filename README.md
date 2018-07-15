@@ -1,6 +1,6 @@
 ## Warning! Work in progress! Not yet ready to use!
 
-Automatically copy [Node.js](http://nodejs.org) compatibility data from [node-compat-table](/williamkapke/node-compat-table) to [browser-compat-data](/mdn/browser-compat-data). More precisely, to your own branch of browser-compat-data, which you can then use for a pull request.
+Automatically copy [Node.js](http://nodejs.org) compatibility data from [node-compat-table](//github.com/williamkapke/node-compat-table) to [browser-compat-data](//github.com/mdn/browser-compat-data). More precisely, to your own branch of browser-compat-data, which you can then use for a pull request.
 
 ## Instructions
 
