@@ -1,4 +1,0 @@
-[submodule "browser-compat-data"]
-	path = browser-compat-data
-	url = git@github.com:jcsahnwaldt/browser-compat-data.git
-	branch = dummy
