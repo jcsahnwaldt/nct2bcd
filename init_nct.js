@@ -34,3 +34,17 @@ function readKeys(path) {
 }
 
 const keys = readKeys(nctDir + 'testers.json');
+let counts = [0, 0, 0, 0];
+const map = Object.create(null);
+for (const key of keys) {
+  const parts = key.split('›');
+  if (! map[parts[1]]) map[parts[1]] = [];
+  if (! map[parts[1]].includes(parts[0])) map[parts[1]].push(parts[0]);
+  counts[parts.length]++;
+}
+
+for (const [p1, p0] of Object.entries(map)) {
+  if (p0.length > 1) console.log(p1, p0);
+}
+
+console.log(counts);
