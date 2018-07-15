@@ -11,7 +11,7 @@ git clone git@github.com:jcsahnwaldt/nct2bcd.git
 cd nct2bcd/
 ```
 
-Clone `browser-compat-data` (change `YOUR_BRANCH_NAME` and `YOUR_USER_NAME` to the appropriate values):
+Clone your branch of `browser-compat-data` (change `YOUR_BRANCH_NAME` and `YOUR_USER_NAME` to the appropriate values):
 
 ```
 git clone --single-branch --branch YOUR_BRANCH_NAME git@github.com:YOUR_USER_NAME/browser-compat-data.git
