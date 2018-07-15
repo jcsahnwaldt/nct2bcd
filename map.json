@@ -1,0 +1,3262 @@
+{
+  "__nct": "",
+  "javascript": {
+    "__nct": "",
+    "builtins": {
+      "__nct": "",
+      "Array": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array",
+        "concat": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/concat"
+        },
+        "copyWithin": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/copyWithin"
+        },
+        "entries": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/entries"
+        },
+        "every": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/every"
+        },
+        "fill": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/fill"
+        },
+        "filter": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/filter"
+        },
+        "find": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/find"
+        },
+        "findIndex": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/findIndex"
+        },
+        "flat": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/flat"
+        },
+        "flatMap": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/flatMap"
+        },
+        "forEach": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach"
+        },
+        "from": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/from"
+        },
+        "includes": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/includes"
+        },
+        "indexOf": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/indexOf"
+        },
+        "isArray": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/isArray"
+        },
+        "join": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/join"
+        },
+        "keys": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/keys"
+        },
+        "lastIndexOf": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/lastIndexOf"
+        },
+        "length": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/length"
+        },
+        "map": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/map"
+        },
+        "of": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/of"
+        },
+        "pop": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/pop"
+        },
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/prototype"
+        },
+        "push": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/push"
+        },
+        "reduce": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/reduce"
+        },
+        "reduceRight": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/reduceRight"
+        },
+        "reverse": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/reverse"
+        },
+        "shift": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/shift"
+        },
+        "slice": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/slice"
+        },
+        "some": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/some"
+        },
+        "sort": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/sort"
+        },
+        "splice": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/splice"
+        },
+        "toLocaleString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/toLocaleString",
+          "locales": {
+            "__nct": "",
+            "__mdn": ""
+          },
+          "options": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "toSource": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/toSource"
+        },
+        "toString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/toString"
+        },
+        "unshift": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/unshift"
+        },
+        "values": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/values"
+        },
+        "@@iterator": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/@@iterator"
+        },
+        "@@species": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/@@species"
+        },
+        "@@unscopables": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Array/@@unscopables"
+        }
+      },
+      "ArrayBuffer": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+        "new_required": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "byteLength": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/byteLength"
+        },
+        "isView": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/isView"
+        },
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/prototype"
+        },
+        "slice": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/slice"
+        },
+        "transfer": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/transfer"
+        },
+        "@@species": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer/@@species"
+        }
+      },
+      "AsyncFunction": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncFunction",
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/AsyncFunction/prototype"
+        }
+      },
+      "Atomics": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics",
+        "add": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/add"
+        },
+        "and": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/and"
+        },
+        "compareExchange": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/compareExchange"
+        },
+        "exchange": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/exchange"
+        },
+        "isLockFree": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/isLockFree"
+        },
+        "load": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/load"
+        },
+        "or": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/or"
+        },
+        "store": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/store"
+        },
+        "sub": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/sub"
+        },
+        "wait": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/wait"
+        },
+        "wake": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/wake"
+        },
+        "xor": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/xor"
+        }
+      },
+      "Boolean": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean/prototype"
+        },
+        "toSource": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean/toSource"
+        },
+        "toString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean/toString"
+        },
+        "valueOf": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Boolean/valueOf"
+        }
+      },
+      "DataView": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+        "new_required": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "sharedarraybuffer_support": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "buffer": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/buffer",
+          "sharedarraybuffer_support": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "byteLength": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/byteLength"
+        },
+        "byteOffset": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/byteOffset"
+        },
+        "getFloat32": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getFloat32"
+        },
+        "getFloat64": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getFloat64"
+        },
+        "getInt16": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getInt16"
+        },
+        "getInt32": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getInt32"
+        },
+        "getInt8": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getInt8"
+        },
+        "getUint16": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getUint16"
+        },
+        "getUint32": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getUint32"
+        },
+        "getUint8": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/getUint8"
+        },
+        "setFloat32": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setFloat32"
+        },
+        "setFloat64": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setFloat64"
+        },
+        "setInt16": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setInt16"
+        },
+        "setInt32": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setInt32"
+        },
+        "setInt8": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setInt8"
+        },
+        "setUint16": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setUint16"
+        },
+        "setUint32": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setUint32"
+        },
+        "setUint8": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/setUint8"
+        },
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DataView/prototype"
+        }
+      },
+      "Date": {
+        "__nct": "",
+        "@@toPrimitive": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/@@toPrimitive"
+        },
+        "Date": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date"
+        },
+        "UTC": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/UTC"
+        },
+        "getDate": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getDate"
+        },
+        "getDay": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getDay"
+        },
+        "getFullYear": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getFullYear"
+        },
+        "getHours": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getHours"
+        },
+        "getMilliseconds": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getMilliseconds"
+        },
+        "getMinutes": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getMinutes"
+        },
+        "getMonth": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getMonth"
+        },
+        "getSeconds": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getSeconds"
+        },
+        "getTime": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getTime"
+        },
+        "getTimezoneOffset": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getTimezoneOffset"
+        },
+        "getUTCDate": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCDate"
+        },
+        "getUTCDay": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCDay"
+        },
+        "getUTCFullYear": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCFullYear"
+        },
+        "getUTCHours": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCHours"
+        },
+        "getUTCMilliseconds": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCMilliseconds"
+        },
+        "getUTCMinutes": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCMinutes"
+        },
+        "getUTCMonth": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCMonth"
+        },
+        "getUTCSeconds": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/getUTCSeconds"
+        },
+        "now": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/now"
+        },
+        "parse": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/parse",
+          "iso_8601": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/prototype",
+          "ordinary_object": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "setDate": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setDate"
+        },
+        "setFullYear": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setFullYear"
+        },
+        "setHours": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setHours"
+        },
+        "setMilliseconds": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setMilliseconds"
+        },
+        "setMinutes": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setMinutes"
+        },
+        "setMonth": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setMonth"
+        },
+        "setSeconds": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setSeconds"
+        },
+        "setTime": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setTime"
+        },
+        "setUTCDate": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCDate"
+        },
+        "setUTCFullYear": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCFullYear"
+        },
+        "setUTCHours": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCHours"
+        },
+        "setUTCMilliseconds": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCMilliseconds"
+        },
+        "setUTCMinutes": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCMinutes"
+        },
+        "setUTCMonth": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCMonth"
+        },
+        "setUTCSeconds": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/setUTCSeconds"
+        },
+        "toDateString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toDateString"
+        },
+        "toISOString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toISOString"
+        },
+        "toJSON": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toJSON"
+        },
+        "toLocaleDateString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleDateString",
+          "locales": {
+            "__nct": "",
+            "__mdn": ""
+          },
+          "options": {
+            "__nct": "",
+            "__mdn": ""
+          },
+          "iana_time_zone_names": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "toLocaleString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleString",
+          "locales": {
+            "__nct": "",
+            "__mdn": ""
+          },
+          "options": {
+            "__nct": "",
+            "__mdn": ""
+          },
+          "iana_time_zone_names": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "toLocaleTimeString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toLocaleTimeString",
+          "locales": {
+            "__nct": "",
+            "__mdn": ""
+          },
+          "options": {
+            "__nct": "",
+            "__mdn": ""
+          },
+          "iana_time_zone_names": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "toSource": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toSource"
+        },
+        "toString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toString"
+        },
+        "toTimeString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toTimeString"
+        },
+        "toUTCString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/toUTCString"
+        },
+        "valueOf": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/valueOf"
+        }
+      },
+      "Error": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error",
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/prototype"
+        },
+        "columnNumber": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/columnNumber"
+        },
+        "fileName": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/fileName"
+        },
+        "lineNumber": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/lineNumber"
+        },
+        "message": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/message"
+        },
+        "name": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/name"
+        },
+        "stack": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/stack"
+        },
+        "toSource": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/toSource"
+        },
+        "toString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Error/toString"
+        }
+      },
+      "EvalError": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/EvalError"
+      },
+      "Float32Array": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+        "new_required": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "iterable_in_constructor": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "constructor_without_arguments": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "Float64Array": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+        "new_required": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "iterable_in_constructor": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "constructor_without_arguments": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "Function": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function",
+        "caller": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/caller"
+        },
+        "displayName": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/displayName"
+        },
+        "length": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/length",
+          "configurable_true": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "name": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/name",
+          "configurable_true": {
+            "__nct": "",
+            "__mdn": ""
+          },
+          "inferred_names": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/prototype"
+        },
+        "apply": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/apply",
+          "generic_arrays_as_arguments": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "bind": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/bind"
+        },
+        "call": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/call"
+        },
+        "toSource": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/toSource"
+        },
+        "toString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Function/toString",
+          "toString_revision": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        }
+      },
+      "Generator": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+        "next": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Generator/next"
+        },
+        "return": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Generator/return"
+        },
+        "throw": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Generator/throw"
+        }
+      },
+      "GeneratorFunction": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction/prototype"
+        }
+      },
+      "Int16Array": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+        "new_required": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "iterable_in_constructor": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "constructor_without_arguments": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "Int32Array": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+        "new_required": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "iterable_in_constructor": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "constructor_without_arguments": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "Int8Array": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+        "new_required": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "iterable_in_constructor": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "constructor_without_arguments": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "InternalError": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/InternalError"
+      },
+      "Intl": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl",
+        "getCanonicalLocales": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Intl/getCanonicalLocales"
+        },
+        "Collator": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Collator",
+          "caseFirst": {
+            "__nct": "",
+            "__mdn": ""
+          },
+          "prototype": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Collator/prototype"
+          },
+          "compare": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Collator/compare"
+          },
+          "resolvedOptions": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Collator/resolvedOptions"
+          },
+          "supportedLocalesOf": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Collator/supportedLocalesOf"
+          }
+        },
+        "DateTimeFormat": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat",
+          "iana_time_zone_names": {
+            "__nct": "",
+            "__mdn": ""
+          },
+          "hourCycle": {
+            "__nct": "",
+            "__mdn": ""
+          },
+          "prototype": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat/prototype"
+          },
+          "format": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat/format"
+          },
+          "formatToParts": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat/formatToParts"
+          },
+          "resolvedOptions": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/DateTimeFormat/resolvedOptions",
+            "computed_timezone": {
+              "__nct": "",
+              "__mdn": ""
+            }
+          },
+          "supportedLocalesOf": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Collator/supportedLocalesOf"
+          }
+        },
+        "NumberFormat": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat",
+          "prototype": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat/prototype"
+          },
+          "format": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat/format"
+          },
+          "formatToParts": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat/formatToParts"
+          },
+          "resolvedOptions": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat/resolvedOptions"
+          },
+          "supportedLocalesOf": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat/supportedLocalesOf"
+          }
+        },
+        "PluralRules": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/PluralRules",
+          "prototype": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/PluralRules/prototype"
+          },
+          "resolvedOptions": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/PluralRules/resolvedOptions"
+          },
+          "select": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/PluralRules/select"
+          },
+          "supportedLocalesOf": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/PluralRules/supportedLocalesOf"
+          }
+        }
+      },
+      "JSON": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+        "parse": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/parse"
+        },
+        "stringify": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON/stringify"
+        },
+        "json_superset": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/JSON#JavaScript_and_JSON_differences"
+        }
+      },
+      "Map": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map",
+        "map_iterable": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "map_null": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "map_without_new_throws": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "key_equality_for_zeros": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "clear": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/clear"
+        },
+        "delete": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/delete"
+        },
+        "entries": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/entries"
+        },
+        "forEach": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/forEach"
+        },
+        "get": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/get"
+        },
+        "has": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/has"
+        },
+        "keys": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/keys"
+        },
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/prototype"
+        },
+        "set": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/set"
+        },
+        "size": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/size"
+        },
+        "values": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/values"
+        },
+        "@@iterator": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/@@iterator"
+        },
+        "@@species": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/@@species"
+        },
+        "@@toStringTag": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Map/@@toStringTag"
+        }
+      },
+      "Math": {
+        "__nct": "",
+        "E": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/E"
+        },
+        "LN2": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/LN2"
+        },
+        "LN10": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/LN10"
+        },
+        "LOG2E": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/LOG2E"
+        },
+        "LOG10E": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/LOG10E"
+        },
+        "PI": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/PI"
+        },
+        "SQRT1_2": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/SQRT1_2"
+        },
+        "SQRT2": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/SQRT2"
+        },
+        "abs": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/abs"
+        },
+        "acos": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/acos"
+        },
+        "acosh": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/acosh"
+        },
+        "asin": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/asin"
+        },
+        "asinh": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/asinh"
+        },
+        "atan": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/atan"
+        },
+        "atan2": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/atan2"
+        },
+        "atanh": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/atanh"
+        },
+        "cbrt": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/cbrt"
+        },
+        "ceil": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/ceil"
+        },
+        "clz32": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/clz32"
+        },
+        "cos": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/cos"
+        },
+        "cosh": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/cosh"
+        },
+        "exp": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/exp"
+        },
+        "expm1": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/expm1"
+        },
+        "floor": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/floor"
+        },
+        "fround": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/fround"
+        },
+        "hypot": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/hypot"
+        },
+        "imul": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/imul"
+        },
+        "log": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/log"
+        },
+        "log1p": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/log1p"
+        },
+        "log2": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/log2"
+        },
+        "log10": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/log10"
+        },
+        "max": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/max"
+        },
+        "min": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/min"
+        },
+        "pow": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/pow"
+        },
+        "random": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/random"
+        },
+        "round": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/round"
+        },
+        "sign": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/sign"
+        },
+        "sin": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/sin"
+        },
+        "sinh": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/sinh"
+        },
+        "sqrt": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt"
+        },
+        "tan": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/tan"
+        },
+        "tanh": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/tanh"
+        },
+        "trunc": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Math/trunc"
+        }
+      },
+      "Number": {
+        "__nct": "",
+        "EPSILON": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/EPSILON"
+        },
+        "MAX_SAFE_INTEGER": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_SAFE_INTEGER"
+        },
+        "MAX_VALUE": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/MAX_VALUE"
+        },
+        "MIN_SAFE_INTEGER": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/MIN_SAFE_INTEGER"
+        },
+        "MIN_VALUE": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/MIN_VALUE"
+        },
+        "NEGATIVE_INFINITY": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/NEGATIVE_INFINITY"
+        },
+        "NaN": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/NaN"
+        },
+        "Number": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number"
+        },
+        "POSITIVE_INFINITY": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/POSITIVE_INFINITY"
+        },
+        "isFinite": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/isFinite"
+        },
+        "isInteger": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/isInteger"
+        },
+        "isNaN": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/isNaN"
+        },
+        "isSafeInteger": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/isSafeInteger"
+        },
+        "parseFloat": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/parseFloat"
+        },
+        "parseInt": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/parseInt"
+        },
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/prototype"
+        },
+        "toExponential": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/toExponential"
+        },
+        "toFixed": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed"
+        },
+        "toLocaleString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/toLocaleString",
+          "locales": {
+            "__nct": "",
+            "__mdn": ""
+          },
+          "options": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "toPrecision": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/toPrecision"
+        },
+        "toSource": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/toSource"
+        },
+        "toString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/toString"
+        },
+        "valueOf": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/valueOf"
+        }
+      },
+      "Object": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object",
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype"
+        },
+        "proto": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/proto"
+        },
+        "constructor": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor"
+        },
+        "assign": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/assign"
+        },
+        "create": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/create"
+        },
+        "defineProperties": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperties"
+        },
+        "defineProperty": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/defineProperty"
+        },
+        "entries": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/entries"
+        },
+        "freeze": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze"
+        },
+        "getOwnPropertyDescriptor": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor"
+        },
+        "getOwnPropertyDescriptors": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptors"
+        },
+        "getOwnPropertyNames": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyNames"
+        },
+        "getOwnPropertySymbols": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertySymbols"
+        },
+        "getPrototypeOf": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/getPrototypeOf"
+        },
+        "is": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/is"
+        },
+        "isExtensible": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/isExtensible"
+        },
+        "isFrozen": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/isFrozen"
+        },
+        "isSealed": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/isSealed"
+        },
+        "keys": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/keys"
+        },
+        "preventExtensions": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/preventExtensions",
+          "ES2015_behavior": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "hasOwnProperty": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/hasOwnProperty"
+        },
+        "isPrototypeOf": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/isPrototypeOf"
+        },
+        "propertyIsEnumerable": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/propertyIsEnumerable"
+        },
+        "toLocaleString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/toLocaleString"
+        },
+        "toString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/toString"
+        },
+        "valueOf": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/valueOf"
+        },
+        "seal": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/seal"
+        },
+        "setPrototypeOf": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/setPrototypeOf"
+        },
+        "values": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/values"
+        }
+      },
+      "Promise": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+        "Promise": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise"
+        },
+        "all": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/all"
+        },
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/prototype"
+        },
+        "catch": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/catch"
+        },
+        "finally": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/finally"
+        },
+        "then": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/then"
+        },
+        "race": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/race"
+        },
+        "reject": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/reject"
+        },
+        "resolve": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Promise/resolve"
+        }
+      },
+      "Proxy": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+        "revocable": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/revocable"
+        },
+        "handler": {
+          "__nct": "",
+          "apply": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/handler/apply"
+          },
+          "construct": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/handler/construct"
+          },
+          "defineProperty": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/handler/defineProperty"
+          },
+          "deleteProperty": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/handler/deleteProperty"
+          },
+          "get": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/handler/get"
+          },
+          "getOwnPropertyDescriptor": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/handler/getOwnPropertyDescriptor"
+          },
+          "getPrototypeOf": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/handler/getPrototypeOf"
+          },
+          "has": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/handler/has"
+          },
+          "isExtensible": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/handler/isExtensible"
+          },
+          "ownKeys": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/handler/ownKeys"
+          },
+          "preventExtensions": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/handler/preventExtensions"
+          },
+          "set": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/handler/set"
+          },
+          "setPrototypeOf": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Proxy/handler/setPrototypeOf"
+          }
+        }
+      },
+      "RangeError": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RangeError"
+      },
+      "ReferenceError": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError"
+      },
+      "Reflect": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+        "apply": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect/apply"
+        },
+        "construct": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect/construct"
+        },
+        "defineProperty": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect/defineProperty"
+        },
+        "deleteProperty": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect/deleteProperty"
+        },
+        "get": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect/get"
+        },
+        "getOwnPropertyDescriptor": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect/getOwnPropertyDescriptor"
+        },
+        "getPrototypeOf": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect/getPrototypeOf"
+        },
+        "has": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect/has"
+        },
+        "isExtensible": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect/isExtensible"
+        },
+        "ownKeys": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect/ownKeys"
+        },
+        "preventExtensions": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect/preventExtensions"
+        },
+        "set": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect/set"
+        },
+        "setPrototypeOf": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Reflect/setPrototypeOf"
+        }
+      },
+      "RegExp": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+        "exec": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/exec"
+        },
+        "flags": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/flags"
+        },
+        "global": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/global",
+          "prototype_accessor": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "ignoreCase": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/ignoreCase",
+          "prototype_accessor": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "input": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/input"
+        },
+        "lastIndex": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastIndex"
+        },
+        "lastMatch": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastMatch"
+        },
+        "lastParen": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/lastParen"
+        },
+        "leftContext": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/leftContext"
+        },
+        "lookbehind_assertion": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "multiline": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/multiline",
+          "prototype_accessor": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "n": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/n"
+        },
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/prototype"
+        },
+        "rightContext": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/rightContext"
+        },
+        "source": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/source",
+          "prototype_accessor": {
+            "__nct": "",
+            "__mdn": ""
+          },
+          "escaping": {
+            "__nct": "",
+            "__mdn": ""
+          },
+          "empty_regex_string": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "sticky": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/sticky",
+          "prototype_accessor": {
+            "__nct": "",
+            "__mdn": ""
+          },
+          "anchored_sticky_flag": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "test": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/test"
+        },
+        "toSource": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/toSource"
+        },
+        "toString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/toString",
+          "escaping": {
+            "__nct": "",
+            "__mdn": ""
+          },
+          "generic_function": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "unicode": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/unicode"
+        },
+        "@@match": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@match"
+        },
+        "@@replace": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@replace"
+        },
+        "@@search": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@search"
+        },
+        "@@species": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@species"
+        },
+        "@@split": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/RegExp/@@split"
+        }
+      },
+      "Set": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set",
+        "set_iterable": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "set_null": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "set_without_new_throws": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "key_equality_for_zeros": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "add": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/add"
+        },
+        "clear": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/clear"
+        },
+        "delete": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/delete"
+        },
+        "entries": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/entries"
+        },
+        "forEach": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/forEach"
+        },
+        "has": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/has"
+        },
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/prototype"
+        },
+        "size": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/size"
+        },
+        "values": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/values"
+        },
+        "@@iterator": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/@@iterator"
+        },
+        "@@species": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Set/@@species"
+        }
+      },
+      "SharedArrayBuffer": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer",
+        "sab_in_dataview": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer/prototype"
+        },
+        "byteLength": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer/byteLength"
+        },
+        "slice": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SharedArrayBuffer/slice"
+        }
+      },
+      "String": {
+        "__nct": "",
+        "@@iterator": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator"
+        },
+        "String": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String",
+          "unicode_code_point_escapes": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "charAt": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/charAt"
+        },
+        "charCodeAt": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/charCodeAt"
+        },
+        "codePointAt": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/codePointAt"
+        },
+        "concat": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/concat"
+        },
+        "endsWith": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/endsWith"
+        },
+        "fromCharCode": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fromCharCode"
+        },
+        "fromCodePoint": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/fromCodePoint"
+        },
+        "includes": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/includes"
+        },
+        "indexOf": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/indexOf"
+        },
+        "lastIndexOf": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/lastIndexOf"
+        },
+        "length": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/length"
+        },
+        "localeCompare": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/localeCompare",
+          "locales": {
+            "__nct": "",
+            "__mdn": ""
+          },
+          "options": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "match": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/match"
+        },
+        "normalize": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/normalize"
+        },
+        "padEnd": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/padEnd"
+        },
+        "padStart": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/padStart"
+        },
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/prototype"
+        },
+        "raw": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/raw"
+        },
+        "repeat": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/repeat"
+        },
+        "replace": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/replace"
+        },
+        "search": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/search"
+        },
+        "slice": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/slice"
+        },
+        "split": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/split"
+        },
+        "startsWith": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith"
+        },
+        "substr": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/substr"
+        },
+        "substring": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/substring"
+        },
+        "toLocaleLowerCase": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleLowerCase",
+          "locale": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "toLocaleUpperCase": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toLocaleUpperCase",
+          "locale": {
+            "__nct": "",
+            "__mdn": ""
+          }
+        },
+        "toLowerCase": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase"
+        },
+        "toSource": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toSource"
+        },
+        "toString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toString"
+        },
+        "toUpperCase": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/toUpperCase"
+        },
+        "trim": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/trim"
+        },
+        "trimEnd": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/trimEnd"
+        },
+        "trimStart": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/trimStart"
+        },
+        "valueOf": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/valueOf"
+        }
+      },
+      "Symbol": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+        "asyncIterator": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "for": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/for"
+        },
+        "hasInstance": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/hasInstance"
+        },
+        "isConcatSpreadable": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/isConcatSpreadable"
+        },
+        "iterator": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/iterator"
+        },
+        "keyFor": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/keyFor"
+        },
+        "match": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/match"
+        },
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/prototype"
+        },
+        "replace": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/replace"
+        },
+        "search": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/search"
+        },
+        "species": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/species"
+        },
+        "split": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/split"
+        },
+        "toPrimitive": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toPrimitive"
+        },
+        "toSource": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toSource"
+        },
+        "toString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toString"
+        },
+        "toStringTag": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/toStringTag"
+        },
+        "unscopables": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/unscopables"
+        },
+        "valueOf": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/valueOf"
+        },
+        "@@toPrimitive": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/@@toPrimitive"
+        }
+      },
+      "SyntaxError": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError"
+      },
+      "TypeError": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypeError"
+      },
+      "TypedArray": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray",
+        "constructor_without_arguments": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "index_properties_not_consulting_prototype": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "iterable_in_constructor": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "named_properties": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "new_required": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "BYTES_PER_ELEMENT": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/BYTES_PER_ELEMENT"
+        },
+        "buffer": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/buffer"
+        },
+        "byteLength": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/byteLength"
+        },
+        "byteOffset": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/byteOffset"
+        },
+        "copyWithin": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/copyWithin"
+        },
+        "entries": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/entries"
+        },
+        "every": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/every"
+        },
+        "fill": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/fill"
+        },
+        "filter": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/filter"
+        },
+        "find": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/find"
+        },
+        "findIndex": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/findIndex"
+        },
+        "forEach": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/forEach"
+        },
+        "from": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/from"
+        },
+        "includes": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/includes"
+        },
+        "indexOf": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/indexOf"
+        },
+        "join": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/join"
+        },
+        "keys": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/keys"
+        },
+        "lastIndexOf": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/lastIndexOf"
+        },
+        "length": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/length"
+        },
+        "map": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/map"
+        },
+        "name": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/name"
+        },
+        "of": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/of"
+        },
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/prototype"
+        },
+        "reduce": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/reduce"
+        },
+        "reduceRight": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/reduceRight"
+        },
+        "reverse": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/reverse"
+        },
+        "set": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/set"
+        },
+        "slice": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/slice"
+        },
+        "some": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/some"
+        },
+        "sort": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/sort"
+        },
+        "subarray": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/subarray"
+        },
+        "toLocaleString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/toLocaleString"
+        },
+        "toString": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/toString"
+        },
+        "values": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/values"
+        },
+        "@@iterator": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/@@iterator"
+        },
+        "@@species": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/TypedArray/@@species"
+        }
+      },
+      "URIError": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/URIError"
+      },
+      "Uint16Array": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+        "new_required": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "iterable_in_constructor": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "constructor_without_arguments": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "Uint32Array": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+        "new_required": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "iterable_in_constructor": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "constructor_without_arguments": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "Uint8Array": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+        "new_required": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "iterable_in_constructor": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "constructor_without_arguments": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "Uint8ClampedArray": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+        "new_required": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "iterable_in_constructor": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "constructor_without_arguments": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "WeakMap": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+        "weakmap_iterable": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "weakmap_null": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "weakmap_without_new_throws": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "delete": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap/delete"
+        },
+        "get": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap/get"
+        },
+        "has": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap/has"
+        },
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap/prototype"
+        },
+        "set": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakMap/set"
+        }
+      },
+      "WeakSet": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+        "weakset_iterable": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "weakset_null": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "add": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakSet/add"
+        },
+        "delete": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakSet/delete"
+        },
+        "has": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakSet/has"
+        },
+        "prototype": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WeakSet/prototype"
+        }
+      },
+      "WebAssembly": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly",
+        "CompileError": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/CompileError"
+        },
+        "Global": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Global",
+          "value": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Global/value"
+          },
+          "valueOf": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Global/valueOf"
+          }
+        },
+        "Instance": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Instance",
+          "exports": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Instance/exports"
+          },
+          "prototype": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Instance/prototype"
+          }
+        },
+        "LinkError": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/LinkError"
+        },
+        "Memory": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Memory",
+          "buffer": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Memory/buffer"
+          },
+          "grow": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Memory/grow"
+          },
+          "prototype": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Memory/prototype"
+          }
+        },
+        "Module": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Module",
+          "customSections": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Module/customSections"
+          },
+          "exports": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Module/exports"
+          },
+          "imports": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Module/imports"
+          },
+          "prototype": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Module/prototype"
+          }
+        },
+        "RuntimeError": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/RuntimeError"
+        },
+        "Table": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Table",
+          "get": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Table/get"
+          },
+          "grow": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Table/grow"
+          },
+          "length": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Table/length"
+          },
+          "prototype": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Table/prototype"
+          },
+          "set": {
+            "__nct": "",
+            "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/Table/set"
+          }
+        },
+        "compile": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/compile"
+        },
+        "compileStreaming": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/compileStreaming"
+        },
+        "instantiate": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/instantiate"
+        },
+        "instantiateStreaming": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/instantiateStreaming"
+        },
+        "validate": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/WebAssembly/validate"
+        }
+      },
+      "Infinity": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Infinity"
+      },
+      "NaN": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/NaN"
+      },
+      "decodeURI": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/decodeURI"
+      },
+      "decodeURIComponent": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/decodeURIComponent"
+      },
+      "encodeURI": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/encodeURI"
+      },
+      "encodeURIComponent": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/encodeURIComponent"
+      },
+      "eval": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/eval"
+      },
+      "isFinite": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/isFinite"
+      },
+      "isNaN": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/isNaN"
+      },
+      "null": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/null"
+      },
+      "parseFloat": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/parseFloat"
+      },
+      "parseInt": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/parseInt",
+        "leading_zero_strings_as_decimal": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "undefined": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/undefined"
+      }
+    },
+    "classes": {
+      "__nct": "",
+      "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes",
+      "constructor": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/constructor"
+      },
+      "extends": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/extends"
+      },
+      "static": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Classes/static"
+      }
+    },
+    "functions": {
+      "__nct": "",
+      "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions",
+      "arguments": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/arguments",
+        "callee": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/arguments/callee"
+        },
+        "length": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/arguments/length"
+        },
+        "@@iterator": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/arguments/@@iterator"
+        }
+      },
+      "arrow_functions": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Arrow_functions",
+        "trailing_comma": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "block_level_functions": {
+        "__nct": "",
+        "__mdn": ""
+      },
+      "default_parameters": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Default_parameters",
+        "parameters_without_defaults_after_default_parameters": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "destructured_parameter_with_default_value_assignment": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "method_definitions": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/Method_definitions",
+        "generator_methods_not_constructable": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "async_methods": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "async_generator_methods": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "rest_parameters": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/rest_parameters",
+        "destructuring": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "get": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/get",
+        "computed_property_names": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "set": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Functions/set",
+        "computed_property_names": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      }
+    },
+    "grammar": {
+      "__nct": "",
+      "array_literals": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar#Array_literals"
+      },
+      "binary_numeric_literals": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar#Binary"
+      },
+      "boolean_literals": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar#Boolean_literal"
+      },
+      "decimal_numeric_literals": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar#Decimal"
+      },
+      "hexadecimal_escape_sequences": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar#Hexadecimal_escape_sequences"
+      },
+      "hexadecimal_numeric_literals": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar#Hexadecimal"
+      },
+      "null_literal": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar#Null_literal"
+      },
+      "octal_numeric_literals": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar#Octal"
+      },
+      "regular_expression_literals": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar#Regular_expression_literals"
+      },
+      "string_literals": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar#String_literals"
+      },
+      "unicode_escape_sequences": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar#Unicode_escape_sequences"
+      },
+      "unicode_point_escapes": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Lexical_grammar#Unicode_code_point_escapes"
+      },
+      "shorthand_object_literals": {
+        "__nct": "",
+        "__mdn": ""
+      },
+      "template_literals": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Template_literals",
+        "template_literal_revision": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "trailing_commas": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Trailing_commas",
+        "trailing_commas_in_object_literals": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "trailing_commas_in_functions": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      }
+    },
+    "operators": {
+      "__nct": "",
+      "arithmetic": {
+        "__nct": "",
+        "addition": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Addition"
+        },
+        "decrement": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Decrement"
+        },
+        "division": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Division"
+        },
+        "exponentiation": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Exponentiation"
+        },
+        "increment": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Increment"
+        },
+        "multiplication": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Multiplication"
+        },
+        "remainder": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Remainder"
+        },
+        "subtraction": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Subtraction"
+        },
+        "unary_negation": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Unary_negation"
+        },
+        "unary_plus": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators#Unary_plus"
+        }
+      },
+      "assignment": {
+        "__nct": "",
+        "addition": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Addition_assignment"
+        },
+        "bitwise_and": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Bitwise_AND_assignment"
+        },
+        "bitwise_or": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Bitwise_OR_assignment"
+        },
+        "bitwise_xor": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Bitwise_XOR_assignment"
+        },
+        "division": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Division_assignment"
+        },
+        "exponentiation": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Exponentiation_assignment"
+        },
+        "left_shift": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Left_shift_assignment"
+        },
+        "multiplication": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Multiplication_assignment"
+        },
+        "remainder": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Remainder_assignment"
+        },
+        "right_shift": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Right_shift_assignment"
+        },
+        "simple": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Assignment"
+        },
+        "subtraction": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Subtraction_assignment"
+        },
+        "unsigned_right_shift": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Assignment_Operators#Unsigned_right_shift_assignment"
+        }
+      },
+      "async_function_expression": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/async_function"
+      },
+      "await": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/await"
+      },
+      "bitwise": {
+        "__nct": "",
+        "and": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_AND"
+        },
+        "left_shift": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Left_shift"
+        },
+        "not": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_NOT"
+        },
+        "or": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_OR"
+        },
+        "right_shift": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Right_shift"
+        },
+        "unsigned_right_shift": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Unsigned_right_shift"
+        },
+        "xor": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Bitwise_Operators#Bitwise_XOR"
+        }
+      },
+      "class": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/class"
+      },
+      "comma": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Comma_operator"
+      },
+      "comparison": {
+        "__nct": "",
+        "equality": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Equality"
+        },
+        "inequality": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Inequality"
+        },
+        "identity": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Identity"
+        },
+        "non_identity": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Nonidentity"
+        },
+        "greater_than": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Greater_than_operator"
+        },
+        "greater_than_or_equal": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Greater_than_or_equal_operator"
+        },
+        "less_than": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Less_than_operator"
+        },
+        "less_than_or_equal": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Comparison_Operators#Less_than_or_equal_operator"
+        }
+      },
+      "conditional": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Conditional_Operator"
+      },
+      "delete": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/delete",
+        "temporal_dead_zone": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "destructuring": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment",
+        "computed_property_names": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "rest_in_arrays": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "rest_in_objects": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "function": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/function",
+        "trailing_comma": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "function_star": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/function*",
+        "trailing_comma": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "grouping": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Grouping"
+      },
+      "in": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/in"
+      },
+      "instanceof": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/instanceof"
+      },
+      "logical": {
+        "__nct": "",
+        "and": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Logical_AND"
+        },
+        "or": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Logical_OR"
+        },
+        "not": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Logical_Operators#Logical_NOT"
+        }
+      },
+      "new": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/new"
+      },
+      "new_target": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/new.target"
+      },
+      "object_initializer": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Object_initializer",
+        "computed_property_names": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "shorthand_property_names": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "shorthand_method_names": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "spread_properties": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "pipeline": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Pipeline_operator"
+      },
+      "property_accessors": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Property_Accessors"
+      },
+      "spread": {
+        "__nct": "",
+        "spread_in_arrays": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Spread_syntax#Spread_in_array_literals"
+        },
+        "spread_in_function_calls": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Spread_syntax#Spread_in_function_calls"
+        },
+        "spread_in_destructuring": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "spread_in_object_literals": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/Spread_syntax#Spread_in_object_literals"
+        }
+      },
+      "super": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/super"
+      },
+      "this": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/this"
+      },
+      "typeof": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/typeof"
+      },
+      "void": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/void"
+      },
+      "yield": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/yield",
+        "IteratorResult": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "yield_star": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Operators/yield*"
+      }
+    },
+    "statements": {
+      "__nct": "",
+      "async_function": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/async_function"
+      },
+      "block": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/block"
+      },
+      "break": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/break"
+      },
+      "class": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/class",
+        "array_subclassing": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "allow_in_sloppy_mode": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "const": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/const"
+      },
+      "continue": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/continue"
+      },
+      "debugger": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/debugger"
+      },
+      "default": {
+        "__nct": "",
+        "switch": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/default"
+        },
+        "export": {
+          "__nct": "",
+          "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/default"
+        }
+      },
+      "do_while": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/do...while"
+      },
+      "empty": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/Empty"
+      },
+      "export": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/export"
+      },
+      "for": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/for"
+      },
+      "for_in": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/for...in"
+      },
+      "for_of": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/for...of",
+        "closing_iterators": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "function": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function",
+        "allow_in_sloppy_mode": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "trailing_comma_in_parameters": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "generator_function": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/function*",
+        "IteratorResult_object": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "not_constructable_with_new": {
+          "__nct": "",
+          "__mdn": ""
+        },
+        "trailing_comma_in_parameters": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "if_else": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/if...else"
+      },
+      "import": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import",
+        "dynamic_import": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "import_meta": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/import.meta"
+      },
+      "label": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/label"
+      },
+      "let": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/let"
+      },
+      "return": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/return"
+      },
+      "switch": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/switch"
+      },
+      "throw": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/throw"
+      },
+      "try_catch": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/try...catch",
+        "optional_catch_binding": {
+          "__nct": "",
+          "__mdn": ""
+        }
+      },
+      "var": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/var"
+      },
+      "while": {
+        "__nct": "",
+        "__mdn": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Statements/while"
+      }
+    }
+  }
+}
