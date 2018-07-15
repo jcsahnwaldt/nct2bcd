@@ -34,10 +34,6 @@ function readKeys(path) {
 }
 
 const testers = readKeys(nctDir + 'testers.json');
-const v8_0_10_45 = readKeys(nctDir + 'results/v8/0.10.45.json');
-const v8_10_6_0 = readKeys(nctDir + 'results/v8/10.6.0.json');
-
-console.log(testers.length);
 
 const v8dir = nctDir + 'results/v8/';
 for (const name of fs.readdirSync(v8dir)) {
