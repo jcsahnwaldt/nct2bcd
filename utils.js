@@ -2,13 +2,13 @@
 
 const fs = require('fs');
 
-function readJsonSync(file, optional) {
+function readJsonSync(file, {required} = {required: true}) {
   try {
     const json = fs.readFileSync(file, 'utf8');
     return JSON.parse(json);
   }
   catch (e) {
-    if (optional !== true || e.code !== 'ENOENT') throw e;
+    if (required !== false || e.code !== 'ENOENT') throw e;
     return Object.create(null);
   }
 }

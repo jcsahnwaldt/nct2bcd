@@ -32,7 +32,7 @@ function add(tree, data, ...path) {
   }
 }
 
-const tree = utils.readJsonSync(nctFile, true);
+const tree = utils.readJsonSync(nctFile, {required: false});
 
 // Note: Almost all node-compat-table/results/v8/*.json files
 // have the same keys as node-compat-table/testers.json.
