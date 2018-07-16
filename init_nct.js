@@ -2,8 +2,8 @@
 
 const fs = require('fs');
 
-let nctDir = process.argv[2];
-let nctFile = process.argv[3];
+const nctDir = process.argv[2];
+const nctFile = process.argv[3];
 if (! nctDir || ! nctFile) {
   const cmd = process.argv[1].split('\\').pop().split('/').pop();
   console.log('Usage:');
@@ -17,8 +17,7 @@ if (! nctDir || ! nctFile) {
 function add(tree, data, ...path) {
   const first = path.shift();
   if (path.length === 0) {
-    if (tree[first] !== undefined) throw new Error('duplicate path');
-    tree[first] = data;
+    if (tree[first] === undefined) tree[first] = data;
   }
   else {
     if (tree[first] === undefined) tree[first] = Object.create(null);
@@ -26,7 +25,15 @@ function add(tree, data, ...path) {
   }
 }
 
-const tree = Object.create(null);
+let tree;
+try {
+  let json = fs.readFileSync(nctFile, 'utf8');
+  tree = JSON.parse(json);
+}
+catch (e) {
+  if (e.code !== 'ENOENT') throw e;
+  tree = Object.create(null);
+}
 
 // Note: Almost all node-compat-table/results/v8/*.json files
 // have the same keys as node-compat-table/testers.json.

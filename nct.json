@@ -1087,7 +1087,10 @@
           "bcd_path": ""
         },
         "\"get\" handler": {
-          "bcd_path": ["builtins/Proxy/handler/get", "builtins/Proxy"]
+          "bcd_path": [
+            "builtins/Proxy/handler/get",
+            "builtins/Proxy"
+          ]
         },
         "\"get\" handler, instances of proxies": {
           "bcd_path": ""
