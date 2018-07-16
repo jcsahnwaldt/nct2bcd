@@ -30,8 +30,8 @@ const tree = Object.create(null);
 
 // Note: Almost all node-compat-table/results/v8/*.json files
 // have the same keys as node-compat-table/testers.json.
-// Only the v8/0.*.json and the v8/bleeding.json files have
-// different keys.
+// Only the v8/0.*.json and the v8/bleeding.json files
+// have different keys.
 const file = nctDir + (nctDir.endsWith('/') ? '' : '/') + 'testers.json';
 
 let json = fs.readFileSync(file, 'utf8');
