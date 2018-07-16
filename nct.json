@@ -3,2190 +3,4591 @@
     "optimisation": {
       "proper tail calls (tail call optimisation)": {
         "direct recursion": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "--harmony": {
+            "version_added": "6.5.0",
+            "version_removed": "8.0.0"
+          }
         },
         "mutual recursion": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "--harmony": {
+            "version_added": "6.5.0",
+            "version_removed": "8.0.0"
+          }
         }
       }
     },
     "syntax": {
       "default function parameters": {
         "basic functionality": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "explicit undefined defers to the default": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "defaults can refer to previous params": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "arguments object interaction": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "temporal dead zone": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "separate scope": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "new Function() support": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "rest parameters": {
         "basic functionality": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "function 'length' property": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "arguments object interaction": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "can't be used in setters": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "new Function() support": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "spread (...) operator": {
         "with arrays, in function calls": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with arrays, in array literals": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with sparse arrays, in function calls": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with sparse arrays, in array literals": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with strings, in function calls": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with strings, in array literals": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with astral plane strings, in function calls": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with astral plane strings, in array literals": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with generator instances, in calls": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with generator instances, in arrays": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with generic iterables, in calls": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with generic iterables, in arrays": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with instances of iterables, in calls": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with instances of iterables, in arrays": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "spreading non-iterables is a runtime error": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "object literal extensions": {
         "computed properties": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "shorthand properties": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "shorthand methods": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "string-keyed shorthand methods": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "computed shorthand methods": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "computed accessors": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "for..of loops": {
         "with arrays": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "with sparse arrays": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "with strings": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "with astral plane strings": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "with generator instances": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "with generic iterables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "with instances of generic iterables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "iterator closing, break": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "iterator closing, throw": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         }
       },
       "octal and binary literals": {
         "octal literals": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "binary literals": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "octal supported by Number()": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "binary supported by Number()": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "template literals": {
         "basic functionality": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "toString conversion": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "tagged template literals": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "passed array is frozen": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "line break normalisation": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "RegExp \"y\" and \"u\" flags": {
         "\"y\" flag": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"y\" flag, lastIndex": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"u\" flag": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"u\" flag, Unicode code point escapes": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"u\" flag, case folding": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "destructuring, declarations": {
         "with arrays": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with sparse arrays": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with strings": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with astral plane strings": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with generator instances": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with generic iterables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with instances of generic iterables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "iterator closing": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "trailing commas in iterable patterns": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with objects": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "object destructuring with primitives": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "trailing commas in object patterns": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "throws on null and undefined": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "computed properties": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "multiples in a single var statement": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "nested": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "in for-in loop heads": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "in for-of loop heads": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "in catch heads": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "rest": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "defaults": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "defaults, let temporal dead zone": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "destructuring, assignment": {
         "with arrays": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with sparse arrays": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with strings": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with astral plane strings": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with generator instances": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with generic iterables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with instances of generic iterables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "iterator closing": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "iterable destructuring expression": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "chained iterable destructuring": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "trailing commas in iterable patterns": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with objects": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "object destructuring with primitives": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "trailing commas in object patterns": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "object destructuring expression": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "parenthesised left-hand-side is a syntax error": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "chained object destructuring": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "throws on null and undefined": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "computed properties": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "nested": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "rest": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "nested rest": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "empty patterns": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "defaults": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "destructuring, parameters": {
         "with arrays": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with sparse arrays": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with strings": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with astral plane strings": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with generator instances": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with generic iterables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with instances of generic iterables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "iterator closing": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "trailing commas in iterable patterns": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "with objects": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "object destructuring with primitives": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "trailing commas in object patterns": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "throws on null and undefined": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "computed properties": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "nested": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "'arguments' interaction": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "new Function() support": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "in parameters, function 'length' property": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "rest": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "empty patterns": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "defaults": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "defaults, separate scope": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "defaults, new Function() support": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "defaults, arrow function": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "Unicode code point escapes": {
         "in strings": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "in identifiers": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "new.target": {
         "in constructors": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          }
         },
         "assignment is an early error": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          }
         }
       }
     },
     "bindings": {
       "const": {
         "basic support": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "is block-scoped": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "cannot be in statements": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "redefining a const is an error": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "for loop statement scope": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "for-in loop iteration scope": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "for-of loop iteration scope": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "temporal dead zone": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "basic support (strict mode)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "is block-scoped (strict mode)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "cannot be in statements (strict mode)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "redefining a const (strict mode)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "for loop statement scope (strict mode)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "for-in loop iteration scope (strict mode)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "for-of loop iteration scope (strict mode)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "temporal dead zone (strict mode)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "let": {
         "basic support": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "is block-scoped": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "cannot be in statements": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "for loop statement scope": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "temporal dead zone": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "for/for-in loop iteration scope": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "basic support (strict mode)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "is block-scoped (strict mode)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "cannot be in statements (strict mode)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "for loop statement scope (strict mode)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "temporal dead zone (strict mode)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "for/for-in loop iteration scope (strict mode)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "block-level function declaration": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "4.0.0"
+        }
       }
     },
     "functions": {
       "arrow functions": {
         "0 parameters": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "1 parameter, no brackets": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "multiple parameters": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "lexical \"this\" binding": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "\"this\" unchanged by call or apply": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "can't be bound, can be curried": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "lexical \"arguments\" binding": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "no line break between params and =>": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "correct precedence": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "no \"prototype\" property": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "lexical \"super\" binding in constructors": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "lexical \"super\" binding in methods": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "lexical \"new.target\" binding": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          }
         }
       },
       "class": {
         "class statement": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "is block-scoped": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "class expression": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "anonymous class": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "constructor": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "prototype methods": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "string-keyed methods": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "computed prototype methods": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "optional semicolons": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "static methods": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "computed static methods": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "accessor properties": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "computed accessor properties": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "static accessor properties": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "computed static accessor properties": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "class name is lexically scoped": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "computed names, temporal dead zone": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "methods aren't enumerable": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "implicit strict mode": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "constructor requires new": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "extends": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "extends expressions": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "extends null": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "new.target": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         }
       },
       "super": {
         "statement in constructors": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "expression in constructors": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "in methods, property access": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "in methods, method calls": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "method calls use correct \"this\" binding": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "constructor calls use correct \"new.target\" binding": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "is statically bound": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "super() invokes the correct constructor": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         }
       },
       "generators": {
         "basic functionality": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "generator function expressions": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "correct \"this\" binding": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "can't use \"this\" with new": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "sending": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%GeneratorPrototype%": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%GeneratorPrototype% prototype chain": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%GeneratorPrototype%.constructor": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%GeneratorPrototype%.throw": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%GeneratorPrototype%.return": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "yield operator precedence": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "yield *, arrays": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "yield *, sparse arrays": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "yield *, strings": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "yield *, astral plane strings": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "yield *, generator instances": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "yield *, generic iterables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "yield *, instances of iterables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "yield * on non-iterables is a runtime error": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "yield *, iterator closing": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "yield *, iterator closing via throw()": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "shorthand generator methods": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "string-keyed shorthand generator methods": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "computed shorthand generators": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "shorthand generator methods, classes": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "computed shorthand generators, classes": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "shorthand generators can't be constructors": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         }
       }
     },
     "built-ins": {
       "typed arrays": {
         "Int8Array": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Uint8Array": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Uint8ClampedArray": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Int16Array": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Uint16Array": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Int32Array": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Uint32Array": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Float32Array": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Float64Array": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "DataView (Int8)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "DataView (Uint8)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "DataView (Int16)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "DataView (Uint16)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "DataView (Int32)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "DataView (Uint32)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "DataView (Float32)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "DataView (Float64)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "ArrayBuffer[Symbol.species]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "constructors require new": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructors accept generic iterables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "correct prototype chains": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "%TypedArray%.from": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.of": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.subarray": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.join": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.indexOf": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.lastIndexOf": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.slice": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.every": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.filter": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.forEach": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.map": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.reduce": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.reduceRight": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.reverse": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.some": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.sort": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.copyWithin": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.find": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.findIndex": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.fill": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.keys": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.values": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype.entries": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%.prototype[Symbol.iterator]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "%TypedArray%[Symbol.species]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "Map": {
         "basic functionality": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructor arguments": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructor requires new": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructor accepts null": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructor invokes set": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "iterator closing": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "Map.prototype.set returns this": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "-0 key converts to +0": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Map.prototype.size": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Map.prototype.delete": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Map.prototype.clear": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Map.prototype.forEach": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Map.prototype.keys": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Map.prototype.values": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Map.prototype.entries": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Map.prototype[Symbol.iterator]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Map.prototype isn't an instance": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Map iterator prototype chain": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Map[Symbol.species]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "Set": {
         "basic functionality": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructor arguments": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructor requires new": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructor accepts null": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructor invokes add": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "iterator closing": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "Set.prototype.add returns this": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "-0 key converts to +0": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Set.prototype.size": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Set.prototype.delete": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Set.prototype.clear": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Set.prototype.forEach": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Set.prototype.keys": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Set.prototype.values": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Set.prototype.entries": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Set.prototype[Symbol.iterator]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Set.prototype isn't an instance": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Set iterator prototype chain": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Set[Symbol.species]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "WeakMap": {
         "basic functionality": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructor arguments": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructor requires new": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructor accepts null": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructor invokes set": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "frozen objects as keys": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "iterator closing": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "WeakMap.prototype.set returns this": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "WeakMap.prototype.delete": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "no WeakMap.prototype.clear method": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         ".has, .get and .delete methods accept primitives": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "WeakMap.prototype isn't an instance": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "WeakSet": {
         "basic functionality": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructor arguments": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructor requires new": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructor accepts null": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructor invokes add": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "iterator closing": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "WeakSet.prototype.add returns this": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "WeakSet.prototype.delete": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "no WeakSet.prototype.clear method": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         ".has and .delete methods accept primitives": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "WeakSet.prototype isn't an instance": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "Proxy": {
         "constructor requires new": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "no \"prototype\" property": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"get\" handler": {
           "bcd_path": [
             "builtins/Proxy/handler/get",
             "builtins/Proxy"
-          ]
+          ],
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"get\" handler, instances of proxies": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"get\" handler invariants": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"set\" handler": {
-          "bcd_path": "builtins/Proxy/handler/set"
+          "bcd_path": "builtins/Proxy/handler/set",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"set\" handler, instances of proxies": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"set\" handler invariants": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"has\" handler": {
-          "bcd_path": "builtins/Proxy/handler/has"
+          "bcd_path": "builtins/Proxy/handler/has",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"has\" handler, instances of proxies": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"has\" handler invariants": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"deleteProperty\" handler": {
-          "bcd_path": "builtins/Proxy/handler/deleteProperty"
+          "bcd_path": "builtins/Proxy/handler/deleteProperty",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"deleteProperty\" handler invariant": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"getOwnPropertyDescriptor\" handler": {
-          "bcd_path": "builtins/Proxy/handler/getOwnPropertyDescriptor"
+          "bcd_path": "builtins/Proxy/handler/getOwnPropertyDescriptor",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"getOwnPropertyDescriptor\" handler invariants": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"defineProperty\" handler": {
-          "bcd_path": "builtins/Proxy/handler/defineProperty"
+          "bcd_path": "builtins/Proxy/handler/defineProperty",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"defineProperty\" handler invariants": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"getPrototypeOf\" handler": {
-          "bcd_path": "builtins/Proxy/handler/getPrototypeOf"
+          "bcd_path": "builtins/Proxy/handler/getPrototypeOf",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"getPrototypeOf\" handler invariant": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"setPrototypeOf\" handler": {
-          "bcd_path": "builtins/Proxy/handler/setPrototypeOf"
+          "bcd_path": "builtins/Proxy/handler/setPrototypeOf",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"setPrototypeOf\" handler invariant": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"isExtensible\" handler": {
-          "bcd_path": "builtins/Proxy/handler/isExtensible"
+          "bcd_path": "builtins/Proxy/handler/isExtensible",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"isExtensible\" handler invariant": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"preventExtensions\" handler": {
-          "bcd_path": "builtins/Proxy/handler/preventExtensions"
+          "bcd_path": "builtins/Proxy/handler/preventExtensions",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"preventExtensions\" handler invariant": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"ownKeys\" handler": {
-          "bcd_path": "builtins/Proxy/handler/ownKeys"
+          "bcd_path": "builtins/Proxy/handler/ownKeys",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"ownKeys\" handler invariant": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"apply\" handler": {
-          "bcd_path": "builtins/Proxy/handler/apply"
+          "bcd_path": "builtins/Proxy/handler/apply",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"apply\" handler invariant": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"construct\" handler": {
-          "bcd_path": "builtins/Proxy/handler/construct"
+          "bcd_path": "builtins/Proxy/handler/construct",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "\"construct\" handler invariants": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Proxy.revocable": {
-          "bcd_path": "builtins/Proxy/revocable"
+          "bcd_path": "builtins/Proxy/revocable",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.isArray support": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "JSON.stringify support": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "Reflect": {
         "Reflect.get": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.set": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.has": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.deleteProperty": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.getOwnPropertyDescriptor": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.defineProperty": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.getPrototypeOf": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.setPrototypeOf": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.isExtensible": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.preventExtensions": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.ownKeys, string keys": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.ownKeys, symbol keys": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.apply": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.construct": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.construct sets new.target meta-property": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.construct creates instances from third argument": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.construct, Array subclassing": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.construct, RegExp subclassing": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.construct, Function subclassing": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.construct, Promise subclassing": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "Promise": {
         "basic functionality": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "constructor requires new": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Promise.prototype isn't an instance": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Promise.all": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Promise.all, generic iterables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Promise.race": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Promise.race, generic iterables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Promise[Symbol.species]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "Symbol": {
         "basic functionality": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "typeof support": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "symbol keys are hidden to pre-ES6 code": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Object.defineProperty support": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "symbols inherit from Symbol.prototype": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "cannot coerce to string or number": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "can convert with String()": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "new Symbol() throws": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Object(symbol)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "JSON.stringify ignores symbol primitives": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "JSON.stringify ignores symbol objects": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "global symbol registry": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "well-known symbols": {
         "Symbol.hasInstance": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "Symbol.isConcatSpreadable": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Symbol.iterator, existence": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Symbol.iterator, arguments object": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Symbol.species, existence": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "Symbol.species, Array.prototype.concat": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "Symbol.species, Array.prototype.filter": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "Symbol.species, Array.prototype.map": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "Symbol.species, Array.prototype.slice": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "Symbol.species, Array.prototype.splice": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "Symbol.species, RegExp.prototype[Symbol.split]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "Symbol.species, Promise.prototype.then": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "Symbol.replace": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Symbol.search": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Symbol.split": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Symbol.match": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Symbol.match, RegExp constructor": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Symbol.match, String.prototype.startsWith": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "Symbol.match, String.prototype.endsWith": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "Symbol.match, String.prototype.includes": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "Symbol.toPrimitive": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Symbol.toStringTag": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "Symbol.toStringTag affects existing built-ins": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0",
+            "version_removed": "7.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0",
+            "version_removed": "7.0.0"
+          }
         },
         "Symbol.toStringTag, new built-ins": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Symbol.toStringTag, misc. built-ins": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "Symbol.unscopables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       }
     },
     "built-in extensions": {
       "Object static methods": {
         "Object.assign": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Object.is": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Object.getOwnPropertySymbols": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Object.setPrototypeOf": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "function \"name\" property": {
         "function statements": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "function expressions": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "new Function": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "bound functions": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "variables (function)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "object methods (function)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "accessor properties": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "shorthand methods": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "shorthand methods (no lexical binding)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "symbol-keyed methods": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "class statements": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "class expressions": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "variables (class)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "object methods (class)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "class prototype methods": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "class static methods": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "isn't writable, is configurable": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "String static methods": {
         "String.raw": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "String.fromCodePoint": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "String.prototype methods": {
         "String.prototype.codePointAt": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "String.prototype.normalize": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "String.prototype.repeat": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "String.prototype.startsWith": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "String.prototype.startsWith throws on RegExp": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "String.prototype.endsWith": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "String.prototype.endsWith throws on RegExp": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "String.prototype.includes": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "String.prototype[Symbol.iterator]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "String iterator prototype chain": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "RegExp.prototype properties": {
         "RegExp.prototype.flags": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "RegExp.prototype[Symbol.match]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "RegExp.prototype[Symbol.replace]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "RegExp.prototype[Symbol.split]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "RegExp.prototype[Symbol.search]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "RegExp[Symbol.species]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "Array static methods": {
         "Array.from, array-like objects": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Array.from, generator instances": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Array.from, generic iterables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Array.from, instances of generic iterables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Array.from map function, array-like objects": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Array.from map function, generator instances": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Array.from map function, generic iterables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Array.from map function, instances of iterables": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Array.from, iterator closing": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "Array.of": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Array[Symbol.species]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "Array.prototype methods": {
         "Array.prototype.copyWithin": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Array.prototype.find": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Array.prototype.findIndex": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Array.prototype.fill": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Array.prototype.keys": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Array.prototype.values": {
           "bcd_path": ""
         },
         "Array.prototype.entries": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Array.prototype[Symbol.iterator]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Array iterator prototype chain": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "Array.prototype[Symbol.unscopables]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "Number properties": {
         "Number.isFinite": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Number.isInteger": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Number.isSafeInteger": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Number.isNaN": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Number.parseFloat": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Number.parseInt": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Number.EPSILON": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Number.MIN_SAFE_INTEGER": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Number.MAX_SAFE_INTEGER": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "Math methods": {
         "Math.clz32": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Math.imul": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Math.sign": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Math.log10": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Math.log2": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Math.log1p": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Math.expm1": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Math.cosh": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Math.sinh": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Math.tanh": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Math.acosh": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Math.asinh": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Math.atanh": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Math.trunc": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Math.fround": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Math.cbrt": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Math.hypot": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "Date.prototype[Symbol.toPrimitive]": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "6.0.0"
+        }
       }
     },
     "subclassing": {
       "Array is subclassable": {
         "length property (accessing)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "length property (setting)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "correct prototype chain": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "Array.isArray support": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "Array.prototype.concat": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.filter": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.map": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.slice": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.splice": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.from": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "Array.of": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         }
       },
       "RegExp is subclassable": {
         "basic functionality": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "correct prototype chain": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "RegExp.prototype.exec": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "RegExp.prototype.test": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         }
       },
       "Function is subclassable": {
         "can be called": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "correct prototype chain": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "can be used with \"new\"": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "Function.prototype.call": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "Function.prototype.apply": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "Function.prototype.bind": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "Promise is subclassable": {
         "basic functionality": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "correct prototype chain": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "Promise.all": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "Promise.race": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         }
       },
       "miscellaneous subclassables": {
         "Boolean is subclassable": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "Number is subclassable": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "String is subclassable": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Error is subclassable": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "Map is subclassable": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "Set is subclassable": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         }
       }
     },
     "misc": {
       "prototype of bound functions": {
         "basic functions": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          }
         },
         "generator functions": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          }
         },
         "arrow functions": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          }
         },
         "classes": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "subclasses": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         }
       },
       "Proxy, internal 'get' calls": {
         "ToPrimitive": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "CreateListFromArrayLike": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "instanceof operator": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "HasBinding": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "CreateDynamicFunction": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "ClassDefinitionEvaluation": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "IteratorComplete, IteratorValue": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "ToPropertyDescriptor": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Object.assign": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Object.defineProperties": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Function.prototype.bind": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Error.prototype.toString": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "String.raw": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "RegExp constructor": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "RegExp.prototype.flags": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "RegExp.prototype.test": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "RegExp.prototype.toString": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "RegExp.prototype[Symbol.match]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "RegExp.prototype[Symbol.replace]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "RegExp.prototype[Symbol.search]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.6.0"
+          }
         },
         "RegExp.prototype[Symbol.split]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "Array.from": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.concat": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype iteration methods": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "Array.prototype.pop": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.reverse": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.shift": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.splice": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          },
+          "--harmony": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.toString": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "JSON.stringify": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Promise resolve functions": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "String.prototype.match": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "String.prototype.replace": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "String.prototype.search": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.5.0"
+          }
         },
         "String.prototype.split": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Date.prototype.toJSON": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "Proxy, internal 'set' calls": {
         "Object.assign": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.from": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.of": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.copyWithin": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.fill": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.pop": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.push": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.reverse": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.shift": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.splice": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.unshift": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "Proxy, internal 'defineProperty' calls": {
         "[[Set]]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "SetIntegrityLevel": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "Proxy, internal 'deleteProperty' calls": {
         "Array.prototype.copyWithin": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.pop": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.reverse": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.shift": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.splice": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Array.prototype.unshift": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "Proxy, internal 'getOwnPropertyDescriptor' calls": {
         "[[Set]]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Object.assign": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Object.prototype.hasOwnProperty": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Function.prototype.bind": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "Proxy, internal 'ownKeys' calls": {
         "SetIntegrityLevel": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "TestIntegrityLevel": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "SerializeJSONObject": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "Object static methods accept primitives": {
         "Object.getPrototypeOf": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Object.getOwnPropertyDescriptor": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Object.getOwnPropertyNames": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Object.seal": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Object.freeze": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Object.preventExtensions": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Object.isSealed": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Object.isFrozen": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Object.isExtensible": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Object.keys": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "own property order": {
         "Object.keys": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Object.getOwnPropertyNames": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Object.assign": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "JSON.stringify": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "JSON.parse": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Reflect.ownKeys, string key order": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "Reflect.ownKeys, symbol key order": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "Updated identifier syntax": {
         "var ⸯ;": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "var 𐋀;": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "no escaped reserved words as identifiers": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         }
       },
       "miscellaneous": {
         "duplicate property names in strict mode": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "no semicolon needed after do-while": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "no assignments allowed in for-in head in strict mode": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "accessors aren't constructors": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "Invalid Date": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "RegExp constructor can alter flags": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "RegExp.prototype.toString generic and uses \"flags\" property": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "built-in prototypes are not instances": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "function 'length' is configurable": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       }
     },
     "annex b": {
       "non-strict function semantics": {
         "hoisted block-level function declaration": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          }
         },
         "labeled function statements": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "function statements in if-statement clauses": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "__proto__ in object literals": {
         "basic support": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "multiple __proto__ is an error": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "not a computed property": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "not a shorthand property": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "not a shorthand method": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "Object.prototype.__proto__": {
         "get prototype": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "set prototype": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "absent from Object.create(null)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "present in hasOwnProperty()": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "correct property descriptor": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "present in Object.getOwnPropertyNames()": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "String.prototype HTML methods": {
         "existence": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "tags' names are lowercase": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "quotes in arguments are escaped": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "RegExp.prototype.compile": {
         "basic functionality": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "returns this": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.0.0"
+          }
         }
       },
       "RegExp syntax extensions": {
         "hyphens in character sets": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "invalid character escapes": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "invalid control-character escapes": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "invalid Unicode escapes": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "invalid hexadecimal escapes": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "incomplete patterns and quantifiers": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "octal escape sequences": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "invalid backreferences become octal escapes": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         }
       },
       "HTML-style comments": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "4.0.0"
+        }
       }
     }
   },
@@ -2194,48 +4595,105 @@
     "features": {
       "exponentiation (**) operator": {
         "basic support": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.0.0"
+          },
+          "--harmony": {
+            "version_added": "6.5.0"
+          }
         },
         "assignment": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.0.0"
+          },
+          "--harmony": {
+            "version_added": "6.5.0"
+          }
         },
         "early syntax error for unary negation without parens": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.0.0"
+          },
+          "--harmony": {
+            "version_added": "6.5.0"
+          }
         }
       },
       "Array.prototype.includes": {
         "Array.prototype.includes": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "Array.prototype.includes is generic": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "%TypedArray%.prototype.includes": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         }
       }
     },
     "misc": {
       "generator functions can't be used with \"new\"": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "6.0.0"
+        }
       },
       "generator throw() caught by inner generator": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "4.0.0"
+        }
       },
       "strict fn w/ non-strict non-simple params is error": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "6.0.0"
+        }
       },
       "nested rest destructuring, declarations": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "6.0.0"
+        }
       },
       "nested rest destructuring, parameters": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "6.0.0"
+        }
       },
       "Proxy, \"enumerate\" handler removed": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "6.0.0"
+        }
       },
       "Proxy internal calls, Array.prototype.includes": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "6.0.0"
+        }
       }
     }
   },
@@ -2243,213 +4701,477 @@
     "features": {
       "Object static methods": {
         "Object.values": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.0.0"
+          },
+          "--harmony": {
+            "version_added": "6.5.0"
+          }
         },
         "Object.entries": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.0.0"
+          },
+          "--harmony": {
+            "version_added": "6.5.0"
+          }
         },
         "Object.getOwnPropertyDescriptors": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.0.0"
+          },
+          "--harmony": {
+            "version_added": "6.5.0"
+          }
         },
         "Object.getOwnPropertyDescriptors doesn't provide undefined descriptors": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.0.0"
+          }
         }
       },
       "String padding": {
         "String.prototype.padStart": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.0.0"
+          },
+          "--harmony": {
+            "version_added": "7.0.0"
+          }
         },
         "String.prototype.padEnd": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.0.0"
+          },
+          "--harmony": {
+            "version_added": "7.0.0"
+          }
         }
       },
       "trailing commas in function syntax": {
         "in parameter lists": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.0.0"
+          }
         },
         "in argument lists": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.0.0"
+          }
         }
       },
       "async functions": {
         "return": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.6.0"
+          },
+          "--harmony": {
+            "version_added": "7.0.0"
+          }
         },
         "throw": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.6.0"
+          },
+          "--harmony": {
+            "version_added": "7.0.0"
+          }
         },
         "no line break between async and function": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.6.0"
+          },
+          "--harmony": {
+            "version_added": "7.0.0"
+          }
         },
         "no \"prototype\" property": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.6.0"
+          },
+          "--harmony": {
+            "version_added": "7.0.0"
+          }
         },
         "await": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.6.0"
+          },
+          "--harmony": {
+            "version_added": "7.0.0"
+          }
         },
         "await, rejection": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.6.0"
+          },
+          "--harmony": {
+            "version_added": "7.0.0"
+          }
         },
         "must await a value": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.6.0"
+          },
+          "--harmony": {
+            "version_added": "7.0.0"
+          }
         },
         "can await non-Promise values": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.6.0"
+          },
+          "--harmony": {
+            "version_added": "7.0.0"
+          }
         },
         "cannot await in parameters": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.6.0"
+          },
+          "--harmony": {
+            "version_added": "7.0.0"
+          }
         },
         "async methods, object literals": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.6.0"
+          },
+          "--harmony": {
+            "version_added": "7.0.0"
+          }
         },
         "async methods, classes": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.6.0"
+          },
+          "--harmony": {
+            "version_added": "7.0.0"
+          }
         },
         "async arrow functions": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.6.0"
+          },
+          "--harmony": {
+            "version_added": "7.0.0"
+          }
         },
         "correct prototype chain": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.6.0"
+          },
+          "--harmony": {
+            "version_added": "7.0.0"
+          }
         },
         "async function prototype, Symbol.toStringTag": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.6.0"
+          },
+          "--harmony": {
+            "version_added": "7.0.0"
+          }
         },
         "async function constructor": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.6.0"
+          },
+          "--harmony": {
+            "version_added": "7.0.0"
+          }
         }
       },
       "shared memory and atomics": {
         "SharedArrayBuffer": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          }
         },
         "SharedArrayBuffer[Symbol.species]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          }
         },
         "SharedArrayBuffer.prototype.byteLength": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          }
         },
         "SharedArrayBuffer.prototype.slice": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          }
         },
         "SharedArrayBuffer.prototype[Symbol.toStringTag]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          }
         },
         "Atomics.add": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          }
         },
         "Atomics.and": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          }
         },
         "Atomics.compareExchange": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          }
         },
         "Atomics.exchange": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          }
         },
         "Atomics.wait": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          }
         },
         "Atomics.wake": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          }
         },
         "Atomics.isLockFree": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          }
         },
         "Atomics.load": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          }
         },
         "Atomics.or": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          }
         },
         "Atomics.store": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          }
         },
         "Atomics.sub": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          }
         },
         "Atomics.xor": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          }
         }
       }
     },
     "misc": {
       "Proxy \"ownKeys\" handler, duplicate keys for non-extensible targets (ES 2017 semantics)": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "6.0.0"
+        }
       },
       "RegExp \"u\" flag, case folding": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "8.3.0"
+        }
       },
       "arguments.caller removed": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "8.0.0"
+        }
       }
     },
     "annex b": {
       "Object.prototype getter/setter methods": {
         "__defineGetter__": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "__defineGetter__, symbols": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "__defineGetter__, ToObject(this)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          },
+          "--harmony": {
+            "version_added": "8.3.0"
+          }
         },
         "__defineSetter__": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "__defineSetter__, symbols": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "__defineSetter__, ToObject(this)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          },
+          "--harmony": {
+            "version_added": "8.3.0"
+          }
         },
         "__lookupGetter__": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "__lookupGetter__, prototype chain": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "__lookupGetter__, symbols": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "__lookupGetter__, ToObject(this)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          },
+          "--harmony": {
+            "version_added": "8.3.0"
+          }
         },
         "__lookupGetter__, data properties can shadow accessors": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.0.0"
+          }
         },
         "__lookupSetter__": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "__lookupSetter__, prototype chain": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "__lookupSetter__, symbols": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "__lookupSetter__, ToObject(this)": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.10.0"
+          },
+          "--harmony": {
+            "version_added": "8.3.0"
+          }
         },
         "__lookupSetter__, data properties can shadow accessors": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.0.0"
+          }
         }
       },
       "Proxy internal calls, getter/setter methods": {
         "__defineGetter__": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.0.0"
+          }
         },
         "__defineSetter__": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "7.0.0"
+          }
         },
         "__lookupGetter__": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.0.0"
+          }
         },
         "__lookupSetter__": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.0.0"
+          }
         }
       },
       "assignments allowed in for-in head in non-strict mode": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "4.0.0"
+        }
       }
     }
   },
@@ -2457,47 +5179,110 @@
     "features": {
       "object rest/spread properties": {
         "object rest properties": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.3.0"
+          },
+          "--harmony": {
+            "version_added": "8.0.0"
+          }
         },
         "object spread properties": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "8.3.0"
+          },
+          "--harmony": {
+            "version_added": "8.0.0"
+          }
         }
       },
       "Promise.prototype.finally": {
         "basic support": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.0.0"
+          }
         },
         "don't change resolution value": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.0.0"
+          }
         },
         "change rejection value": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.0.0"
+          }
         }
       },
       "s (dotAll) flag for regular expressions": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "8.10.0"
+        },
+        "--harmony": {
+          "version_added": "8.3.0"
+        }
       },
       "RegExp named capture groups": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "10.0.0"
+        },
+        "--harmony": {
+          "version_added": "8.3.0"
+        }
       },
       "RegExp Lookbehind Assertions": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "8.10.0"
+        },
+        "--harmony": {
+          "version_added": "6.0.0"
+        }
       },
       "RegExp Unicode Property Escapes": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "10.0.0"
+        },
+        "--harmony": {
+          "version_added": "8.3.0"
+        }
       },
       "Asynchronous Iterators": {
         "async generators": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.0.0"
+          },
+          "--harmony": {
+            "version_added": "8.10.0"
+          }
         },
         "for-await-of loops": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.0.0"
+          },
+          "--harmony": {
+            "version_added": "8.10.0"
+          }
         }
       }
     },
     "misc": {
       "template literal revision": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {
+          "version_added": "8.10.0"
+        },
+        "--harmony": {
+          "version_added": "8.0.0"
+        }
       }
     }
   },
@@ -2505,21 +5290,36 @@
     "candidate (stage 3)": {
       "string trimming": {
         "String.prototype.trimLeft": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "String.prototype.trimRight": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "String.prototype.trimStart": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.0.0"
+          }
         },
         "String.prototype.trimEnd": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.0.0"
+          }
         }
       },
       "global": {
         "\"global\" global property is global object": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "\"global\" global property has correct property descriptor": {
           "bcd_path": ""
@@ -2530,13 +5330,22 @@
       },
       "instance class fields": {
         "public instance class fields": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "--harmony": {
+            "version_added": "10.0.0"
+          }
         },
         "private instance class fields basic support": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "--harmony": {
+            "version_added": "10.0.0"
+          }
         },
         "private instance class fields initializers": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "--harmony": {
+            "version_added": "10.0.0"
+          }
         }
       },
       "static class fields": {
@@ -2549,25 +5358,61 @@
       },
       "Function.prototype.toString revision": {
         "functions created with the Function constructor": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.0.0"
+          },
+          "--harmony": {
+            "version_added": "8.3.0"
+          }
         },
         "arrows": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "[native code]": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "4.0.0"
+          }
         },
         "class expression with implicit constructor": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "class expression with explicit constructor": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "6.0.0"
+          },
+          "--harmony": {
+            "version_added": "5.0.0"
+          }
         },
         "unicode escape sequences in identifiers": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.0.0"
+          },
+          "--harmony": {
+            "version_added": "8.3.0"
+          }
         },
         "methods and computed property names": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.0.0"
+          },
+          "--harmony": {
+            "version_added": "8.3.0"
+          }
         }
       },
       "Array.prototype.{flat, flatMap}": {
@@ -2583,28 +5428,52 @@
       },
       "BigInt": {
         "basic functionality": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.4.0"
+          }
         },
         "constructor": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.4.0"
+          }
         },
         "BigInt.asUintN": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.4.0"
+          }
         },
         "BigInt.asIntN": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.4.0"
+          }
         },
         "BigInt64Array": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.4.0"
+          }
         },
         "BigUint64Array": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.4.0"
+          }
         },
         "DataView.prototype.getBigInt64": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.4.0"
+          }
         },
         "DataView.prototype.getBigUint64": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "10.4.0"
+          }
         }
       }
     },
@@ -2638,7 +5507,10 @@
         }
       },
       "numeric separators": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "--harmony": {
+          "version_added": "10.4.0"
+        }
       },
       "Object.fromEntries": {
         "bcd_path": ""
