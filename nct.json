@@ -2495,7 +2495,10 @@
       },
       "Reflect": {
         "Reflect.get": {
-          "bcd_path": [ "builtins/Reflect/get", "builtins/Reflect" ],
+          "bcd_path": [
+            "builtins/Reflect/get",
+            "builtins/Reflect"
+          ],
           "": {
             "version_added": "6.0.0"
           }
