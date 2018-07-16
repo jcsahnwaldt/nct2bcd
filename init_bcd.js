@@ -6,11 +6,16 @@ const bcdDir = process.argv[2];
 const bcdFile = process.argv[3];
 if (! bcdDir || ! bcdFile) {
   const cmd = process.argv[1].split('\\').pop().split('/').pop();
-  console.log('Usage:');
-  console.log(`node ${cmd} bcd-dir bcd-file`);
-  console.log('Example:');
-  console.log(`node ${cmd} browser-compat-data bcd.json`);
-  console.log('merge data from browser-compat-data/javascript/{,**/}*.json into bcd.json');
+  console.log(
+`Usage:
+  node ${cmd} bcd-dir bcd-file
+    bcd-dir: path to BCD folder, e.g. browser-compat-data
+    bcd-file: path to BCD mapping file, e.g. bcd.json (will be overwritten!)
+Example:
+  node ${cmd} browser-compat-data bcd.json
+    Read data from browser-compat-data/javascript/{,**/}*.json,
+    write into bcd.json.`
+  );
   return;
 }
 
