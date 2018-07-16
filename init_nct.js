@@ -1,11 +1,12 @@
 "use strict";
 
 const fs = require('fs');
+const path = require('path');
 
 const nctDir = process.argv[2];
 const nctFile = process.argv[3];
 if (! nctDir || ! nctFile) {
-  const cmd = process.argv[1].split('\\').pop().split('/').pop();
+  const cmd = path.basename(process.argv[1]);
   const usage =
 `Usage:
   node ${cmd} nct-dir nct-file
@@ -44,7 +45,7 @@ catch (e) {
 // have the same keys as node-compat-table/testers.json.
 // Only the v8/0.*.json and the v8/bleeding.json files
 // have different keys.
-const file = nctDir + (nctDir.endsWith('/') ? '' : '/') + 'testers.json';
+const file = path.join(nctDir, 'testers.json');
 
 let json = fs.readFileSync(file, 'utf8');
 const nct = JSON.parse(json);

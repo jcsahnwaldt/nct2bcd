@@ -1,13 +1,14 @@
 "use strict";
 
 const fs = require('fs');
+const path = require('path');
 
 const nctDir = process.argv[2];
 const nctFile = process.argv[3];
 const bcdFile = process.argv[4];
 const bcdDir = process.argv[5];
 if (! nctDir || ! nctFile || ! bcdFile || ! bcdDir) {
-  const cmd = process.argv[1].split('\\').pop().split('/').pop();
+  const cmd = path.basename(process.argv[1]);
   const usage =
 `Usage:
   node ${cmd} nct-dir nct-file bcd-file bcd-dir
@@ -24,7 +25,7 @@ Example:
   return;
 }
 
-const v8dir = nctDir + (nctDir.endsWith('/') ? '' : '/') + 'results/v8/';
+const v8dir =  path.join(nctDir, 'results/v8/');
 
 // Note: Almost all node-compat-table/results/v8/*.json files
 // have the same keys as node-compat-table/testers.json.

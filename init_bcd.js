@@ -1,11 +1,12 @@
 "use strict";
 
 const fs = require('fs');
+const path = require('path');
 
 const bcdDir = process.argv[2];
 const bcdFile = process.argv[3];
 if (! bcdDir || ! bcdFile) {
-  const cmd = process.argv[1].split('\\').pop().split('/').pop();
+  const cmd = path.basename(process.argv[1]);
   const usage =
 `Usage:
   node ${cmd} bcd-dir bcd-file
@@ -19,7 +20,7 @@ Example:
   return;
 }
 
-const jsDir = bcdDir + (bcdDir.endsWith('/') ? '' : '/') + 'javascript/';
+const jsDir = path.join(bcdDir, 'javascript/');
 
 // recursively yield all files in dir
 function *files(base, dir) {
