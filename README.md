@@ -14,13 +14,13 @@ cd nct2bcd/
 Clone your branch of `browser-compat-data` (change `YOUR_BRANCH_NAME` and `YOUR_USER_NAME` to the appropriate values):
 
 ```
-git clone --single-branch --branch YOUR_BRANCH_NAME git@github.com:YOUR_USER_NAME/browser-compat-data.git
+git clone --branch YOUR_BRANCH_NAME git@github.com:YOUR_USER_NAME/browser-compat-data.git
 ```
 
 Clone `node-compat-table`:
 
 ```
-git clone --single-branch --branch gh-pages https://github.com/williamkapke/node-compat-table.git
+git clone --branch gh-pages https://github.com/williamkapke/node-compat-table.git
 ```
 
 **Note: I tried using git submodules instead, but everything I tried seemed rather inconvenient. I guess submodules are not meant for this use case. Or maybe I don't know git well enough.**
