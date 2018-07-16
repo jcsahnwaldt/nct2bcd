@@ -21,7 +21,7 @@
     "syntax": {
       "default function parameters": {
         "basic functionality": {
-          "bcd_path": "",
+          "bcd_path": "functions/default_parameters",
           "": {
             "version_added": "6.0.0"
           }
@@ -1447,7 +1447,7 @@
       },
       "generators": {
         "basic functionality": {
-          "bcd_path": "",
+          "bcd_path": "statements/generator_function",
           "": {
             "version_added": "4.0.0"
           }
@@ -1507,13 +1507,13 @@
           }
         },
         "yield operator precedence": {
-          "bcd_path": "",
+          "bcd_path": "operators/yield",
           "": {
             "version_added": "4.0.0"
           }
         },
         "yield *, arrays": {
-          "bcd_path": "",
+          "bcd_path": "operators/yield_star",
           "": {
             "version_added": "4.0.0"
           }
@@ -2495,85 +2495,85 @@
       },
       "Reflect": {
         "Reflect.get": {
-          "bcd_path": "",
+          "bcd_path": [ "builtins/Reflect/get", "builtins/Reflect" ],
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.set": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Reflect/set",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.has": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Reflect/has",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.deleteProperty": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Reflect/deleteProperty",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.getOwnPropertyDescriptor": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Reflect/getOwnPropertyDescriptor",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.defineProperty": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Reflect/defineProperty",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.getPrototypeOf": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Reflect/getPrototypeOf",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.setPrototypeOf": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Reflect/setPrototypeOf",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.isExtensible": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Reflect/isExtensible",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.preventExtensions": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Reflect/preventExtensions",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.ownKeys, string keys": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Reflect/ownKeys",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.ownKeys, symbol keys": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Reflect/ownKeys",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.apply": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Reflect/apply",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.construct": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Reflect/construct",
           "": {
             "version_added": "6.0.0"
           }
