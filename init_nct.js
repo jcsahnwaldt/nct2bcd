@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const utils = require('./utils');
 
 const nctDir = process.argv[2];
 const nctFile = process.argv[3];
@@ -31,24 +32,14 @@ function add(tree, data, ...path) {
   }
 }
 
-let tree;
-try {
-  let json = fs.readFileSync(nctFile, 'utf8');
-  tree = JSON.parse(json);
-}
-catch (e) {
-  if (e.code !== 'ENOENT') throw e;
-  tree = Object.create(null);
-}
+const tree = utils.readJsonSync(nctFile, true);
 
 // Note: Almost all node-compat-table/results/v8/*.json files
 // have the same keys as node-compat-table/testers.json.
 // Only the v8/0.*.json and the v8/bleeding.json files
 // have different keys.
 const file = path.join(nctDir, 'testers.json');
-
-let json = fs.readFileSync(file, 'utf8');
-const nct = JSON.parse(json);
+const nct = utils.readJsonSync(file);
 
 for (const [tag, data] of Object.entries(nct)) {
   if (tag.startsWith('_')) continue;
@@ -59,5 +50,4 @@ for (const [tag, data] of Object.entries(nct)) {
   }
 }
 
-json = JSON.stringify(tree, null, 2);
-fs.writeFileSync(nctFile, json, 'utf8');
+utils.writeJsonSync(nctFile, tree);

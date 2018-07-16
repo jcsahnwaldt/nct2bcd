@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const utils = require('./utils');
 
 const nctDir = process.argv[2];
 const nctFile = process.argv[3];
@@ -36,8 +37,7 @@ function vcmp(v1, v2) {
 
 const v8dir = path.join(nctDir, 'results/v8/');
 
-let json = fs.readFileSync(nctFile, 'utf8');
-const tree = JSON.parse(json);
+const tree = utils.readJsonSync(nctFile);
 
 const versions = Object.create(null);
 
@@ -92,8 +92,7 @@ function vadd(tree, ver, ok, ...path) {
 for (const ver of keys) {
   for (const flag of flags) {
     const file = path.join(v8dir, versions[ver][flag]);
-    const json = fs.readFileSync(file, 'utf8');
-    const nct = JSON.parse(json);
+    const nct = utils.readJsonSync(file);
     for (const [tag, data] of Object.entries(nct)) {
       if (tag.startsWith('_')) continue;
       for (const [key, val] of Object.entries(data)) {
@@ -123,5 +122,4 @@ function vclean(tree) {
 
 vclean(tree);
 
-json = JSON.stringify(tree, null, 2);
-fs.writeFileSync(nctFile, json, 'utf8');
+utils.writeJsonSync(nctFile, tree);

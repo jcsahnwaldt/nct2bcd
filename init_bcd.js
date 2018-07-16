@@ -2,6 +2,7 @@
 
 const fs = require('fs');
 const path = require('path');
+const utils = require('./utils');
 
 const bcdDir = process.argv[2];
 const bcdFile = process.argv[3];
@@ -55,11 +56,8 @@ function add(bcd, tree, path, file) {
 
 let bcd = Object.create(null);
 for (const path of files(jsDir, '')) {
-  const json = fs.readFileSync(jsDir + path, 'utf8');
-  const all = JSON.parse(json);
-  const js = all.javascript;
-  add(bcd, js, '', path);
+  const data = utils.readJsonSync(jsDir + path);
+  add(bcd, data.javascript, '', path);
 }
 
-const json = JSON.stringify(bcd, null, 2);
-fs.writeFileSync(bcdFile, json, 'utf8');
+utils.writeJsonSync(bcdFile, bcd);
