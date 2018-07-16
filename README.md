@@ -27,7 +27,7 @@ git clone --branch YOUR_BRANCH_NAME git@github.com:YOUR_USER_NAME/browser-compat
 git clone --branch gh-pages https://github.com/williamkapke/node-compat-table.git
 ```
 
-Note: Cloning git repos into subfolders of a parent repo seems strange, but I tried using git submodules instead and all solutions I found were rather inconvenient. I guess submodules are not meant for this use case. Or maybe I don't know git well enough. If you want, you can clone the browser-compat-data and node-compat-table repos to another location. Just use the appropriate paths when you run the commands below.
+Note: Cloning git repos into subfolders of a parent repo seems strange, but I tried using git submodules instead and all solutions I found were rather inconvenient. I guess submodules are not meant for this use case. Or maybe I don't know git well enough. If you want, you can clone the `browser-compat-data` and `node-compat-table` repos to another location. Just use the appropriate paths when you run the commands below.
 
 ##### Run `init_bcd.js` to init (**and overwrite!**) `bcd.json`:
 
