@@ -2747,7 +2747,7 @@
       },
       "well-known symbols": {
         "Symbol.hasInstance": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Symbol/hasInstance",
           "": {
             "version_added": "6.5.0"
           },
@@ -2756,13 +2756,13 @@
           }
         },
         "Symbol.isConcatSpreadable": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Symbol/isConcatSpreadable",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Symbol.iterator, existence": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Symbol/iterator",
           "": {
             "version_added": "4.0.0"
           }
@@ -2774,7 +2774,7 @@
           }
         },
         "Symbol.species, existence": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Symbol/species",
           "": {
             "version_added": "6.5.0"
           },
@@ -2843,25 +2843,25 @@
           }
         },
         "Symbol.replace": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Symbol/replace",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Symbol.search": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Symbol/search",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Symbol.split": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Symbol/split",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Symbol.match": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Symbol/match",
           "": {
             "version_added": "6.0.0"
           }
@@ -2891,13 +2891,13 @@
           }
         },
         "Symbol.toPrimitive": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Symbol/toPrimitive",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Symbol.toStringTag": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Symbol/toStringTag",
           "": {
             "version_added": "6.0.0"
           },
@@ -2927,7 +2927,7 @@
           }
         },
         "Symbol.unscopables": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Symbol/unscopables",
           "": {
             "version_added": "4.0.0"
           }
