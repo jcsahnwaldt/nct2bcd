@@ -1087,7 +1087,7 @@
           "bcd_path": ""
         },
         "\"get\" handler": {
-          "bcd_path": ""
+          "bcd_path": ["builtins/Proxy/handler/get", "builtins/Proxy"]
         },
         "\"get\" handler, instances of proxies": {
           "bcd_path": ""
@@ -1096,7 +1096,7 @@
           "bcd_path": ""
         },
         "\"set\" handler": {
-          "bcd_path": ""
+          "bcd_path": "builtins/Proxy/handler/set"
         },
         "\"set\" handler, instances of proxies": {
           "bcd_path": ""
@@ -1105,7 +1105,7 @@
           "bcd_path": ""
         },
         "\"has\" handler": {
-          "bcd_path": ""
+          "bcd_path": "builtins/Proxy/handler/has"
         },
         "\"has\" handler, instances of proxies": {
           "bcd_path": ""
@@ -1114,67 +1114,67 @@
           "bcd_path": ""
         },
         "\"deleteProperty\" handler": {
-          "bcd_path": ""
+          "bcd_path": "builtins/Proxy/handler/deleteProperty"
         },
         "\"deleteProperty\" handler invariant": {
           "bcd_path": ""
         },
         "\"getOwnPropertyDescriptor\" handler": {
-          "bcd_path": ""
+          "bcd_path": "builtins/Proxy/handler/getOwnPropertyDescriptor"
         },
         "\"getOwnPropertyDescriptor\" handler invariants": {
           "bcd_path": ""
         },
         "\"defineProperty\" handler": {
-          "bcd_path": ""
+          "bcd_path": "builtins/Proxy/handler/defineProperty"
         },
         "\"defineProperty\" handler invariants": {
           "bcd_path": ""
         },
         "\"getPrototypeOf\" handler": {
-          "bcd_path": ""
+          "bcd_path": "builtins/Proxy/handler/getPrototypeOf"
         },
         "\"getPrototypeOf\" handler invariant": {
           "bcd_path": ""
         },
         "\"setPrototypeOf\" handler": {
-          "bcd_path": ""
+          "bcd_path": "builtins/Proxy/handler/setPrototypeOf"
         },
         "\"setPrototypeOf\" handler invariant": {
           "bcd_path": ""
         },
         "\"isExtensible\" handler": {
-          "bcd_path": ""
+          "bcd_path": "builtins/Proxy/handler/isExtensible"
         },
         "\"isExtensible\" handler invariant": {
           "bcd_path": ""
         },
         "\"preventExtensions\" handler": {
-          "bcd_path": ""
+          "bcd_path": "builtins/Proxy/handler/preventExtensions"
         },
         "\"preventExtensions\" handler invariant": {
           "bcd_path": ""
         },
         "\"ownKeys\" handler": {
-          "bcd_path": ""
+          "bcd_path": "builtins/Proxy/handler/ownKeys"
         },
         "\"ownKeys\" handler invariant": {
           "bcd_path": ""
         },
         "\"apply\" handler": {
-          "bcd_path": ""
+          "bcd_path": "builtins/Proxy/handler/apply"
         },
         "\"apply\" handler invariant": {
           "bcd_path": ""
         },
         "\"construct\" handler": {
-          "bcd_path": ""
+          "bcd_path": "builtins/Proxy/handler/construct"
         },
         "\"construct\" handler invariants": {
           "bcd_path": ""
         },
         "Proxy.revocable": {
-          "bcd_path": ""
+          "bcd_path": "builtins/Proxy/revocable"
         },
         "Array.isArray support": {
           "bcd_path": ""
