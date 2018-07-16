@@ -1323,10 +1323,6 @@
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/prototype",
     "bcd_file": "builtins/Object.json"
   },
-  "builtins/Object/proto": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/proto",
-    "bcd_file": "builtins/Object.json"
-  },
   "builtins/Object/constructor": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/constructor",
     "bcd_file": "builtins/Object.json"
@@ -1945,10 +1941,6 @@
   },
   "builtins/String/startsWith": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/startsWith",
-    "bcd_file": "builtins/String.json"
-  },
-  "builtins/String/substr": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/substr",
     "bcd_file": "builtins/String.json"
   },
   "builtins/String/substring": {
