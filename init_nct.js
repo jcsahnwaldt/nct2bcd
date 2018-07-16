@@ -55,7 +55,7 @@ for (const [tag, data] of Object.entries(nct)) {
   for (const key of Object.keys(data)) {
     if (key.startsWith('_')) continue;
     const parts = key.split('›');
-    add(tree, {bcd_path: ''}, tag, ...parts);
+    add(tree, '', tag, ...parts, 'bcd_path');
   }
 }
 
