@@ -9,9 +9,9 @@ if (! nctDir || ! nctFile) {
   const cmd = path.basename(process.argv[1]);
   const usage =
 `Usage:
-  node ${cmd} nct-dir nct-file bcd-file bcd-dir
+  node ${cmd} nct-dir nct-file
     nct-dir: path to NCT folder, e.g. node-compat-table
-    nct-file: path to NCT mapping file, e.g. nct.json
+    nct-file: path to NCT mapping file, e.g. nct.json (will be overwritten!)
 Example:
   node ${cmd} node-compat-table nct.json
     Parse data in node-compat-table/results/v8/*.json,
