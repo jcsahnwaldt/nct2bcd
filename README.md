@@ -25,10 +25,18 @@ git clone --branch gh-pages https://github.com/williamkapke/node-compat-table.gi
 
 **Note: I tried using git submodules instead, but everything I tried seemed rather inconvenient. I guess submodules are not meant for this use case. Or maybe I don't know git well enough.**
 
-Run `init_bcd.js` to init (**overwrite**) `bcd.json`:
+Run `init_bcd.js` to init (**and overwrite!**) `bcd.json`:
 
 ```
 node init_bcd.js browser-compat-data bcd.json
 ```
 
 This reads all `*.json` files in `browser-compat-data/javascript`, builds a mapping from browser-compat-data property paths to file names, and saves the mapping in `bcd.json`.
+
+Run `init_nct.js` to init (**and overwrite!**) `nct.json`:
+
+```
+node init_nct.js node-compat-table nct.json
+```
+
+This reads `node-compat-table/testers.json`, builds a skeleton mapping from node-compat-table property paths to bcd property paths, and saves the mapping in `nct.json`.
