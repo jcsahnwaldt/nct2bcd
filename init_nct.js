@@ -6,7 +6,7 @@ const nctDir = process.argv[2];
 const nctFile = process.argv[3];
 if (! nctDir || ! nctFile) {
   const cmd = process.argv[1].split('\\').pop().split('/').pop();
-  console.log(
+  const usage =
 `Usage:
   node ${cmd} nct-dir nct-file
     nct-dir: path to NCT folder, e.g. node-compat-table
@@ -14,8 +14,8 @@ if (! nctDir || ! nctFile) {
 Example:
   node ${cmd} node-compat-table nct.json
     Parse data in node-compat-table/testers.json,
-    write result into nct.json.`
-  );
+    write result into nct.json.`;
+  console.log(usage);
   return;
 }
 

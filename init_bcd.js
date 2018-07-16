@@ -6,7 +6,7 @@ const bcdDir = process.argv[2];
 const bcdFile = process.argv[3];
 if (! bcdDir || ! bcdFile) {
   const cmd = process.argv[1].split('\\').pop().split('/').pop();
-  console.log(
+  const usage =
 `Usage:
   node ${cmd} bcd-dir bcd-file
     bcd-dir: path to BCD folder, e.g. browser-compat-data
@@ -14,8 +14,8 @@ if (! bcdDir || ! bcdFile) {
 Example:
   node ${cmd} browser-compat-data bcd.json
     Read data from browser-compat-data/javascript/{,**/}*.json,
-    write into bcd.json.`
-  );
+    write into bcd.json.`;
+  console.log(usage);
   return;
 }
 

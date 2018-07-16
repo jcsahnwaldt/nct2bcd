@@ -8,7 +8,7 @@ const bcdFile = process.argv[4];
 const bcdDir = process.argv[5];
 if (! nctDir || ! nctFile || ! bcdFile || ! bcdDir) {
   const cmd = process.argv[1].split('\\').pop().split('/').pop();
-  console.log(
+  const usage =
 `Usage:
   node ${cmd} nct-dir nct-file bcd-file bcd-dir
     nct-dir: path to NCT folder, e.g. node-compat-table
@@ -19,8 +19,8 @@ Example:
   node ${cmd} node-compat-table nct.json bcd.json browser-compat-data
     Parse data in node-compat-table/results/v8/*.json,
     map data using nct.json and bcd.json,
-    write results to browser-compat-data/javascript/{,**/}*.json.`
-  );
+    write results to browser-compat-data/javascript/{,**/}*.json.`;
+  console.log(usage);
   return;
 }
 
