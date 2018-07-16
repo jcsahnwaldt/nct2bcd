@@ -10,7 +10,7 @@ Automatically copy [Node.js](http://nodejs.org) compatibility data from [node-co
 
 - edit `nct.json`, add `bcd_path` mappings
 - run `update_bcd.js` to copy values from NCT to BCD, guided by these mappings
-- open a pull request based on the new values
+- open a pull request at [browser-compat-data](https://github.com/mdn/browser-compat-data) based on the new values
 
 ### Details
 
