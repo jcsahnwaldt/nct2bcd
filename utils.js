@@ -15,7 +15,7 @@ function readJsonSync(file, optional) {
 
 function writeJsonSync(file, data) {
   const json = JSON.stringify(data, null, 2);
-  fs.writeFileSync(file, json, 'utf8');
+  fs.writeFileSync(file, json + '\n', 'utf8');
 }
 
 module.exports = {
