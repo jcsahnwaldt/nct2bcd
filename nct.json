@@ -2905,12 +2905,7 @@
         "Symbol.toStringTag affects existing built-ins": {
           "bcd_path": "",
           "": {
-            "version_added": "6.0.0",
-            "version_removed": "7.0.0"
-          },
-          "--harmony": {
-            "version_added": "4.0.0",
-            "version_removed": "7.0.0"
+            "version_added": "8.0.0"
           }
         },
         "Symbol.toStringTag, new built-ins": {

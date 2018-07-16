@@ -76,6 +76,13 @@ function vadd(tree, ver, ok, ...path) {
     const data = tree[first];
     if (ok) {
       if (! data.version_added) data.version_added = ver;
+      else if (data.version_added && data.version_removed) {
+        // very special case for "Symbol.toStringTag affects existing built-ins":
+        // feature was added, later removed, then added again.
+        // Let's keep only the latest data.
+        data.version_added = ver;
+        delete data.version_removed;
+      }
     }
     else {
       if (data.version_added && ! data.version_removed) data.version_removed = ver;
