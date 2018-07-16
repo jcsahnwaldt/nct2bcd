@@ -27,12 +27,14 @@ function *files(base, dir) {
   }
 }
 
-// add property paths to bcd, drop deprecated features
+// add property paths to bcd
 function add(bcd, tree, path, file) {
   for (const [key, val] of Object.entries(tree)) {
     if (key === '__compat') {
+      // ignore deprecated features
       if (val.status.deprecated) continue;
-      if (bcd[path]) throw new Error('duplicate path '+path);
+
+      if (bcd[path]) throw new Error('duplicate path ' + path);
       bcd[path] = {
         // undefined is dropped in JSON, use explicit empty value instead
         mdn_url: val.mdn_url ? val.mdn_url : '',
