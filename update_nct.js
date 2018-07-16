@@ -5,22 +5,17 @@ const path = require('path');
 
 const nctDir = process.argv[2];
 const nctFile = process.argv[3];
-const bcdFile = process.argv[4];
-const bcdDir = process.argv[5];
-if (! nctDir || ! nctFile || ! bcdFile || ! bcdDir) {
+if (! nctDir || ! nctFile) {
   const cmd = path.basename(process.argv[1]);
   const usage =
 `Usage:
   node ${cmd} nct-dir nct-file bcd-file bcd-dir
     nct-dir: path to NCT folder, e.g. node-compat-table
     nct-file: path to NCT mapping file, e.g. nct.json
-    bcd-file: path to BCD mapping file, e.g. bcd.json
-    bcd-dir: path to BCD folder, e.g. browser-compat-data
 Example:
-  node ${cmd} node-compat-table nct.json bcd.json browser-compat-data
+  node ${cmd} node-compat-table nct.json
     Parse data in node-compat-table/results/v8/*.json,
-    map data using nct.json and bcd.json,
-    write results to browser-compat-data/javascript/{,**/}*.json.`;
+    write result into nct.json.`;
   console.log(usage);
   return;
 }
