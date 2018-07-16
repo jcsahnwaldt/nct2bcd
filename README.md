@@ -33,10 +33,10 @@ node init_bcd.js browser-compat-data bcd.json
 
 This reads all `*.json` files in `browser-compat-data/javascript`, builds a mapping from browser-compat-data property paths to file names, and saves the mapping in `bcd.json`.
 
-Run `init_nct.js` to init (**and overwrite!**) `nct.json`:
+Run `init_nct.js` to init (**and maybe overwrite!**) `nct.json`:
 
 ```
 node init_nct.js node-compat-table nct.json
 ```
 
-This reads `node-compat-table/testers.json`, builds a skeleton mapping from node-compat-table property paths to bcd property paths, and saves the mapping in `nct.json`.
+This reads `node-compat-table/testers.json`, builds a skeleton mapping from node-compat-table property paths to bcd property paths, and saves the mapping in `nct.json`. If `nct.json` already exists, the script adds new data, but tries to preserve existing mappings. **Note:** this hasn't been tested much. 
