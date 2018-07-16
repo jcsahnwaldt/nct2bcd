@@ -6,11 +6,13 @@ Automatically copy [Node.js](http://nodejs.org) compatibility data from [node-co
 
 ## Instructions
 
-#### In a nutshell
+### In a nutshell
 
 - edit `nct.json`, add `"bcd_path"` mappings
 - run `update_bcd.js` to copy values from NCT to BCD, guided by these mappings
 - open a pull request based on the new values
+
+### Details
 
 ##### Clone this project
 
@@ -58,6 +60,10 @@ node update_nct.js node-compat-table nct.json
 ```
 
 This reads `node-compat-table/results/v8/*.json` and adds the version data to `nct.json`. If `nct.json` already exists, the script may add new data, but will try to preserve existing data. If the file doesn't exist, the script fails.
+
+##### Add mappings to `nct.json`
+
+A `bcd_path` value in `nct.json` declares an equivalence between a feature in `node-compat-table` and `browser-compat-data` and thus enables copying the version information for this feature. A `bcd_path` value may be an array. In this case, version information is copied to multiple paths (possibly in multiple files).
 
 ##### Run `update_bcd.js` to update (**and overwrite!**) `*.json` files in `browser-compat-data/javascript`:
 
