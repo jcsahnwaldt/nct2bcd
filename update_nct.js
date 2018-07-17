@@ -21,6 +21,17 @@ Example:
   return;
 }
 
+function *leafs(tree) {
+  if (tree.bcd_path !== undefined) {
+    yield tree;
+  }
+  else {
+    for (const branch of Object.values(tree)) {
+      yield *leafs(branch);
+    }
+  }
+}
+
 function varr(v) {
   return v.split('.').map(n => parseInt(n));
 }
@@ -35,113 +46,109 @@ function vcmp(v1, v2) {
   return 0;
 }
 
+const flags = ['', '--harmony'];
+const bounds = ['version_added', 'version_removed'];
+
 const v8dir = path.join(nctDir, 'results/v8/');
 
 const tree = utils.readJsonSync(nctFile);
 
-const versions = Object.create(null);
+const files = Object.create(null);
 
-const names = fs.readdirSync(v8dir);
-for (const name of names) {
+for (const name of fs.readdirSync(v8dir)) {
   const match = /([0-9]+\.[0-9]+\.[0-9]+)(--harmony)?\.json/.exec(name);
   if (match) {
     const ver = match[1];
     const flag = match[2] === undefined ? '' : match[2];
-    if (! versions[ver]) versions[ver] = Object.create(null);
-    versions[ver][flag] = name;
+    if (! files[ver]) files[ver] = Object.create(null);
+    files[ver][flag] = name;
   }
 }
 
-let keys = Object.keys(versions);
-keys.sort(vcmp);
+const versions = Object.keys(files);
 
-const flags = ['', '--harmony'];
+versions.sort(vcmp);
 
-function add(tree, data, ...path) {
-  const first = path.shift();
-  if (path.length === 0) {
-    if (tree[first] === undefined) tree[first] = data;
-  }
-  else {
-    if (tree[first] === undefined) tree[first] = Object.create(null);
-    add(tree[first], data, ...path);
-  }
+// reset data
+for (const node of leafs(tree)) {
+  for (const flag of flags) node[flag] = Object.create(null);
 }
 
-function vadd(tree, doadd, ver, ok, ...path) {
+function vset(tree, ver, ok, ...path) {
   const first = path.shift();
+  const node = tree[first];
+  if (node === undefined) return;
   if (path.length === 0) {
-    if (tree[first] === undefined) tree[first] = Object.create(null);
-    const data = tree[first];
     if (ok) {
-      if (! data.version_added) {
-        data.version_added = ver;
+      if (! node.version_added) {
+        node.version_added = ver;
       }
-      else if (data.version_added && data.version_removed) {
-        // feature was added, later removed, then added again.
-        // Let's keep only the latest data.
-        data.version_added = ver;
-        delete data.version_removed;
+      else if (node.version_added && node.version_removed) {
+        // Feature was added, removed, added again. Keep only latest data.
+        node.version_added = ver;
+        delete node.version_removed;
       }
     }
     else {
-      if (data.version_added && ! data.version_removed) data.version_removed = ver;
+      if (node.version_added && ! node.version_removed) {
+        node.version_removed = ver;
+      }
     }
   }
   else {
-    if (tree[first] === undefined) {
-      if (doadd) tree[first] = Object.create(null);
-      else return;
-    }
-    vadd(tree[first], doadd, ver, ok, ...path);
+    vset(node, ver, ok, ...path);
   }
 }
 
-for (const ver of keys) {
-
-  let doadd = true;
-  if (ver === '0.12.18' || ver === '0.10.48') {
-    doadd = false;
-  }
-  else if (ver.startsWith('0.')) {
-    continue;
-  }
-
+for (const ver of versions) {
   for (const flag of flags) {
-    const name = versions[ver][flag];
-    if (name === undefined) continue;
+    const name = files[ver][flag];
+
+    // there's no --harmony file for some 0.12.x versions
+    if (name === undefined && ver.startsWith('0.12.')) continue;
+
     const file = path.join(v8dir, name);
     const nct = utils.readJsonSync(file);
     for (const [tag, data] of Object.entries(nct)) {
+
+      // skip _version, _engine
       if (tag.startsWith('_')) continue;
+
       for (const [key, val] of Object.entries(data)) {
+
+        // skip _successful, _count, _percent
         if (key.startsWith('_')) continue;
+
         const parts = key.split('›');
-        if (doadd) add(tree, '', tag, ...parts, 'bcd_path');
-        vadd(tree, doadd, ver, val === true, tag, ...parts, flag);
+        vset(tree, ver, val === true, tag, ...parts, flag);
       }
     }
   }
 }
 
 function veq(d1, d2) {
-  return d1.version_added === d2.version_added && d1.version_removed === d2.version_removed;
+  for (const bound of bounds) {
+    if (d1[bound] !== d2[bound]) return false;
+  }
+  return true;
 }
 
-function vclean(tree) {
-  if (tree.bcd_path !== undefined) {
-    // if versions are equal with or without flag, delete flag data (flag has no effect)
-    if (tree['--harmony'] && veq(tree[''], tree['--harmony'])) delete tree['--harmony'];
-    // if feature is only available with flag, delete no-flag data
-    if (tree['--harmony'] && veq(tree[''], {})) delete tree[''];
-  }
-  else {
-    for (const node of Object.values(tree)) {
-      vclean(node);
+for (const node of leafs(tree)) {
+
+  // remove patch version from 0.x versions - too many changes
+  for (const flag of flags) {
+    for (const bound of bounds) {
+      const ver = node[flag][bound];
+      if (ver && ver.startsWith('0.')) {
+        node[flag][bound] = varr(ver).slice(0, 2).join('.');
+      }
     }
   }
-}
 
-vclean(tree);
+  // if versions are equal with or without flag, flag has no effect - delete it
+  if (node['--harmony'] && veq(node[''], node['--harmony'])) delete node['--harmony'];
+  // if feature is only available with flag, delete no-flag data
+  if (node['--harmony'] && veq(node[''], {})) delete node[''];
+}
 
 utils.writeJsonSync(nctFile, tree);
