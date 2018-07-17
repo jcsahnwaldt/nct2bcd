@@ -48,17 +48,7 @@ function feq(f1, f2) {
   return true;
 }
 
-// update bcd file
-// bpath: bcd path, e.g. "builtins/Array/concat"
-// flag: flag, i.e. '' or '--harmony'
-// versions: object with 'version_added' and/or 'version_removed' properties
-function update(bpath, versions) {
-  if (map[bpath] === undefined) throw new Error('invalid BCD path ' + bpath);
-  const file = path.join(jsDir, map[bpath].bcd_file);
-  const bcd = utils.readJsonSync(file);
-  const support = find(bcd, 'javascript', ...bpath.split('/'), '__compat', 'support');
-  if (support === undefined) throw new Error('invalid BCD path ' + bpath);
-
+function updateSupport(support, versions) {
   const nodejs = support.nodejs;
   if (! nodejs) {
     support.nodejs = versions;
@@ -80,7 +70,19 @@ function update(bpath, versions) {
   else {
     support.nodejs = [nodejs, versions];
   }
+}
 
+// update bcd file
+// bpath: bcd path, e.g. "builtins/Array/concat"
+// flag: flag, i.e. '' or '--harmony'
+// versions: object with 'version_added' and/or 'version_removed' properties
+function update(bpath, versions) {
+  if (map[bpath] === undefined) throw new Error('invalid BCD path ' + bpath);
+  const file = path.join(jsDir, map[bpath].bcd_file);
+  const bcd = utils.readJsonSync(file);
+  const support = find(bcd, 'javascript', ...bpath.split('/'), '__compat', 'support');
+  if (support === undefined) throw new Error('invalid BCD path ' + bpath);
+  updateSupport(support, versions);
   utils.writeJsonSync(file, bcd);
 }
 
