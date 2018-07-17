@@ -30,9 +30,9 @@ const flags = ['', '--harmony'];
 const jsDir = path.join(bcdDir, 'javascript/');
 const map = utils.readJsonSync(bcdFile);
 
-function get(tree, ...path) {
+function find(tree, ...path) {
   const first = path.shift();
-  return tree === undefined ? undefined : path.length === 0 ? tree[first] : get(tree[first], ...path);
+  return tree === undefined ? undefined : path.length === 0 ? tree[first] : find(tree[first], ...path);
 }
 
 // are bcd flag arrays equal?
@@ -55,8 +55,8 @@ function feq(f1, f2) {
 function update(bpath, versions) {
   if (map[bpath] === undefined) throw new Error('invalid BCD path ' + bpath);
   const file = path.join(jsDir, map[bpath].bcd_file);
-  const tree = utils.readJsonSync(file);
-  const support = get(tree, 'javascript', ...bpath.split('/'), '__compat', 'support');
+  const bcd = utils.readJsonSync(file);
+  const support = find(bcd, 'javascript', ...bpath.split('/'), '__compat', 'support');
   if (support === undefined) throw new Error('invalid BCD path ' + bpath);
 
   const nodejs = support.nodejs;
@@ -81,40 +81,40 @@ function update(bpath, versions) {
     support.nodejs = [nodejs, versions];
   }
 
-  utils.writeJsonSync(file, tree);
+  utils.writeJsonSync(file, bcd);
 }
 
-function updatePath(tree, bpath) {
+function updatePath(nct, bpath) {
   for (const flag of flags) {
-    if (tree[flag]) {
-      const versions = tree[flag];
+    if (nct[flag]) {
+      const versions = nct[flag];
       if (flag !== '') versions.flags = [ { type: 'runtime_flag', name: flag } ];
       update(bpath, versions);
     }
   }
 }
 
-function updateAll(tree) {
-  if (tree.bcd_path !== undefined) {
-    if (tree.bcd_path === '') {
-      // bcd_path for this feature not known yet - nothing to do
+function updateAll(nct) {
+  if (nct.bcd_path !== undefined) {
+    if (nct.bcd_path === '') {
+      // bcd_path for this feature not yet known - nothing to do
       return;
     }
-    else if (Array.isArray(tree.bcd_path)) {
-      for (const path of tree.bcd_path) {
-        updatePath(tree, path);
+    else if (Array.isArray(nct.bcd_path)) {
+      for (const bpath of nct.bcd_path) {
+        updatePath(nct, bpath);
       }
     }
     else {
-      updatePath(tree, tree.bcd_path);
+      updatePath(nct, nct.bcd_path);
     }
   }
   else {
-    for (const child of Object.values(tree)) {
+    for (const child of Object.values(nct)) {
       updateAll(child);
     }
   }
 }
 
-const tree = utils.readJsonSync(nctFile);
-updateAll(tree);
+const nct = utils.readJsonSync(nctFile);
+updateAll(nct);
