@@ -32,13 +32,20 @@ function *leafs(tree) {
   }
 }
 
-function varr(v) {
-  return v.split('.').map(n => parseInt(n));
+function varr(v, c = 3) {
+  let a = v.split('.');
+  while (a.length < c) a.push(0);
+  while (a.length > c) a.pop();
+  return a.map(n => parseInt(n));
 }
 
-function vcmp(v1, v2) {
-  const a1 = varr(v1);
-  const a2 = varr(v2);
+function vclean(v, c = 3) {
+  return varr(v, c).join('.');
+}
+
+function vcmp(v1, v2, c = 3) {
+  const a1 = varr(v1, c);
+  const a2 = varr(v2, c);
   for (const i in a1) {
     if (a1[i] < a2[i]) return -1;
     if (a1[i] > a2[i]) return +1;
@@ -56,10 +63,17 @@ const tree = utils.readJsonSync(nctFile);
 const files = Object.create(null);
 
 for (const name of fs.readdirSync(v8dir)) {
-  const match = /([0-9]+\.[0-9]+\.[0-9]+)(--harmony)?\.json/.exec(name);
+  const match = /([0-9]+\.[0-9]+\.[0-9]+|nightly)(--harmony)?\.json/.exec(name);
   if (match) {
-    const ver = match[1];
+    let ver = match[1];
     const flag = match[2] === undefined ? '' : match[2];
+
+    if (ver == 'nightly') {
+      const file = path.join(v8dir, name);
+      const nct = utils.readJsonSync(file);
+      ver = vclean(nct._version);
+    }
+
     if (! files[ver]) files[ver] = Object.create(null);
     files[ver][flag] = name;
   }
@@ -140,13 +154,14 @@ for (const node of leafs(tree)) {
     for (const bound of bounds) {
       const ver = node[flag][bound];
       if (ver && ver.startsWith('0.')) {
-        node[flag][bound] = varr(ver).slice(0, 2).join('.');
+        node[flag][bound] = vclean(ver, 2);
       }
     }
   }
 
   // if versions are equal with or without flag, flag has no effect - delete it
   if (node['--harmony'] && veq(node[''], node['--harmony'])) delete node['--harmony'];
+
   // if feature is only available with flag, delete no-flag data
   if (node['--harmony'] && veq(node[''], {})) delete node[''];
 }
