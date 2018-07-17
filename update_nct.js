@@ -37,7 +37,7 @@ function vcmp(v1, v2) {
 
 const v8dir = path.join(nctDir, 'results/v8/');
 
-const tree = utils.readJsonSync(nctFile);
+const tree = utils.readJsonSync(nctFile, {required: false});
 
 const versions = Object.create(null);
 
@@ -64,13 +64,26 @@ keys = keys.filter(v => ! v.startsWith('0.'));
 
 const flags = ['', '--harmony'];
 
+function add(tree, data, ...path) {
+  const first = path.shift();
+  if (path.length === 0) {
+    if (tree[first] === undefined) tree[first] = data;
+  }
+  else {
+    if (tree[first] === undefined) tree[first] = Object.create(null);
+    add(tree[first], data, ...path);
+  }
+}
+
 function vadd(tree, ver, ok, ...path) {
   const first = path.shift();
   if (path.length === 0) {
     if (tree[first] === undefined) tree[first] = Object.create(null);
     const data = tree[first];
     if (ok) {
-      if (! data.version_added) data.version_added = ver;
+      if (! data.version_added) {
+        data.version_added = ver;
+      }
       else if (data.version_added && data.version_removed) {
         // very special case for "Symbol.toStringTag affects existing built-ins":
         // feature was added, later removed, then added again.
@@ -98,6 +111,7 @@ for (const ver of keys) {
       for (const [key, val] of Object.entries(data)) {
         if (key.startsWith('_')) continue;
         const parts = key.split('›');
+        add(tree, '', tag, ...parts, 'bcd_path');
         vadd(tree, ver, val === true, tag, ...parts, flag);
       }
     }
