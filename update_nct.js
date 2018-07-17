@@ -37,7 +37,7 @@ function vcmp(v1, v2) {
 
 const v8dir = path.join(nctDir, 'results/v8/');
 
-const tree = utils.readJsonSync(nctFile, {required: false});
+const tree = utils.readJsonSync(nctFile);
 
 const versions = Object.create(null);
 
@@ -55,13 +55,6 @@ for (const name of names) {
 let keys = Object.keys(versions);
 keys.sort(vcmp);
 
-// Note: Almost all node-compat-table/results/v8/*.json files
-// have the same keys as node-compat-table/testers.json.
-// Only the v8/0.*.json and the v8/bleeding.json files
-// have different keys. Skip 0.*.json for now.
-// TODO: find 0.10.x and 0.12.x files that work.
-keys = keys.filter(v => ! v.startsWith('0.'));
-
 const flags = ['', '--harmony'];
 
 function add(tree, data, ...path) {
@@ -75,7 +68,7 @@ function add(tree, data, ...path) {
   }
 }
 
-function vadd(tree, ver, ok, ...path) {
+function vadd(tree, doadd, ver, ok, ...path) {
   const first = path.shift();
   if (path.length === 0) {
     if (tree[first] === undefined) tree[first] = Object.create(null);
@@ -85,7 +78,6 @@ function vadd(tree, ver, ok, ...path) {
         data.version_added = ver;
       }
       else if (data.version_added && data.version_removed) {
-        // very special case for "Symbol.toStringTag affects existing built-ins":
         // feature was added, later removed, then added again.
         // Let's keep only the latest data.
         data.version_added = ver;
@@ -97,22 +89,36 @@ function vadd(tree, ver, ok, ...path) {
     }
   }
   else {
-    if (tree[first] === undefined) tree[first] = Object.create(null);
-    vadd(tree[first], ver, ok, ...path);
+    if (tree[first] === undefined) {
+      if (doadd) tree[first] = Object.create(null);
+      else return;
+    }
+    vadd(tree[first], doadd, ver, ok, ...path);
   }
 }
 
 for (const ver of keys) {
+
+  let doadd = true;
+  if (ver === '0.12.18' || ver === '0.10.48') {
+    doadd = false;
+  }
+  else if (ver.startsWith('0.')) {
+    continue;
+  }
+
   for (const flag of flags) {
-    const file = path.join(v8dir, versions[ver][flag]);
+    const name = versions[ver][flag];
+    if (name === undefined) continue;
+    const file = path.join(v8dir, name);
     const nct = utils.readJsonSync(file);
     for (const [tag, data] of Object.entries(nct)) {
       if (tag.startsWith('_')) continue;
       for (const [key, val] of Object.entries(data)) {
         if (key.startsWith('_')) continue;
         const parts = key.split('›');
-        add(tree, '', tag, ...parts, 'bcd_path');
-        vadd(tree, ver, val === true, tag, ...parts, flag);
+        if (doadd) add(tree, '', tag, ...parts, 'bcd_path');
+        vadd(tree, doadd, ver, val === true, tag, ...parts, flag);
       }
     }
   }
@@ -124,8 +130,10 @@ function veq(d1, d2) {
 
 function vclean(tree) {
   if (tree.bcd_path !== undefined) {
-    if (veq(tree[''], tree['--harmony'])) delete tree['--harmony'];
-    if (veq(tree[''], {})) delete tree[''];
+    // if versions are equal with or without flag, delete flag data (flag has no effect)
+    if (tree['--harmony'] && veq(tree[''], tree['--harmony'])) delete tree['--harmony'];
+    // if feature is only available with flag, delete no-flag data
+    if (tree['--harmony'] && veq(tree[''], {})) delete tree[''];
   }
   else {
     for (const node of Object.values(tree)) {
