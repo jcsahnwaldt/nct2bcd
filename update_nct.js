@@ -21,21 +21,21 @@ Example:
   return;
 }
 
-// recursively iterate through version data nodes
-function *leafs(tree) {
-  if (tree.bcd_path !== undefined) {
-    yield tree;
-  }
-  else {
-    for (const branch of Object.values(tree)) {
-      yield *leafs(branch);
-    }
-  }
-}
+//
+// global constants
+//
+
+const flags = ['', '--harmony'];
+const bounds = ['version_added', 'version_removed'];
+const v8dir = path.join(nctDir, 'results/v8/');
+
+//
+// functions dealing with version strings and nodes
+//
 
 // split version string into array with given number of parts
 function varr(v, n) {
-  let a = v.split('.');
+  const a = v.split('.');
   while (a.length < n) a.push(0);
   while (a.length > n) a.pop();
   return a.map(n => parseInt(n));
@@ -57,53 +57,12 @@ function vcmp(v1, v2, n) {
   return 0;
 }
 
-const flags = ['', '--harmony'];
-const bounds = ['version_added', 'version_removed'];
-
-// main data tree
-const tree = utils.readJsonSync(nctFile);
-
-const v8dir = path.join(nctDir, 'results/v8/');
-
-// load v8/*.json file
-function nctJson(name) {
-  const file = path.join(v8dir, name);
-  return utils.readJsonSync(file);
-}
-
-// build version -> file map
-const files = Object.create(null);
-for (const name of fs.readdirSync(v8dir)) {
-  const match = /([0-9]+\.[0-9]+\.[0-9]+|nightly)(--harmony)?\.json/.exec(name);
-  if (match) {
-    let ver = match[1];
-    const flag = match[2] === undefined ? '' : match[2];
-    if (ver == 'nightly') {
-      const data = nctJson(name);
-      ver = vclean(data._version, 3);
-    }
-    if (! files[ver]) files[ver] = Object.create(null);
-    files[ver][flag] = name;
+// do version nodes contain equal version data?
+function veq(n1, n2) {
+  for (const bound of bounds) {
+    if (n1[bound] !== n2[bound]) return false;
   }
-}
-
-const versions = Object.keys(files);
-versions.sort((v1, v2) => vcmp(v1, v2, 3));
-
-// clear version nodes in tree
-for (const node of leafs(tree)) {
-  for (const flag of flags) {
-    node[flag] = Object.create(null);
-  }
-}
-
-// find node in tree
-function *find(tree, ...path) {
-  const first = path.shift();
-  const node = tree[first];
-  if (node === undefined) return;
-  if (path.length === 0) yield node;
-  else yield *find(node, ...path);
+  return true;
 }
 
 // update version data in node if necessary
@@ -128,6 +87,100 @@ function vset(node, ver, ok) {
   }
 }
 
+//
+// functions dealing with v8/*.json files
+//
+
+// load v8/*.json file
+function nctJson(name) {
+  const file = path.join(v8dir, name);
+  return utils.readJsonSync(file);
+}
+
+// build version -> file map
+function nctFiles() {
+  const files = Object.create(null);
+  for (const name of fs.readdirSync(v8dir)) {
+    const match = /([0-9]+\.[0-9]+\.[0-9]+|nightly)(--harmony)?\.json/.exec(name);
+    if (match) {
+      let ver = match[1];
+      const flag = match[2] === undefined ? '' : match[2];
+      if (ver == 'nightly') {
+        const data = nctJson(name);
+        ver = vclean(data._version, 3);
+      }
+      if (! files[ver]) files[ver] = Object.create(null);
+      files[ver][flag] = name;
+    }
+  }
+  return files;
+}
+
+//
+// functions dealing with nodes in data tree
+//
+
+// recursively iterate through version data nodes
+function *leafs(tree) {
+  if (tree.bcd_path !== undefined) {
+    yield tree;
+  }
+  else {
+    for (const branch of Object.values(tree)) {
+      yield *leafs(branch);
+    }
+  }
+}
+
+// find node in tree
+function *find(tree, ...path) {
+  const first = path.shift();
+  const node = tree[first];
+  if (node === undefined) return;
+  if (path.length === 0) yield node;
+  else yield *find(node, ...path);
+}
+
+// clear version nodes in tree
+function clear(tree) {
+  for (const node of leafs(tree)) {
+    for (const flag of flags) {
+      node[flag] = Object.create(null);
+    }
+  }
+}
+
+// clean up version nodes in tree
+function clean(tree) {
+  for (const node of leafs(tree)) {
+    // remove patch version from 0.x versions - too many changes
+    for (const flag of flags) {
+      for (const bound of bounds) {
+        const ver = node[flag][bound];
+        if (ver && ver.startsWith('0.')) {
+          node[flag][bound] = vclean(ver, 2);
+        }
+      }
+    }
+    // if versions are equal with or without flag, flag has no effect - delete it
+    if (node['--harmony'] && veq(node[''], node['--harmony'])) delete node['--harmony'];
+    // if feature is only available with flag, delete no-flag data
+    if (node['--harmony'] && veq(node[''], {})) delete node[''];
+  }
+}
+
+//
+// main program
+//
+
+const files = nctFiles();
+const versions = Object.keys(files);
+versions.sort((v1, v2) => vcmp(v1, v2, 3));
+
+const tree = utils.readJsonSync(nctFile);
+
+clear(tree);
+
 // read version data from files, update version tree
 for (const ver of versions) {
   for (const flag of flags) {
@@ -148,32 +201,6 @@ for (const ver of versions) {
   }
 }
 
-// do nodes contain equal version data?
-function veq(n1, n2) {
-  for (const bound of bounds) {
-    if (n1[bound] !== n2[bound]) return false;
-  }
-  return true;
-}
-
-// clean up data
-for (const node of leafs(tree)) {
-
-  // remove patch version from 0.x versions - too many changes
-  for (const flag of flags) {
-    for (const bound of bounds) {
-      const ver = node[flag][bound];
-      if (ver && ver.startsWith('0.')) {
-        node[flag][bound] = vclean(ver, 2);
-      }
-    }
-  }
-
-  // if versions are equal with or without flag, flag has no effect - delete it
-  if (node['--harmony'] && veq(node[''], node['--harmony'])) delete node['--harmony'];
-
-  // if feature is only available with flag, delete no-flag data
-  if (node['--harmony'] && veq(node[''], {})) delete node[''];
-}
+clean(tree);
 
 utils.writeJsonSync(nctFile, tree);
