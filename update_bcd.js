@@ -86,6 +86,7 @@ function updateFile(nct, bpath) {
   for (const flag of flags) {
     if (nct[flag]) {
       const versions = nct[flag];
+      if (versions.version_added === undefined) versions.version_added = false;
       if (flag !== '') versions.flags = [ { type: 'runtime_flag', name: flag } ];
       updateSupport(support, versions);
     }
