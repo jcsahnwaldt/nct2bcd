@@ -289,25 +289,25 @@
         "with arrays": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "with sparse arrays": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "with strings": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "with astral plane strings": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "with generator instances": {
@@ -316,19 +316,19 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "with generic iterables": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "with instances of generic iterables": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "iterator closing, break": {
@@ -351,7 +351,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "binary literals": {
@@ -360,7 +360,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "octal supported by Number()": {
@@ -369,7 +369,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "binary supported by Number()": {
@@ -378,7 +378,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         }
       },
@@ -906,7 +906,7 @@
         "basic support": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "is block-scoped": {
@@ -957,7 +957,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "is block-scoped (strict mode)": {
@@ -966,7 +966,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "cannot be in statements (strict mode)": {
@@ -975,7 +975,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "redefining a const (strict mode)": {
@@ -984,7 +984,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "for loop statement scope (strict mode)": {
@@ -993,7 +993,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "for-in loop iteration scope (strict mode)": {
@@ -1014,7 +1014,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         }
       },
@@ -1061,7 +1061,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "is block-scoped (strict mode)": {
@@ -1070,7 +1070,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "cannot be in statements (strict mode)": {
@@ -1079,7 +1079,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "for loop statement scope (strict mode)": {
@@ -1088,7 +1088,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "temporal dead zone (strict mode)": {
@@ -1097,7 +1097,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "for/for-in loop iteration scope (strict mode)": {
@@ -1106,7 +1106,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         }
       },
@@ -1116,7 +1116,7 @@
           "version_added": "4.0.0"
         },
         "--harmony": {
-          "version_added": "0.10.48"
+          "version_added": "0.10"
         }
       }
     },
@@ -1128,7 +1128,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "1 parameter, no brackets": {
@@ -1137,7 +1137,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "multiple parameters": {
@@ -1146,7 +1146,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "lexical \"this\" binding": {
@@ -1515,7 +1515,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "generator function expressions": {
@@ -1524,7 +1524,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "correct \"this\" binding": {
@@ -1533,7 +1533,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "can't use \"this\" with new": {
@@ -1548,7 +1548,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "%GeneratorPrototype%": {
@@ -1557,7 +1557,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "%GeneratorPrototype% prototype chain": {
@@ -1572,7 +1572,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "%GeneratorPrototype%.throw": {
@@ -1581,7 +1581,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "%GeneratorPrototype%.return": {
@@ -1596,7 +1596,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "yield *, arrays": {
@@ -1605,7 +1605,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "yield *, sparse arrays": {
@@ -1614,7 +1614,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "yield *, strings": {
@@ -1623,7 +1623,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "yield *, astral plane strings": {
@@ -1632,7 +1632,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "yield *, generator instances": {
@@ -1641,7 +1641,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "yield *, generic iterables": {
@@ -1650,7 +1650,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "yield *, instances of iterables": {
@@ -1659,7 +1659,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "yield * on non-iterables is a runtime error": {
@@ -1668,7 +1668,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "yield *, iterator closing": {
@@ -1735,103 +1735,103 @@
         "Int8Array": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "Uint8Array": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "Uint8ClampedArray": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "Int16Array": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "Uint16Array": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "Int32Array": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "Uint32Array": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "Float32Array": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "Float64Array": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "DataView (Int8)": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "DataView (Uint8)": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "DataView (Int16)": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "DataView (Uint16)": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "DataView (Int32)": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "DataView (Uint32)": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "DataView (Float32)": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "DataView (Float64)": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "ArrayBuffer[Symbol.species]": {
@@ -1846,7 +1846,7 @@
         "constructors require new": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "constructors accept generic iterables": {
@@ -1876,7 +1876,7 @@
         "%TypedArray%.prototype.subarray": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "%TypedArray%.prototype.join": {
@@ -1984,25 +1984,25 @@
         "%TypedArray%.prototype.keys": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "%TypedArray%.prototype.values": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "%TypedArray%.prototype.entries": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "%TypedArray%.prototype[Symbol.iterator]": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "%TypedArray%[Symbol.species]": {
@@ -2019,37 +2019,37 @@
         "basic functionality": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "constructor arguments": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "constructor requires new": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "constructor accepts null": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "constructor invokes set": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "iterator closing": {
@@ -2061,7 +2061,7 @@
         "Map.prototype.set returns this": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "-0 key converts to +0": {
@@ -2073,61 +2073,61 @@
         "Map.prototype.size": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Map.prototype.delete": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "Map.prototype.clear": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Map.prototype.forEach": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Map.prototype.keys": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Map.prototype.values": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Map.prototype.entries": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Map.prototype[Symbol.iterator]": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Map.prototype isn't an instance": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "Map iterator prototype chain": {
@@ -2150,37 +2150,37 @@
         "basic functionality": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "constructor arguments": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "constructor requires new": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "constructor accepts null": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "constructor invokes add": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "iterator closing": {
@@ -2192,7 +2192,7 @@
         "Set.prototype.add returns this": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "-0 key converts to +0": {
@@ -2204,61 +2204,61 @@
         "Set.prototype.size": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Set.prototype.delete": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "Set.prototype.clear": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Set.prototype.forEach": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Set.prototype.keys": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Set.prototype.values": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Set.prototype.entries": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Set.prototype[Symbol.iterator]": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Set.prototype isn't an instance": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "Set iterator prototype chain": {
@@ -2281,46 +2281,46 @@
         "basic functionality": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "constructor arguments": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "constructor requires new": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "constructor accepts null": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "constructor invokes set": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "frozen objects as keys": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "iterator closing": {
@@ -2332,16 +2332,16 @@
         "WeakMap.prototype.set returns this": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "WeakMap.prototype.delete": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "no WeakMap.prototype.clear method": {
@@ -2359,10 +2359,10 @@
         "WeakMap.prototype isn't an instance": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           },
           "--harmony": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         }
       },
@@ -2370,31 +2370,31 @@
         "basic functionality": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "constructor arguments": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "constructor requires new": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "constructor accepts null": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "constructor invokes add": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "iterator closing": {
@@ -2406,13 +2406,13 @@
         "WeakSet.prototype.add returns this": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "WeakSet.prototype.delete": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "no WeakSet.prototype.clear method": {
@@ -2430,7 +2430,7 @@
         "WeakSet.prototype isn't an instance": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         }
       },
@@ -2772,25 +2772,25 @@
         "basic functionality": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "constructor requires new": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Promise.prototype isn't an instance": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Promise.all": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Promise.all, generic iterables": {
@@ -2802,7 +2802,7 @@
         "Promise.race": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Promise.race, generic iterables": {
@@ -2825,37 +2825,37 @@
         "basic functionality": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "typeof support": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "symbol keys are hidden to pre-ES6 code": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Object.defineProperty support": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "symbols inherit from Symbol.prototype": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "cannot coerce to string or number": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "can convert with String()": {
@@ -2867,7 +2867,7 @@
         "new Symbol() throws": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Object(symbol)": {
@@ -2879,7 +2879,7 @@
         "JSON.stringify ignores symbol primitives": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "JSON.stringify ignores symbol objects": {
@@ -2891,7 +2891,7 @@
         "global symbol registry": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         }
       },
@@ -2914,7 +2914,7 @@
         "Symbol.iterator, existence": {
           "bcd_path": "builtins/Symbol/iterator",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Symbol.iterator, arguments object": {
@@ -3079,7 +3079,7 @@
         "Symbol.unscopables": {
           "bcd_path": "builtins/Symbol/unscopables",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         }
       }
@@ -3095,19 +3095,19 @@
         "Object.is": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "Object.getOwnPropertySymbols": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Object.setPrototypeOf": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         }
       },
@@ -3115,13 +3115,13 @@
         "function statements": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "function expressions": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "new Function": {
@@ -3258,7 +3258,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         }
       },
@@ -3269,13 +3269,13 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "String.prototype.normalize": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "String.prototype.repeat": {
@@ -3284,7 +3284,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "String.prototype.startsWith": {
@@ -3293,7 +3293,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "String.prototype.startsWith throws on RegExp": {
@@ -3302,7 +3302,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "String.prototype.endsWith": {
@@ -3311,7 +3311,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "String.prototype.endsWith throws on RegExp": {
@@ -3320,7 +3320,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "String.prototype.includes": {
@@ -3332,7 +3332,7 @@
         "String.prototype[Symbol.iterator]": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "String iterator prototype chain": {
@@ -3467,7 +3467,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Array.prototype.findIndex": {
@@ -3476,7 +3476,7 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Array.prototype.fill": {
@@ -3485,32 +3485,32 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Array.prototype.keys": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Array.prototype.values": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18",
+            "version_added": "0.12",
             "version_removed": "4.0.0"
           }
         },
         "Array.prototype.entries": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Array.prototype[Symbol.iterator]": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Array iterator prototype chain": {
@@ -3522,7 +3522,7 @@
         "Array.prototype[Symbol.unscopables]": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         }
       },
@@ -3530,55 +3530,55 @@
         "Number.isFinite": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "Number.isInteger": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Number.isSafeInteger": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Number.isNaN": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "Number.parseFloat": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Number.parseInt": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Number.EPSILON": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Number.MIN_SAFE_INTEGER": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Number.MAX_SAFE_INTEGER": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         }
       },
@@ -3586,103 +3586,103 @@
         "Math.clz32": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Math.imul": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Math.sign": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Math.log10": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Math.log2": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Math.log1p": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Math.expm1": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Math.cosh": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Math.sinh": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Math.tanh": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Math.acosh": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Math.asinh": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Math.atanh": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Math.trunc": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Math.fround": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Math.cbrt": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "Math.hypot": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         }
       },
@@ -4473,7 +4473,7 @@
         "Object.keys": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "Object.getOwnPropertyNames": {
@@ -4491,13 +4491,13 @@
         "JSON.stringify": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "JSON.parse": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "Reflect.ownKeys, string key order": {
@@ -4543,7 +4543,7 @@
         "no semicolon needed after do-while": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "no assignments allowed in for-in head in strict mode": {
@@ -4561,7 +4561,7 @@
         "Invalid Date": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "RegExp constructor can alter flags": {
@@ -4601,13 +4601,13 @@
         "labeled function statements": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "function statements in if-statement clauses": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         }
       },
@@ -4615,13 +4615,13 @@
         "basic support": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "multiple __proto__ is an error": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           },
           "--harmony": {
             "version_added": "4.0.0"
@@ -4650,37 +4650,37 @@
         "get prototype": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "set prototype": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "absent from Object.create(null)": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "present in hasOwnProperty()": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "correct property descriptor": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "present in Object.getOwnPropertyNames()": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         }
       },
@@ -4688,19 +4688,19 @@
         "existence": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "tags' names are lowercase": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "quotes in arguments are escaped": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         }
       },
@@ -4708,7 +4708,7 @@
         "basic functionality": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "returns this": {
@@ -4722,56 +4722,56 @@
         "hyphens in character sets": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "invalid character escapes": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "invalid control-character escapes": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "invalid Unicode escapes": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "invalid hexadecimal escapes": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "incomplete patterns and quantifiers": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "octal escape sequences": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "invalid backreferences become octal escapes": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         }
       },
       "HTML-style comments": {
         "bcd_path": "",
         "": {
-          "version_added": "0.10.48"
+          "version_added": "0.10"
         }
       }
     }
@@ -4850,7 +4850,7 @@
           "version_added": "4.0.0"
         },
         "--harmony": {
-          "version_added": "0.12.18"
+          "version_added": "0.12"
         }
       },
       "strict fn w/ non-strict non-simple params is error": {
@@ -5223,13 +5223,13 @@
         "__defineGetter__": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "__defineGetter__, symbols": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "__defineGetter__, ToObject(this)": {
@@ -5244,13 +5244,13 @@
         "__defineSetter__": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "__defineSetter__, symbols": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "__defineSetter__, ToObject(this)": {
@@ -5265,19 +5265,19 @@
         "__lookupGetter__": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "__lookupGetter__, prototype chain": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "__lookupGetter__, symbols": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "__lookupGetter__, ToObject(this)": {
@@ -5298,19 +5298,19 @@
         "__lookupSetter__": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "__lookupSetter__, prototype chain": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "__lookupSetter__, symbols": {
           "bcd_path": "",
           "": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "__lookupSetter__, ToObject(this)": {
@@ -5358,7 +5358,7 @@
       "assignments allowed in for-in head in non-strict mode": {
         "bcd_path": "",
         "": {
-          "version_added": "0.10.48"
+          "version_added": "0.10"
         }
       }
     }
@@ -5480,13 +5480,13 @@
         "String.prototype.trimLeft": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "String.prototype.trimRight": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "String.prototype.trimStart": {
@@ -5506,7 +5506,7 @@
         "\"global\" global property is global object": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "\"global\" global property has correct property descriptor": {
@@ -5564,13 +5564,13 @@
             "version_added": "4.0.0"
           },
           "--harmony": {
-            "version_added": "0.12.18"
+            "version_added": "0.12"
           }
         },
         "[native code]": {
           "bcd_path": "",
           "": {
-            "version_added": "0.10.48"
+            "version_added": "0.10"
           }
         },
         "class expression with implicit constructor": {
