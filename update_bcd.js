@@ -22,8 +22,12 @@ Example:
   return;
 }
 
-const jsDir = path.join(bcdDir, 'javascript/');
+//
+// global constants
+//
 
+const flags = ['', '--harmony'];
+const jsDir = path.join(bcdDir, 'javascript/');
 const map = utils.readJsonSync(bcdFile);
 
 function get(tree, ...path) {
@@ -31,9 +35,12 @@ function get(tree, ...path) {
   return tree === undefined ? undefined : path.length === 0 ? tree[first] : get(tree[first], ...path);
 }
 
+// are bcd flag arrays equal?
+// f1, f2: arrays with bcd flag objects, e.g. [ { type: 'runtime_flag', name: '--harmony' } ]
 function feq(f1, f2) {
   if (f1 === undefined && f2 === undefined) return true;
   if (! Array.isArray(f1) || ! Array.isArray(f2)) return false;
+  // Note: so far, all flag arrays have one element.
   // TODO: handle multiple flags if necessary
   if (f1.length !== 1 || f1.length !== f2.length) return false;
   if (f1[0].type !== f2[0].type) return false;
@@ -41,7 +48,11 @@ function feq(f1, f2) {
   return true;
 }
 
-function update(bpath, flag, versions) {
+// update bcd file
+// bpath: bcd path, e.g. "builtins/Array/concat"
+// flag: flag, i.e. '' or '--harmony'
+// versions: object with 'version_added' and/or 'version_removed' properties
+function update(bpath, versions) {
   if (map[bpath] === undefined) throw new Error('invalid BCD path ' + bpath);
   const file = path.join(jsDir, map[bpath].bcd_file);
   const tree = utils.readJsonSync(file);
@@ -58,6 +69,7 @@ function update(bpath, flag, versions) {
       if (feq(nodejs[i].flags, versions.flags)) {
         nodejs[i] = versions;
         found = true;
+        break;
       }
     }
     if (! found) nodejs.push(versions);
@@ -72,14 +84,12 @@ function update(bpath, flag, versions) {
   utils.writeJsonSync(file, tree);
 }
 
-const flags = ['', '--harmony'];
-
-function updatePath(tree, path) {
+function updatePath(tree, bpath) {
   for (const flag of flags) {
     if (tree[flag]) {
       const versions = tree[flag];
       if (flag !== '') versions.flags = [ { type: 'runtime_flag', name: flag } ];
-      update(path, flag, versions);
+      update(bpath, versions);
     }
   }
 }
@@ -87,6 +97,7 @@ function updatePath(tree, path) {
 function updateAll(tree) {
   if (tree.bcd_path !== undefined) {
     if (tree.bcd_path === '') {
+      // bcd_path for this feature not known yet - nothing to do
       return;
     }
     else if (Array.isArray(tree.bcd_path)) {
