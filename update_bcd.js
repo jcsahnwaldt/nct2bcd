@@ -76,24 +76,20 @@ function updateSupport(support, versions) {
 // bpath: bcd path, e.g. "builtins/Array/concat"
 // flag: flag, i.e. '' or '--harmony'
 // versions: object with 'version_added' and/or 'version_removed' properties
-function update(bpath, versions) {
+function updatePath(nct, bpath) {
   if (map[bpath] === undefined) throw new Error('invalid BCD path ' + bpath);
   const file = path.join(jsDir, map[bpath].bcd_file);
   const bcd = utils.readJsonSync(file);
   const support = find(bcd, 'javascript', ...bpath.split('/'), '__compat', 'support');
   if (support === undefined) throw new Error('invalid BCD path ' + bpath);
-  updateSupport(support, versions);
-  utils.writeJsonSync(file, bcd);
-}
-
-function updatePath(nct, bpath) {
   for (const flag of flags) {
     if (nct[flag]) {
       const versions = nct[flag];
       if (flag !== '') versions.flags = [ { type: 'runtime_flag', name: flag } ];
-      update(bpath, versions);
+      updateSupport(support, versions);
     }
   }
+  utils.writeJsonSync(file, bcd);
 }
 
 function updateAll(nct) {
