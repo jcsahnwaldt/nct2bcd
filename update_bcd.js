@@ -48,21 +48,22 @@ function feq(f1, f2) {
   return true;
 }
 
+// update bcd support node
+// support: bcd support node, e.g. {nodejs: {version_added: "6.0.0"} }
+// versions: versions node, e.g. { version_added: "6.0.0", version_removed: "7.0.0" }
 function updateSupport(support, versions) {
   const nodejs = support.nodejs;
   if (! nodejs) {
     support.nodejs = versions;
   }
   else if (Array.isArray(nodejs)) {
-    let found = false;
     for (const i in nodejs) {
       if (feq(nodejs[i].flags, versions.flags)) {
         nodejs[i] = versions;
-        found = true;
-        break;
+        return;
       }
     }
-    if (! found) nodejs.push(versions);
+    nodejs.push(versions);
   }
   else if (feq(nodejs.flags, versions.flags)) {
     support.nodejs = versions;
@@ -76,7 +77,7 @@ function updateSupport(support, versions) {
 // bpath: bcd path, e.g. "builtins/Array/concat"
 // flag: flag, i.e. '' or '--harmony'
 // versions: object with 'version_added' and/or 'version_removed' properties
-function updatePath(nct, bpath) {
+function updateFile(nct, bpath) {
   if (map[bpath] === undefined) throw new Error('invalid BCD path ' + bpath);
   const file = path.join(jsDir, map[bpath].bcd_file);
   const bcd = utils.readJsonSync(file);
@@ -92,7 +93,7 @@ function updatePath(nct, bpath) {
   utils.writeJsonSync(file, bcd);
 }
 
-function updateAll(nct) {
+function updateFiles(nct) {
   if (nct.bcd_path !== undefined) {
     if (nct.bcd_path === '') {
       // bcd_path for this feature not yet known - nothing to do
@@ -100,19 +101,19 @@ function updateAll(nct) {
     }
     else if (Array.isArray(nct.bcd_path)) {
       for (const bpath of nct.bcd_path) {
-        updatePath(nct, bpath);
+        updateFile(nct, bpath);
       }
     }
     else {
-      updatePath(nct, nct.bcd_path);
+      updateFile(nct, nct.bcd_path);
     }
   }
   else {
-    for (const child of Object.values(nct)) {
-      updateAll(child);
+    for (const branch of Object.values(nct)) {
+      updateFiles(branch);
     }
   }
 }
 
 const nct = utils.readJsonSync(nctFile);
-updateAll(nct);
+updateFiles(nct);
