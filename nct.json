@@ -1218,7 +1218,7 @@
       },
       "class": {
         "class statement": {
-          "bcd_path": "",
+          "bcd_path": "classes",
           "": {
             "version_added": "6.0.0"
           },
@@ -1254,7 +1254,7 @@
           }
         },
         "constructor": {
-          "bcd_path": "",
+          "bcd_path": "classes/constructor",
           "": {
             "version_added": "6.0.0"
           },
@@ -1299,7 +1299,7 @@
           }
         },
         "static methods": {
-          "bcd_path": "",
+          "bcd_path": "classes/static",
           "": {
             "version_added": "6.0.0"
           },
@@ -1398,7 +1398,7 @@
           }
         },
         "extends": {
-          "bcd_path": "",
+          "bcd_path": "classes/extends",
           "": {
             "version_added": "6.0.0"
           },
@@ -1835,7 +1835,7 @@
           }
         },
         "ArrayBuffer[Symbol.species]": {
-          "bcd_path": "",
+          "bcd_path": "builtins/ArrayBuffer/@@species",
           "": {
             "version_added": "6.5.0"
           },
@@ -1862,13 +1862,13 @@
           }
         },
         "%TypedArray%.from": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/from",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.of": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/of",
           "": {
             "version_added": "4.0.0"
           }
@@ -1880,103 +1880,103 @@
           }
         },
         "%TypedArray%.prototype.join": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/join",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.indexOf": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/indexOf",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.lastIndexOf": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/lastIndexOf",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.slice": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/slice",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.every": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/every",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.filter": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/filter",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.forEach": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/forEach",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.map": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/map",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.reduce": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/reduce",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.reduceRight": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/reduceRight",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.reverse": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/reverse",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.some": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/some",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.sort": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/sort",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.copyWithin": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/copyWithin",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.find": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/find",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.findIndex": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/findIndex",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.fill": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/fill",
           "": {
             "version_added": "4.0.0"
           }
@@ -2000,13 +2000,13 @@
           }
         },
         "%TypedArray%.prototype[Symbol.iterator]": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/@@iterator",
           "": {
             "version_added": "0.12"
           }
         },
         "%TypedArray%[Symbol.species]": {
-          "bcd_path": "",
+          "bcd_path": "builtins/TypedArray/@@species",
           "": {
             "version_added": "6.5.0"
           },
@@ -2137,7 +2137,7 @@
           }
         },
         "Map[Symbol.species]": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Map/@@species",
           "": {
             "version_added": "6.5.0"
           },
@@ -2268,7 +2268,7 @@
           }
         },
         "Set[Symbol.species]": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Set/@@species",
           "": {
             "version_added": "6.5.0"
           },
@@ -3247,13 +3247,13 @@
       },
       "String static methods": {
         "String.raw": {
-          "bcd_path": "",
+          "bcd_path": "builtins/String/raw",
           "": {
             "version_added": "4.0.0"
           }
         },
         "String.fromCodePoint": {
-          "bcd_path": "",
+          "bcd_path": "builtins/String/fromCodePoint",
           "": {
             "version_added": "4.0.0"
           },
@@ -3324,7 +3324,7 @@
           }
         },
         "String.prototype.includes": {
-          "bcd_path": "",
+          "bcd_path": "builtins/String/includes",
           "": {
             "version_added": "4.0.0"
           }
@@ -3344,7 +3344,7 @@
       },
       "RegExp.prototype properties": {
         "RegExp.prototype.flags": {
-          "bcd_path": "",
+          "bcd_path": "builtins/RegExp/flags",
           "": {
             "version_added": "6.0.0"
           }
@@ -3374,7 +3374,7 @@
           }
         },
         "RegExp[Symbol.species]": {
-          "bcd_path": "",
+          "bcd_path": "builtins/RegExp/@@species",
           "": {
             "version_added": "6.5.0"
           },
@@ -3385,7 +3385,7 @@
       },
       "Array static methods": {
         "Array.from, array-like objects": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Array/from",
           "": {
             "version_added": "4.0.0"
           }
@@ -3439,13 +3439,13 @@
           }
         },
         "Array.of": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Array/of",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Array[Symbol.species]": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Array/@@species",
           "": {
             "version_added": "6.5.0"
           },
@@ -4889,7 +4889,7 @@
     "features": {
       "Object static methods": {
         "Object.values": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Object/values",
           "": {
             "version_added": "7.0.0"
           },
@@ -4898,7 +4898,7 @@
           }
         },
         "Object.entries": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Object/entries",
           "": {
             "version_added": "7.0.0"
           },
@@ -4907,7 +4907,7 @@
           }
         },
         "Object.getOwnPropertyDescriptors": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Object/getOwnPropertyDescriptors",
           "": {
             "version_added": "7.0.0"
           },
@@ -4924,7 +4924,7 @@
       },
       "String padding": {
         "String.prototype.padStart": {
-          "bcd_path": "",
+          "bcd_path": "builtins/String/padStart",
           "": {
             "version_added": "8.0.0"
           },
@@ -4933,7 +4933,7 @@
           }
         },
         "String.prototype.padEnd": {
-          "bcd_path": "",
+          "bcd_path": "builtins/String/padEnd",
           "": {
             "version_added": "8.0.0"
           },
@@ -5095,7 +5095,7 @@
       },
       "shared memory and atomics": {
         "SharedArrayBuffer": {
-          "bcd_path": "",
+          "bcd_path": "builtins/SharedArrayBuffer",
           "": {
             "version_added": "8.10.0"
           }
@@ -5107,13 +5107,13 @@
           }
         },
         "SharedArrayBuffer.prototype.byteLength": {
-          "bcd_path": "",
+          "bcd_path": "builtins/SharedArrayBuffer/byteLength",
           "": {
             "version_added": "8.10.0"
           }
         },
         "SharedArrayBuffer.prototype.slice": {
-          "bcd_path": "",
+          "bcd_path": "builtins/SharedArrayBuffer/slice",
           "": {
             "version_added": "8.10.0"
           }
@@ -5125,73 +5125,73 @@
           }
         },
         "Atomics.add": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Atomics/add",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.and": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Atomics/and",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.compareExchange": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Atomics/compareExchange",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.exchange": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Atomics/exchange",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.wait": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Atomics/wait",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.wake": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Atomics/wake",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.isLockFree": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Atomics/isLockFree",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.load": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Atomics/load",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.or": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Atomics/or",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.store": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Atomics/store",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.sub": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Atomics/sub",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.xor": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Atomics/xor",
           "": {
             "version_added": "8.10.0"
           }
@@ -5387,7 +5387,7 @@
       },
       "Promise.prototype.finally": {
         "basic support": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Promise/finally",
           "": {
             "version_added": "10.0.0"
           }
@@ -5490,13 +5490,13 @@
           }
         },
         "String.prototype.trimStart": {
-          "bcd_path": "",
+          "bcd_path": "builtins/String/trimStart",
           "": {
             "version_added": "10.0.0"
           }
         },
         "String.prototype.trimEnd": {
-          "bcd_path": "",
+          "bcd_path": "builtins/String/trimEnd",
           "": {
             "version_added": "10.0.0"
           }
