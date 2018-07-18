@@ -81,7 +81,7 @@ function vset(node, ver, ok) {
   }
   else {
     if (node.version_added && ! node.version_removed) {
-      // Feature was added in this version
+      // Feature was removed in this version
       node.version_removed = ver;
     }
   }
