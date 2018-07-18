@@ -183,6 +183,7 @@ clear(tree);
 
 // read version data from files, update version tree
 for (const ver of versions) {
+  if (vcmp(ver, "4.0.0") < 0) continue;
   for (const flag of flags) {
     const name = files[ver][flag];
     // there's no --harmony file for some 0.12.x versions
