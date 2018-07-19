@@ -80,9 +80,12 @@ function updateSupport(support, versions) {
 function updateFile(nct, bpath) {
   if (map[bpath] === undefined) throw new Error('invalid BCD path ' + bpath);
   const file = path.join(jsDir, map[bpath].bcd_file);
+
   const bcd = utils.readJsonSync(file);
+
   const support = find(bcd, 'javascript', ...bpath.split('/'), '__compat', 'support');
   if (support === undefined) throw new Error('invalid BCD path ' + bpath);
+
   for (const flag of flags) {
     if (nct[flag]) {
       const versions = nct[flag];
@@ -91,6 +94,7 @@ function updateFile(nct, bpath) {
       updateSupport(support, versions);
     }
   }
+
   utils.writeJsonSync(file, bcd);
 }
 
