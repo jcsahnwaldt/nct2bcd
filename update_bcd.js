@@ -16,8 +16,7 @@ if (! nctFile || ! bcdFile || ! bcdDir) {
     bcd-dir: path to BCD folder, e.g. browser-compat-data (files will be modified!)
 Example:
   node ${cmd} nct.json bcd.json browser-compat-data
-    Read data from nct.json and mappings from bcd.json,
-    update target files browser-compat-data/javascript/{,**/}*.json.`;
+    Read data from nct.json and bcd.json, update files in browser-compat-data.`;
   console.log(usage);
   return;
 }
