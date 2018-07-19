@@ -45,6 +45,7 @@ function add(bcd, tree, path, file) {
       bcd[path] = {
         // undefined is dropped in JSON, use explicit empty value instead
         mdn_url: val.mdn_url ? val.mdn_url : '',
+        mdn_desc: val.description ? val.description : '',
         bcd_file: file,
       };
     }
