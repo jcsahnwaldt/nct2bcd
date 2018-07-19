@@ -21,16 +21,14 @@ Example:
   return;
 }
 
-const jsDir = path.join(bcdDir, 'javascript/');
-
 // recursively yield all files in dir
 function *files(base, dir) {
-  const names = fs.readdirSync(base + dir);
+  const names = fs.readdirSync(path.join(base, dir));
   for (const name of names) {
-    const path = dir + name;
-    const stats = fs.lstatSync(base + path);
-    if (stats.isDirectory()) yield *files(base, path + '/');
-    else if (stats.isFile()) yield path;
+    const file = dir + name;
+    const stats = fs.lstatSync(path.join(base, file));
+    if (stats.isDirectory()) yield *files(base, file + '/');
+    else if (stats.isFile()) yield file;
   }
 }
 
@@ -50,15 +48,15 @@ function add(bcd, tree, path, file) {
       };
     }
     else {
-      add(bcd, branch, path + (path === '' ? '' : '/') + key, file);
+      add(bcd, branch, path ? path + '.' + key : key, file);
     }
   }
 }
 
 let bcd = Object.create(null);
-for (const file of files(jsDir, '')) {
-  const data = utils.readJsonSync(jsDir + file);
-  add(bcd, data.javascript, '', file);
+for (const file of files(bcdDir, 'javascript/')) {
+  const data = utils.readJsonSync(path.join(bcdDir, file));
+  add(bcd, data, '', file);
 }
 
 utils.writeJsonSync(bcdFile, bcd);

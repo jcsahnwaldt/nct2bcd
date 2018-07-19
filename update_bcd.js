@@ -27,7 +27,6 @@ Example:
 //
 
 const flags = ['', '--harmony'];
-const jsDir = path.join(bcdDir, 'javascript/');
 const map = utils.readJsonSync(bcdFile);
 
 function find(tree, ...path) {
@@ -74,16 +73,16 @@ function updateSupport(support, versions) {
 }
 
 // update bcd file
-// bpath: bcd path, e.g. "builtins/Array/concat"
+// bpath: bcd path, e.g. "javascript.builtins.Array.concat"
 // flag: flag, i.e. '' or '--harmony'
 // versions: object with 'version_added' and/or 'version_removed' properties
 function updateFile(nct, bpath) {
   if (map[bpath] === undefined) throw new Error('invalid BCD path ' + bpath);
-  const file = path.join(jsDir, map[bpath].bcd_file);
+  const file = path.join(bcdDir, map[bpath].bcd_file);
 
   const bcd = utils.readJsonSync(file);
 
-  const support = find(bcd, 'javascript', ...bpath.split('/'), '__compat', 'support');
+  const support = find(bcd, ...bpath.split('.'), '__compat', 'support');
   if (support === undefined) throw new Error('invalid BCD path ' + bpath);
 
   for (const flag of flags) {

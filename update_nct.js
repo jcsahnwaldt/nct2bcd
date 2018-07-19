@@ -150,9 +150,25 @@ function clear(tree) {
   }
 }
 
+// temporary function
+function new_bcd_path(bpath) {
+  return 'javascript.' + bpath.replace(/\//g, '.');
+}
+
 // clean up version nodes in tree
 function clean(tree) {
   for (const node of leafs(tree)) {
+
+    // temporary code
+    if (Array.isArray(node.bcd_path)) {
+      for (const i in node.bcd_path) {
+        node.bcd_path[i] = new_bcd_path(node.bcd_path[i]);
+      }
+    }
+    else if (node.bcd_path) {
+      node.bcd_path = new_bcd_path(node.bcd_path);
+    }
+
     // remove patch version from 0.x versions - too many changes
     for (const flag of flags) {
       for (const bound of bounds) {

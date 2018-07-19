@@ -21,7 +21,7 @@
     "syntax": {
       "default function parameters": {
         "basic functionality": {
-          "bcd_path": "functions/default_parameters",
+          "bcd_path": "javascript.functions.default_parameters",
           "": {
             "version_added": "6.0.0"
           }
@@ -349,7 +349,7 @@
           }
         },
         "binary literals": {
-          "bcd_path": "grammar/binary_numeric_literals",
+          "bcd_path": "javascript.grammar.binary_numeric_literals",
           "": {
             "version_added": "4.0.0"
           }
@@ -369,7 +369,7 @@
       },
       "template literals": {
         "basic functionality": {
-          "bcd_path": "grammar/template_literals",
+          "bcd_path": "javascript.grammar.template_literals",
           "": {
             "version_added": "4.0.0"
           }
@@ -1155,7 +1155,7 @@
       },
       "class": {
         "class statement": {
-          "bcd_path": "classes",
+          "bcd_path": "javascript.classes",
           "": {
             "version_added": "6.0.0"
           },
@@ -1191,7 +1191,7 @@
           }
         },
         "constructor": {
-          "bcd_path": "classes/constructor",
+          "bcd_path": "javascript.classes.constructor",
           "": {
             "version_added": "6.0.0"
           },
@@ -1236,7 +1236,7 @@
           }
         },
         "static methods": {
-          "bcd_path": "classes/static",
+          "bcd_path": "javascript.classes.static",
           "": {
             "version_added": "6.0.0"
           },
@@ -1335,7 +1335,7 @@
           }
         },
         "extends": {
-          "bcd_path": "classes/extends",
+          "bcd_path": "javascript.classes.extends",
           "": {
             "version_added": "6.0.0"
           },
@@ -1447,7 +1447,7 @@
       },
       "generators": {
         "basic functionality": {
-          "bcd_path": "statements/generator_function",
+          "bcd_path": "javascript.statements.generator_function",
           "": {
             "version_added": "4.0.0"
           }
@@ -1507,13 +1507,13 @@
           }
         },
         "yield operator precedence": {
-          "bcd_path": "operators/yield",
+          "bcd_path": "javascript.operators.yield",
           "": {
             "version_added": "4.0.0"
           }
         },
         "yield *, arrays": {
-          "bcd_path": "operators/yield_star",
+          "bcd_path": "javascript.operators.yield_star",
           "": {
             "version_added": "4.0.0"
           }
@@ -1724,7 +1724,7 @@
           }
         },
         "ArrayBuffer[Symbol.species]": {
-          "bcd_path": "builtins/ArrayBuffer/@@species",
+          "bcd_path": "javascript.builtins.ArrayBuffer.@@species",
           "": {
             "version_added": "6.5.0"
           },
@@ -1751,13 +1751,13 @@
           }
         },
         "%TypedArray%.from": {
-          "bcd_path": "builtins/TypedArray/from",
+          "bcd_path": "javascript.builtins.TypedArray.from",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.of": {
-          "bcd_path": "builtins/TypedArray/of",
+          "bcd_path": "javascript.builtins.TypedArray.of",
           "": {
             "version_added": "4.0.0"
           }
@@ -1769,103 +1769,103 @@
           }
         },
         "%TypedArray%.prototype.join": {
-          "bcd_path": "builtins/TypedArray/join",
+          "bcd_path": "javascript.builtins.TypedArray.join",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.indexOf": {
-          "bcd_path": "builtins/TypedArray/indexOf",
+          "bcd_path": "javascript.builtins.TypedArray.indexOf",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.lastIndexOf": {
-          "bcd_path": "builtins/TypedArray/lastIndexOf",
+          "bcd_path": "javascript.builtins.TypedArray.lastIndexOf",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.slice": {
-          "bcd_path": "builtins/TypedArray/slice",
+          "bcd_path": "javascript.builtins.TypedArray.slice",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.every": {
-          "bcd_path": "builtins/TypedArray/every",
+          "bcd_path": "javascript.builtins.TypedArray.every",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.filter": {
-          "bcd_path": "builtins/TypedArray/filter",
+          "bcd_path": "javascript.builtins.TypedArray.filter",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.forEach": {
-          "bcd_path": "builtins/TypedArray/forEach",
+          "bcd_path": "javascript.builtins.TypedArray.forEach",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.map": {
-          "bcd_path": "builtins/TypedArray/map",
+          "bcd_path": "javascript.builtins.TypedArray.map",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.reduce": {
-          "bcd_path": "builtins/TypedArray/reduce",
+          "bcd_path": "javascript.builtins.TypedArray.reduce",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.reduceRight": {
-          "bcd_path": "builtins/TypedArray/reduceRight",
+          "bcd_path": "javascript.builtins.TypedArray.reduceRight",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.reverse": {
-          "bcd_path": "builtins/TypedArray/reverse",
+          "bcd_path": "javascript.builtins.TypedArray.reverse",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.some": {
-          "bcd_path": "builtins/TypedArray/some",
+          "bcd_path": "javascript.builtins.TypedArray.some",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.sort": {
-          "bcd_path": "builtins/TypedArray/sort",
+          "bcd_path": "javascript.builtins.TypedArray.sort",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.copyWithin": {
-          "bcd_path": "builtins/TypedArray/copyWithin",
+          "bcd_path": "javascript.builtins.TypedArray.copyWithin",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.find": {
-          "bcd_path": "builtins/TypedArray/find",
+          "bcd_path": "javascript.builtins.TypedArray.find",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.findIndex": {
-          "bcd_path": "builtins/TypedArray/findIndex",
+          "bcd_path": "javascript.builtins.TypedArray.findIndex",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.fill": {
-          "bcd_path": "builtins/TypedArray/fill",
+          "bcd_path": "javascript.builtins.TypedArray.fill",
           "": {
             "version_added": "4.0.0"
           }
@@ -1895,7 +1895,7 @@
           }
         },
         "%TypedArray%[Symbol.species]": {
-          "bcd_path": "builtins/TypedArray/@@species",
+          "bcd_path": "javascript.builtins.TypedArray.@@species",
           "": {
             "version_added": "6.5.0"
           },
@@ -1906,25 +1906,25 @@
       },
       "Map": {
         "basic functionality": {
-          "bcd_path": "builtins/Map",
+          "bcd_path": "javascript.builtins.Map",
           "": {
             "version_added": "4.0.0"
           }
         },
         "constructor arguments": {
-          "bcd_path": "builtins/Map/map_iterable",
+          "bcd_path": "javascript.builtins.Map.map_iterable",
           "": {
             "version_added": "4.0.0"
           }
         },
         "constructor requires new": {
-          "bcd_path": "builtins/Map/map_without_new_throws",
+          "bcd_path": "javascript.builtins.Map.map_without_new_throws",
           "": {
             "version_added": "4.0.0"
           }
         },
         "constructor accepts null": {
-          "bcd_path": "builtins/Map/map_null",
+          "bcd_path": "javascript.builtins.Map.map_null",
           "": {
             "version_added": "4.0.0"
           }
@@ -1948,55 +1948,55 @@
           }
         },
         "-0 key converts to +0": {
-          "bcd_path": "builtins/Map/key_equality_for_zeros",
+          "bcd_path": "javascript.builtins.Map.key_equality_for_zeros",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Map.prototype.size": {
-          "bcd_path": "builtins/Map/size",
+          "bcd_path": "javascript.builtins.Map.size",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Map.prototype.delete": {
-          "bcd_path": "builtins/Map/delete",
+          "bcd_path": "javascript.builtins.Map.delete",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Map.prototype.clear": {
-          "bcd_path": "builtins/Map/clear",
+          "bcd_path": "javascript.builtins.Map.clear",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Map.prototype.forEach": {
-          "bcd_path": "builtins/Map/forEach",
+          "bcd_path": "javascript.builtins.Map.forEach",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Map.prototype.keys": {
-          "bcd_path": "builtins/Map/keys",
+          "bcd_path": "javascript.builtins.Map.keys",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Map.prototype.values": {
-          "bcd_path": "builtins/Map/values",
+          "bcd_path": "javascript.builtins.Map.values",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Map.prototype.entries": {
-          "bcd_path": "builtins/Map/entries",
+          "bcd_path": "javascript.builtins.Map.entries",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Map.prototype[Symbol.iterator]": {
-          "bcd_path": "builtins/Map/@@iterator",
+          "bcd_path": "javascript.builtins.Map.@@iterator",
           "": {
             "version_added": "4.0.0"
           }
@@ -2014,7 +2014,7 @@
           }
         },
         "Map[Symbol.species]": {
-          "bcd_path": "builtins/Map/@@species",
+          "bcd_path": "javascript.builtins.Map.@@species",
           "": {
             "version_added": "6.5.0"
           },
@@ -2025,25 +2025,25 @@
       },
       "Set": {
         "basic functionality": {
-          "bcd_path": "builtins/Set",
+          "bcd_path": "javascript.builtins.Set",
           "": {
             "version_added": "4.0.0"
           }
         },
         "constructor arguments": {
-          "bcd_path": "builtins/Set/set_iterable",
+          "bcd_path": "javascript.builtins.Set.set_iterable",
           "": {
             "version_added": "4.0.0"
           }
         },
         "constructor requires new": {
-          "bcd_path": "builtins/Set/set_without_new_throws",
+          "bcd_path": "javascript.builtins.Set.set_without_new_throws",
           "": {
             "version_added": "4.0.0"
           }
         },
         "constructor accepts null": {
-          "bcd_path": "builtins/Set/set_null",
+          "bcd_path": "javascript.builtins.Set.set_null",
           "": {
             "version_added": "4.0.0"
           }
@@ -2067,31 +2067,31 @@
           }
         },
         "-0 key converts to +0": {
-          "bcd_path": "builtins/Set/key_equality_for_zeros",
+          "bcd_path": "javascript.builtins.Set.key_equality_for_zeros",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Set.prototype.size": {
-          "bcd_path": "builtins/Set/size",
+          "bcd_path": "javascript.builtins.Set.size",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Set.prototype.delete": {
-          "bcd_path": "builtins/Set/delete",
+          "bcd_path": "javascript.builtins.Set.delete",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Set.prototype.clear": {
-          "bcd_path": "builtins/Set/clear",
+          "bcd_path": "javascript.builtins.Set.clear",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Set.prototype.forEach": {
-          "bcd_path": "builtins/Set/forEach",
+          "bcd_path": "javascript.builtins.Set.forEach",
           "": {
             "version_added": "4.0.0"
           }
@@ -2103,19 +2103,19 @@
           }
         },
         "Set.prototype.values": {
-          "bcd_path": "builtins/Set/values",
+          "bcd_path": "javascript.builtins.Set.values",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Set.prototype.entries": {
-          "bcd_path": "builtins/Set/entries",
+          "bcd_path": "javascript.builtins.Set.entries",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Set.prototype[Symbol.iterator]": {
-          "bcd_path": "builtins/Set/@@iterator",
+          "bcd_path": "javascript.builtins.Set.@@iterator",
           "": {
             "version_added": "4.0.0"
           }
@@ -2133,7 +2133,7 @@
           }
         },
         "Set[Symbol.species]": {
-          "bcd_path": "builtins/Set/@@species",
+          "bcd_path": "javascript.builtins.Set.@@species",
           "": {
             "version_added": "6.5.0"
           },
@@ -2299,8 +2299,8 @@
         },
         "\"get\" handler": {
           "bcd_path": [
-            "builtins/Proxy/handler/get",
-            "builtins/Proxy"
+            "javascript.builtins.Proxy.handler.get",
+            "javascript.builtins.Proxy"
           ],
           "": {
             "version_added": "6.0.0"
@@ -2319,7 +2319,7 @@
           }
         },
         "\"set\" handler": {
-          "bcd_path": "builtins/Proxy/handler/set",
+          "bcd_path": "javascript.builtins.Proxy.handler.set",
           "": {
             "version_added": "6.0.0"
           }
@@ -2337,7 +2337,7 @@
           }
         },
         "\"has\" handler": {
-          "bcd_path": "builtins/Proxy/handler/has",
+          "bcd_path": "javascript.builtins.Proxy.handler.has",
           "": {
             "version_added": "6.0.0"
           }
@@ -2355,7 +2355,7 @@
           }
         },
         "\"deleteProperty\" handler": {
-          "bcd_path": "builtins/Proxy/handler/deleteProperty",
+          "bcd_path": "javascript.builtins.Proxy.handler.deleteProperty",
           "": {
             "version_added": "6.0.0"
           }
@@ -2367,7 +2367,7 @@
           }
         },
         "\"getOwnPropertyDescriptor\" handler": {
-          "bcd_path": "builtins/Proxy/handler/getOwnPropertyDescriptor",
+          "bcd_path": "javascript.builtins.Proxy.handler.getOwnPropertyDescriptor",
           "": {
             "version_added": "6.0.0"
           }
@@ -2379,7 +2379,7 @@
           }
         },
         "\"defineProperty\" handler": {
-          "bcd_path": "builtins/Proxy/handler/defineProperty",
+          "bcd_path": "javascript.builtins.Proxy.handler.defineProperty",
           "": {
             "version_added": "6.0.0"
           }
@@ -2391,7 +2391,7 @@
           }
         },
         "\"getPrototypeOf\" handler": {
-          "bcd_path": "builtins/Proxy/handler/getPrototypeOf",
+          "bcd_path": "javascript.builtins.Proxy.handler.getPrototypeOf",
           "": {
             "version_added": "6.0.0"
           }
@@ -2403,7 +2403,7 @@
           }
         },
         "\"setPrototypeOf\" handler": {
-          "bcd_path": "builtins/Proxy/handler/setPrototypeOf",
+          "bcd_path": "javascript.builtins.Proxy.handler.setPrototypeOf",
           "": {
             "version_added": "6.0.0"
           }
@@ -2415,7 +2415,7 @@
           }
         },
         "\"isExtensible\" handler": {
-          "bcd_path": "builtins/Proxy/handler/isExtensible",
+          "bcd_path": "javascript.builtins.Proxy.handler.isExtensible",
           "": {
             "version_added": "6.0.0"
           }
@@ -2427,7 +2427,7 @@
           }
         },
         "\"preventExtensions\" handler": {
-          "bcd_path": "builtins/Proxy/handler/preventExtensions",
+          "bcd_path": "javascript.builtins.Proxy.handler.preventExtensions",
           "": {
             "version_added": "6.0.0"
           }
@@ -2439,7 +2439,7 @@
           }
         },
         "\"ownKeys\" handler": {
-          "bcd_path": "builtins/Proxy/handler/ownKeys",
+          "bcd_path": "javascript.builtins.Proxy.handler.ownKeys",
           "": {
             "version_added": "6.0.0"
           }
@@ -2451,7 +2451,7 @@
           }
         },
         "\"apply\" handler": {
-          "bcd_path": "builtins/Proxy/handler/apply",
+          "bcd_path": "javascript.builtins.Proxy.handler.apply",
           "": {
             "version_added": "6.0.0"
           }
@@ -2463,7 +2463,7 @@
           }
         },
         "\"construct\" handler": {
-          "bcd_path": "builtins/Proxy/handler/construct",
+          "bcd_path": "javascript.builtins.Proxy.handler.construct",
           "": {
             "version_added": "6.0.0"
           }
@@ -2475,7 +2475,7 @@
           }
         },
         "Proxy.revocable": {
-          "bcd_path": "builtins/Proxy/revocable",
+          "bcd_path": "javascript.builtins.Proxy.revocable",
           "": {
             "version_added": "6.0.0"
           }
@@ -2496,87 +2496,87 @@
       "Reflect": {
         "Reflect.get": {
           "bcd_path": [
-            "builtins/Reflect/get",
-            "builtins/Reflect"
+            "javascript.builtins.Reflect.get",
+            "javascript.builtins.Reflect"
           ],
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.set": {
-          "bcd_path": "builtins/Reflect/set",
+          "bcd_path": "javascript.builtins.Reflect.set",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.has": {
-          "bcd_path": "builtins/Reflect/has",
+          "bcd_path": "javascript.builtins.Reflect.has",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.deleteProperty": {
-          "bcd_path": "builtins/Reflect/deleteProperty",
+          "bcd_path": "javascript.builtins.Reflect.deleteProperty",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.getOwnPropertyDescriptor": {
-          "bcd_path": "builtins/Reflect/getOwnPropertyDescriptor",
+          "bcd_path": "javascript.builtins.Reflect.getOwnPropertyDescriptor",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.defineProperty": {
-          "bcd_path": "builtins/Reflect/defineProperty",
+          "bcd_path": "javascript.builtins.Reflect.defineProperty",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.getPrototypeOf": {
-          "bcd_path": "builtins/Reflect/getPrototypeOf",
+          "bcd_path": "javascript.builtins.Reflect.getPrototypeOf",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.setPrototypeOf": {
-          "bcd_path": "builtins/Reflect/setPrototypeOf",
+          "bcd_path": "javascript.builtins.Reflect.setPrototypeOf",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.isExtensible": {
-          "bcd_path": "builtins/Reflect/isExtensible",
+          "bcd_path": "javascript.builtins.Reflect.isExtensible",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.preventExtensions": {
-          "bcd_path": "builtins/Reflect/preventExtensions",
+          "bcd_path": "javascript.builtins.Reflect.preventExtensions",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.ownKeys, string keys": {
-          "bcd_path": "builtins/Reflect/ownKeys",
+          "bcd_path": "javascript.builtins.Reflect.ownKeys",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.ownKeys, symbol keys": {
-          "bcd_path": "builtins/Reflect/ownKeys",
+          "bcd_path": "javascript.builtins.Reflect.ownKeys",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.apply": {
-          "bcd_path": "builtins/Reflect/apply",
+          "bcd_path": "javascript.builtins.Reflect.apply",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Reflect.construct": {
-          "bcd_path": "builtins/Reflect/construct",
+          "bcd_path": "javascript.builtins.Reflect.construct",
           "": {
             "version_added": "6.0.0"
           }
@@ -2747,7 +2747,7 @@
       },
       "well-known symbols": {
         "Symbol.hasInstance": {
-          "bcd_path": "builtins/Symbol/hasInstance",
+          "bcd_path": "javascript.builtins.Symbol.hasInstance",
           "": {
             "version_added": "6.5.0"
           },
@@ -2756,13 +2756,13 @@
           }
         },
         "Symbol.isConcatSpreadable": {
-          "bcd_path": "builtins/Symbol/isConcatSpreadable",
+          "bcd_path": "javascript.builtins.Symbol.isConcatSpreadable",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Symbol.iterator, existence": {
-          "bcd_path": "builtins/Symbol/iterator",
+          "bcd_path": "javascript.builtins.Symbol.iterator",
           "": {
             "version_added": "4.0.0"
           }
@@ -2774,7 +2774,7 @@
           }
         },
         "Symbol.species, existence": {
-          "bcd_path": "builtins/Symbol/species",
+          "bcd_path": "javascript.builtins.Symbol.species",
           "": {
             "version_added": "6.5.0"
           },
@@ -2843,25 +2843,25 @@
           }
         },
         "Symbol.replace": {
-          "bcd_path": "builtins/Symbol/replace",
+          "bcd_path": "javascript.builtins.Symbol.replace",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Symbol.search": {
-          "bcd_path": "builtins/Symbol/search",
+          "bcd_path": "javascript.builtins.Symbol.search",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Symbol.split": {
-          "bcd_path": "builtins/Symbol/split",
+          "bcd_path": "javascript.builtins.Symbol.split",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Symbol.match": {
-          "bcd_path": "builtins/Symbol/match",
+          "bcd_path": "javascript.builtins.Symbol.match",
           "": {
             "version_added": "6.0.0"
           }
@@ -2891,13 +2891,13 @@
           }
         },
         "Symbol.toPrimitive": {
-          "bcd_path": "builtins/Symbol/toPrimitive",
+          "bcd_path": "javascript.builtins.Symbol.toPrimitive",
           "": {
             "version_added": "6.0.0"
           }
         },
         "Symbol.toStringTag": {
-          "bcd_path": "builtins/Symbol/toStringTag",
+          "bcd_path": "javascript.builtins.Symbol.toStringTag",
           "": {
             "version_added": "6.0.0"
           },
@@ -2927,7 +2927,7 @@
           }
         },
         "Symbol.unscopables": {
-          "bcd_path": "builtins/Symbol/unscopables",
+          "bcd_path": "javascript.builtins.Symbol.unscopables",
           "": {
             "version_added": "4.0.0"
           }
@@ -3097,13 +3097,13 @@
       },
       "String static methods": {
         "String.raw": {
-          "bcd_path": "builtins/String/raw",
+          "bcd_path": "javascript.builtins.String.raw",
           "": {
             "version_added": "4.0.0"
           }
         },
         "String.fromCodePoint": {
-          "bcd_path": "builtins/String/fromCodePoint",
+          "bcd_path": "javascript.builtins.String.fromCodePoint",
           "": {
             "version_added": "4.0.0"
           }
@@ -3153,7 +3153,7 @@
           }
         },
         "String.prototype.includes": {
-          "bcd_path": "builtins/String/includes",
+          "bcd_path": "javascript.builtins.String.includes",
           "": {
             "version_added": "4.0.0"
           }
@@ -3173,7 +3173,7 @@
       },
       "RegExp.prototype properties": {
         "RegExp.prototype.flags": {
-          "bcd_path": "builtins/RegExp/flags",
+          "bcd_path": "javascript.builtins.RegExp.flags",
           "": {
             "version_added": "6.0.0"
           }
@@ -3203,7 +3203,7 @@
           }
         },
         "RegExp[Symbol.species]": {
-          "bcd_path": "builtins/RegExp/@@species",
+          "bcd_path": "javascript.builtins.RegExp.@@species",
           "": {
             "version_added": "6.5.0"
           },
@@ -3214,7 +3214,7 @@
       },
       "Array static methods": {
         "Array.from, array-like objects": {
-          "bcd_path": "builtins/Array/from",
+          "bcd_path": "javascript.builtins.Array.from",
           "": {
             "version_added": "4.0.0"
           }
@@ -3268,13 +3268,13 @@
           }
         },
         "Array.of": {
-          "bcd_path": "builtins/Array/of",
+          "bcd_path": "javascript.builtins.Array.of",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Array[Symbol.species]": {
-          "bcd_path": "builtins/Array/@@species",
+          "bcd_path": "javascript.builtins.Array.@@species",
           "": {
             "version_added": "6.5.0"
           },
@@ -3285,47 +3285,47 @@
       },
       "Array.prototype methods": {
         "Array.prototype.copyWithin": {
-          "bcd_path": "builtins/Array/copyWithin",
+          "bcd_path": "javascript.builtins.Array.copyWithin",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Array.prototype.find": {
-          "bcd_path": "builtins/Array/find",
+          "bcd_path": "javascript.builtins.Array.find",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Array.prototype.findIndex": {
-          "bcd_path": "builtins/Array/findIndex",
+          "bcd_path": "javascript.builtins.Array.findIndex",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Array.prototype.fill": {
-          "bcd_path": "builtins/Array/fill",
+          "bcd_path": "javascript.builtins.Array.fill",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Array.prototype.keys": {
-          "bcd_path": "builtins/Array/keys",
+          "bcd_path": "javascript.builtins.Array.keys",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Array.prototype.values": {
-          "bcd_path": "builtins/Array/values",
+          "bcd_path": "javascript.builtins.Array.values",
           "": {}
         },
         "Array.prototype.entries": {
-          "bcd_path": "builtins/Array/entries",
+          "bcd_path": "javascript.builtins.Array.entries",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Array.prototype[Symbol.iterator]": {
-          "bcd_path": "builtins/Array/@@iterator",
+          "bcd_path": "javascript.builtins.Array.@@iterator",
           "": {
             "version_added": "4.0.0"
           }
@@ -3337,7 +3337,7 @@
           }
         },
         "Array.prototype[Symbol.unscopables]": {
-          "bcd_path": "builtins/Array/@@unscopables",
+          "bcd_path": "javascript.builtins.Array.@@unscopables",
           "": {
             "version_added": "4.0.0"
           }
@@ -3345,37 +3345,37 @@
       },
       "Number properties": {
         "Number.isFinite": {
-          "bcd_path": "builtins/Number/isFinite",
+          "bcd_path": "javascript.builtins.Number.isFinite",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Number.isInteger": {
-          "bcd_path": "builtins/Number/isInteger",
+          "bcd_path": "javascript.builtins.Number.isInteger",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Number.isSafeInteger": {
-          "bcd_path": "builtins/Number/isSafeInteger",
+          "bcd_path": "javascript.builtins.Number.isSafeInteger",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Number.isNaN": {
-          "bcd_path": "builtins/Number/isNaN",
+          "bcd_path": "javascript.builtins.Number.isNaN",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Number.parseFloat": {
-          "bcd_path": "builtins/Number/parseFloat",
+          "bcd_path": "javascript.builtins.Number.parseFloat",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Number.parseInt": {
-          "bcd_path": "builtins/Number/parseInt",
+          "bcd_path": "javascript.builtins.Number.parseInt",
           "": {
             "version_added": "4.0.0"
           }
@@ -3401,103 +3401,103 @@
       },
       "Math methods": {
         "Math.clz32": {
-          "bcd_path": "builtins/Math/clz32",
+          "bcd_path": "javascript.builtins.Math.clz32",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.imul": {
-          "bcd_path": "builtins/Math/imul",
+          "bcd_path": "javascript.builtins.Math.imul",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.sign": {
-          "bcd_path": "builtins/Math/sign",
+          "bcd_path": "javascript.builtins.Math.sign",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.log10": {
-          "bcd_path": "builtins/Math/log10",
+          "bcd_path": "javascript.builtins.Math.log10",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.log2": {
-          "bcd_path": "builtins/Math/log2",
+          "bcd_path": "javascript.builtins.Math.log2",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.log1p": {
-          "bcd_path": "builtins/Math/log1p",
+          "bcd_path": "javascript.builtins.Math.log1p",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.expm1": {
-          "bcd_path": "builtins/Math/expm1",
+          "bcd_path": "javascript.builtins.Math.expm1",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.cosh": {
-          "bcd_path": "builtins/Math/cosh",
+          "bcd_path": "javascript.builtins.Math.cosh",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.sinh": {
-          "bcd_path": "builtins/Math/sinh",
+          "bcd_path": "javascript.builtins.Math.sinh",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.tanh": {
-          "bcd_path": "builtins/Math/tanh",
+          "bcd_path": "javascript.builtins.Math.tanh",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.acosh": {
-          "bcd_path": "builtins/Math/acosh",
+          "bcd_path": "javascript.builtins.Math.acosh",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.asinh": {
-          "bcd_path": "builtins/Math/asinh",
+          "bcd_path": "javascript.builtins.Math.asinh",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.atanh": {
-          "bcd_path": "builtins/Math/atanh",
+          "bcd_path": "javascript.builtins.Math.atanh",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.trunc": {
-          "bcd_path": "builtins/Math/trunc",
+          "bcd_path": "javascript.builtins.Math.trunc",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.fround": {
-          "bcd_path": "builtins/Math/fround",
+          "bcd_path": "javascript.builtins.Math.fround",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.cbrt": {
-          "bcd_path": "builtins/Math/cbrt",
+          "bcd_path": "javascript.builtins.Math.cbrt",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.hypot": {
-          "bcd_path": "builtins/Math/hypot",
+          "bcd_path": "javascript.builtins.Math.hypot",
           "": {
             "version_added": "4.0.0"
           }
@@ -4700,7 +4700,7 @@
     "features": {
       "Object static methods": {
         "Object.values": {
-          "bcd_path": "builtins/Object/values",
+          "bcd_path": "javascript.builtins.Object.values",
           "": {
             "version_added": "7.0.0"
           },
@@ -4709,7 +4709,7 @@
           }
         },
         "Object.entries": {
-          "bcd_path": "builtins/Object/entries",
+          "bcd_path": "javascript.builtins.Object.entries",
           "": {
             "version_added": "7.0.0"
           },
@@ -4718,7 +4718,7 @@
           }
         },
         "Object.getOwnPropertyDescriptors": {
-          "bcd_path": "builtins/Object/getOwnPropertyDescriptors",
+          "bcd_path": "javascript.builtins.Object.getOwnPropertyDescriptors",
           "": {
             "version_added": "7.0.0"
           },
@@ -4735,7 +4735,7 @@
       },
       "String padding": {
         "String.prototype.padStart": {
-          "bcd_path": "builtins/String/padStart",
+          "bcd_path": "javascript.builtins.String.padStart",
           "": {
             "version_added": "8.0.0"
           },
@@ -4744,7 +4744,7 @@
           }
         },
         "String.prototype.padEnd": {
-          "bcd_path": "builtins/String/padEnd",
+          "bcd_path": "javascript.builtins.String.padEnd",
           "": {
             "version_added": "8.0.0"
           },
@@ -4770,8 +4770,8 @@
       "async functions": {
         "return": {
           "bcd_path": [
-            "operators/async_function_expression",
-            "statements/async_function"
+            "javascript.operators.async_function_expression",
+            "javascript.statements.async_function"
           ],
           "": {
             "version_added": "7.6.0"
@@ -4862,7 +4862,7 @@
           }
         },
         "async methods, classes": {
-          "bcd_path": "functions/method_definitions/async_methods",
+          "bcd_path": "javascript.functions.method_definitions.async_methods",
           "": {
             "version_added": "7.6.0"
           },
@@ -4909,7 +4909,7 @@
       },
       "shared memory and atomics": {
         "SharedArrayBuffer": {
-          "bcd_path": "builtins/SharedArrayBuffer",
+          "bcd_path": "javascript.builtins.SharedArrayBuffer",
           "": {
             "version_added": "8.10.0"
           }
@@ -4921,13 +4921,13 @@
           }
         },
         "SharedArrayBuffer.prototype.byteLength": {
-          "bcd_path": "builtins/SharedArrayBuffer/byteLength",
+          "bcd_path": "javascript.builtins.SharedArrayBuffer.byteLength",
           "": {
             "version_added": "8.10.0"
           }
         },
         "SharedArrayBuffer.prototype.slice": {
-          "bcd_path": "builtins/SharedArrayBuffer/slice",
+          "bcd_path": "javascript.builtins.SharedArrayBuffer.slice",
           "": {
             "version_added": "8.10.0"
           }
@@ -4939,73 +4939,73 @@
           }
         },
         "Atomics.add": {
-          "bcd_path": "builtins/Atomics/add",
+          "bcd_path": "javascript.builtins.Atomics.add",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.and": {
-          "bcd_path": "builtins/Atomics/and",
+          "bcd_path": "javascript.builtins.Atomics.and",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.compareExchange": {
-          "bcd_path": "builtins/Atomics/compareExchange",
+          "bcd_path": "javascript.builtins.Atomics.compareExchange",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.exchange": {
-          "bcd_path": "builtins/Atomics/exchange",
+          "bcd_path": "javascript.builtins.Atomics.exchange",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.wait": {
-          "bcd_path": "builtins/Atomics/wait",
+          "bcd_path": "javascript.builtins.Atomics.wait",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.wake": {
-          "bcd_path": "builtins/Atomics/wake",
+          "bcd_path": "javascript.builtins.Atomics.wake",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.isLockFree": {
-          "bcd_path": "builtins/Atomics/isLockFree",
+          "bcd_path": "javascript.builtins.Atomics.isLockFree",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.load": {
-          "bcd_path": "builtins/Atomics/load",
+          "bcd_path": "javascript.builtins.Atomics.load",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.or": {
-          "bcd_path": "builtins/Atomics/or",
+          "bcd_path": "javascript.builtins.Atomics.or",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.store": {
-          "bcd_path": "builtins/Atomics/store",
+          "bcd_path": "javascript.builtins.Atomics.store",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.sub": {
-          "bcd_path": "builtins/Atomics/sub",
+          "bcd_path": "javascript.builtins.Atomics.sub",
           "": {
             "version_added": "8.10.0"
           }
         },
         "Atomics.xor": {
-          "bcd_path": "builtins/Atomics/xor",
+          "bcd_path": "javascript.builtins.Atomics.xor",
           "": {
             "version_added": "8.10.0"
           }
@@ -5201,7 +5201,7 @@
       },
       "Promise.prototype.finally": {
         "basic support": {
-          "bcd_path": "builtins/Promise/finally",
+          "bcd_path": "javascript.builtins.Promise.finally",
           "": {
             "version_added": "10.0.0"
           }
@@ -5257,7 +5257,7 @@
       },
       "Asynchronous Iterators": {
         "async generators": {
-          "bcd_path": "functions/method_definitions/async_generator_methods",
+          "bcd_path": "javascript.functions.method_definitions.async_generator_methods",
           "": {
             "version_added": "10.0.0"
           },
@@ -5304,13 +5304,13 @@
           }
         },
         "String.prototype.trimStart": {
-          "bcd_path": "builtins/String/trimStart",
+          "bcd_path": "javascript.builtins.String.trimStart",
           "": {
             "version_added": "10.0.0"
           }
         },
         "String.prototype.trimEnd": {
-          "bcd_path": "builtins/String/trimEnd",
+          "bcd_path": "javascript.builtins.String.trimEnd",
           "": {
             "version_added": "10.0.0"
           }
