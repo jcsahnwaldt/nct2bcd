@@ -3401,103 +3401,103 @@
       },
       "Math methods": {
         "Math.clz32": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Math/clz32",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.imul": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Math/imul",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.sign": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Math/sign",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.log10": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Math/log10",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.log2": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Math/log2",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.log1p": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Math/log1p",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.expm1": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Math/expm1",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.cosh": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Math/cosh",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.sinh": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Math/sinh",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.tanh": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Math/tanh",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.acosh": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Math/acosh",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.asinh": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Math/asinh",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.atanh": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Math/atanh",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.trunc": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Math/trunc",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.fround": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Math/fround",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.cbrt": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Math/cbrt",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Math.hypot": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Math/hypot",
           "": {
             "version_added": "4.0.0"
           }
