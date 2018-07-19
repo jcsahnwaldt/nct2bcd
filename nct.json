@@ -2144,25 +2144,31 @@
       },
       "WeakMap": {
         "basic functionality": {
-          "bcd_path": "",
+          "bcd_path": [
+            "javascript.builtins.WeakMap",
+            "javascript.builtins.WeakMap.prototype",
+            "javascript.builtins.WeakMap.get",
+            "javascript.builtins.WeakMap.has",
+            "javascript.builtins.WeakMap.set"
+          ],
           "": {
             "version_added": "4.0.0"
           }
         },
         "constructor arguments": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.WeakMap.weakmap_iterable",
           "": {
             "version_added": "4.0.0"
           }
         },
         "constructor requires new": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.WeakMap.weakmap_without_new_throws",
           "": {
             "version_added": "4.0.0"
           }
         },
         "constructor accepts null": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.WeakMap.weakmap_null",
           "": {
             "version_added": "4.0.0"
           }
@@ -2192,7 +2198,7 @@
           }
         },
         "WeakMap.prototype.delete": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.WeakMap.delete",
           "": {
             "version_added": "4.0.0"
           }
