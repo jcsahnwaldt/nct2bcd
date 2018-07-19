@@ -36,29 +36,29 @@ function *files(base, dir) {
 
 // add property paths to bcd
 function add(bcd, tree, path, file) {
-  for (const [key, val] of Object.entries(tree)) {
+  for (const [key, branch] of Object.entries(tree)) {
     if (key === '__compat') {
       // ignore deprecated features
-      if (val.status.deprecated) continue;
+      if (branch.status.deprecated) continue;
 
       if (bcd[path]) throw new Error('duplicate path ' + path);
       bcd[path] = {
         // undefined is dropped in JSON, use explicit empty value instead
-        mdn_url: val.mdn_url ? val.mdn_url : '',
-        mdn_desc: val.description ? val.description : '',
+        mdn_url: branch.mdn_url ? branch.mdn_url : '',
+        mdn_desc: branch.description ? branch.description : '',
         bcd_file: file,
       };
     }
     else {
-      add(bcd, val, path + (path === '' ? '' : '/') + key, file);
+      add(bcd, branch, path + (path === '' ? '' : '/') + key, file);
     }
   }
 }
 
 let bcd = Object.create(null);
-for (const path of files(jsDir, '')) {
-  const data = utils.readJsonSync(jsDir + path);
-  add(bcd, data.javascript, '', path);
+for (const file of files(jsDir, '')) {
+  const data = utils.readJsonSync(jsDir + file);
+  add(bcd, data.javascript, '', file);
 }
 
 utils.writeJsonSync(bcdFile, bcd);
