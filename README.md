@@ -1,6 +1,6 @@
 ## nct2bcd
 
-Automatically copy [Node.js](http://nodejs.org) compatibility data from [node-compat-table](https://github.com/williamkapke/node-compat-table) (NCT) to [browser-compat-data](https://github.com/mdn/browser-compat-data) (BCD). More precisely, to your own branch of browser-compat-data, which you can then use for a pull request.
+Copy [Node.js](http://nodejs.org) compatibility data from [node-compat-table](https://github.com/williamkapke/node-compat-table) (NCT) to [browser-compat-data](https://github.com/mdn/browser-compat-data) (BCD). More precisely, to your own branch of browser-compat-data, which you can then use for a pull request.
 
 **Warning: Work in progress! This tool hasn't been thoroughly tested yet and may overwrite your files or make demons fly out of your nose.**
 
