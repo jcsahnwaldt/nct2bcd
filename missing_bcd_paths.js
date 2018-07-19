@@ -19,10 +19,6 @@ Example:
   return;
 }
 
-//
-// global constants
-//
-
 const bcd = utils.readJsonSync(bcdFile);
 const nct = utils.readJsonSync(nctFile);
 
@@ -39,7 +35,12 @@ function *leafs(tree) {
 }
 
 for (const node of leafs(nct)) {
-  if (node.bcd_path !== '') {
+  if (Array.isArray(node.bcd_path)) {
+    for (const bpath of node.bcd_path) {
+      delete bcd[bpath];
+    }
+  }
+  else if (node.bcd_path !== '') {
     delete bcd[node.bcd_path];
   }
 }
