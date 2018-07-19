@@ -349,7 +349,7 @@
           }
         },
         "binary literals": {
-          "bcd_path": "",
+          "bcd_path": "grammar/binary_numeric_literals",
           "": {
             "version_added": "4.0.0"
           }
@@ -369,7 +369,7 @@
       },
       "template literals": {
         "basic functionality": {
-          "bcd_path": "",
+          "bcd_path": "grammar/template_literals",
           "": {
             "version_added": "4.0.0"
           }
@@ -1906,25 +1906,25 @@
       },
       "Map": {
         "basic functionality": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Map",
           "": {
             "version_added": "4.0.0"
           }
         },
         "constructor arguments": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Map/map_iterable",
           "": {
             "version_added": "4.0.0"
           }
         },
         "constructor requires new": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Map/map_without_new_throws",
           "": {
             "version_added": "4.0.0"
           }
         },
         "constructor accepts null": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Map/map_null",
           "": {
             "version_added": "4.0.0"
           }
@@ -1948,55 +1948,55 @@
           }
         },
         "-0 key converts to +0": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Map/key_equality_for_zeros",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Map.prototype.size": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Map/size",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Map.prototype.delete": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Map/delete",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Map.prototype.clear": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Map/clear",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Map.prototype.forEach": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Map/forEach",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Map.prototype.keys": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Map/keys",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Map.prototype.values": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Map/values",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Map.prototype.entries": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Map/entries",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Map.prototype[Symbol.iterator]": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Map/@@iterator",
           "": {
             "version_added": "4.0.0"
           }
@@ -2025,25 +2025,25 @@
       },
       "Set": {
         "basic functionality": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Set",
           "": {
             "version_added": "4.0.0"
           }
         },
         "constructor arguments": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Set/set_iterable",
           "": {
             "version_added": "4.0.0"
           }
         },
         "constructor requires new": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Set/set_without_new_throws",
           "": {
             "version_added": "4.0.0"
           }
         },
         "constructor accepts null": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Set/set_null",
           "": {
             "version_added": "4.0.0"
           }
@@ -2067,31 +2067,31 @@
           }
         },
         "-0 key converts to +0": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Set/key_equality_for_zeros",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Set.prototype.size": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Set/size",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Set.prototype.delete": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Set/delete",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Set.prototype.clear": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Set/clear",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Set.prototype.forEach": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Set/forEach",
           "": {
             "version_added": "4.0.0"
           }
@@ -2103,19 +2103,19 @@
           }
         },
         "Set.prototype.values": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Set/values",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Set.prototype.entries": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Set/entries",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Set.prototype[Symbol.iterator]": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Set/@@iterator",
           "": {
             "version_added": "4.0.0"
           }
@@ -3309,23 +3309,23 @@
           }
         },
         "Array.prototype.keys": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Array/keys",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Array.prototype.values": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Array/values",
           "": {}
         },
         "Array.prototype.entries": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Array/entries",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Array.prototype[Symbol.iterator]": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Array/@@iterator",
           "": {
             "version_added": "4.0.0"
           }
@@ -3337,7 +3337,7 @@
           }
         },
         "Array.prototype[Symbol.unscopables]": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Array/@@unscopables",
           "": {
             "version_added": "4.0.0"
           }
@@ -3345,37 +3345,37 @@
       },
       "Number properties": {
         "Number.isFinite": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Number/isFinite",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Number.isInteger": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Number/isInteger",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Number.isSafeInteger": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Number/isSafeInteger",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Number.isNaN": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Number/isNaN",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Number.parseFloat": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Number/parseFloat",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Number.parseInt": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Number/parseInt",
           "": {
             "version_added": "4.0.0"
           }
@@ -4769,7 +4769,10 @@
       },
       "async functions": {
         "return": {
-          "bcd_path": "",
+          "bcd_path": [
+            "operators/async_function_expression",
+            "statements/async_function"
+          ],
           "": {
             "version_added": "7.6.0"
           },
@@ -4859,7 +4862,7 @@
           }
         },
         "async methods, classes": {
-          "bcd_path": "",
+          "bcd_path": "functions/method_definitions/async_methods",
           "": {
             "version_added": "7.6.0"
           },
@@ -5254,7 +5257,7 @@
       },
       "Asynchronous Iterators": {
         "async generators": {
-          "bcd_path": "",
+          "bcd_path": "functions/method_definitions/async_generator_methods",
           "": {
             "version_added": "10.0.0"
           },
