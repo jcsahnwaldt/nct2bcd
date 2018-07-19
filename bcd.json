@@ -474,13 +474,13 @@
     "mdn_desc": "",
     "bcd_file": "builtins/DataView.json"
   },
-  "builtins/Date": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date",
+  "builtins/Date/@@toPrimitive": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/@@toPrimitive",
     "mdn_desc": "",
     "bcd_file": "builtins/Date.json"
   },
-  "builtins/Date/@@toPrimitive": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/@@toPrimitive",
+  "builtins/Date/Date": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date",
     "mdn_desc": "",
     "bcd_file": "builtins/Date.json"
   },
@@ -1519,11 +1519,6 @@
     "mdn_desc": "",
     "bcd_file": "builtins/Math.json"
   },
-  "builtins/Number": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number",
-    "mdn_desc": "",
-    "bcd_file": "builtins/Number.json"
-  },
   "builtins/Number/EPSILON": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/EPSILON",
     "mdn_desc": "",
@@ -1556,6 +1551,11 @@
   },
   "builtins/Number/NaN": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/NaN",
+    "mdn_desc": "",
+    "bcd_file": "builtins/Number.json"
+  },
+  "builtins/Number/Number": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number",
     "mdn_desc": "",
     "bcd_file": "builtins/Number.json"
   },
@@ -2284,17 +2284,17 @@
     "mdn_desc": "",
     "bcd_file": "builtins/SharedArrayBuffer.json"
   },
-  "builtins/String": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String",
-    "mdn_desc": "",
-    "bcd_file": "builtins/String.json"
-  },
   "builtins/String/@@iterator": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator",
     "mdn_desc": "",
     "bcd_file": "builtins/String.json"
   },
-  "builtins/String/unicode_code_point_escapes": {
+  "builtins/String/String": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "mdn_desc": "",
+    "bcd_file": "builtins/String.json"
+  },
+  "builtins/String/String/unicode_code_point_escapes": {
     "mdn_url": "",
     "mdn_desc": "Unicode code point escapes \\u{xxxxxx}",
     "bcd_file": "builtins/String.json"
