@@ -15,8 +15,7 @@ if (! nctDir || ! nctFile) {
     nct-file: path to NCT mapping file, e.g. nct.json (will be overwritten!)
 Example:
   node ${cmd} node-compat-table nct.json
-    Parse data in node-compat-table/results/v8/*.json,
-    write result into nct.json.`;
+    Parse data in node-compat-table/results/v8/*.json, write result into nct.json.`;
   console.log(usage);
   return;
 }
