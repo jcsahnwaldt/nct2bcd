@@ -3285,25 +3285,25 @@
       },
       "Array.prototype methods": {
         "Array.prototype.copyWithin": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Array/copyWithin",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Array.prototype.find": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Array/find",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Array.prototype.findIndex": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Array/findIndex",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Array.prototype.fill": {
-          "bcd_path": "",
+          "bcd_path": "builtins/Array/fill",
           "": {
             "version_added": "4.0.0"
           }
