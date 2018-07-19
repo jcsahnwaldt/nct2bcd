@@ -2224,13 +2224,19 @@
       },
       "WeakSet": {
         "basic functionality": {
-          "bcd_path": "",
+          "bcd_path": [
+            "javascript.builtins.WeakSet",
+            "javascript.builtins.WeakSet.prototype",
+            "javascript.builtins.WeakSet.add",
+            "javascript.builtins.WeakSet.delete",
+            "javascript.builtins.WeakSet.has"
+          ],
           "": {
             "version_added": "4.0.0"
           }
         },
         "constructor arguments": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.WeakSet.weakset_iterable",
           "": {
             "version_added": "4.0.0"
           }
@@ -2242,7 +2248,7 @@
           }
         },
         "constructor accepts null": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.WeakSet.weakset_null",
           "": {
             "version_added": "4.0.0"
           }
