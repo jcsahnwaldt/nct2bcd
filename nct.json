@@ -1622,25 +1622,25 @@
     "built-ins": {
       "typed arrays": {
         "Int8Array": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Int8Array",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Uint8Array": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Uint8Array",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Uint8ClampedArray": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Uint8ClampedArray",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Int16Array": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Int16Array",
           "": {
             "version_added": "4.0.0"
           }
@@ -1733,13 +1733,37 @@
           }
         },
         "constructors require new": {
-          "bcd_path": "",
+          "bcd_path": [
+            "javascript.builtins.ArrayBuffer.new_required",
+            "javascript.builtins.DataView.new_required",
+            "javascript.builtins.Float32Array.new_required",
+            "javascript.builtins.Float64Array.new_required",
+            "javascript.builtins.Int16Array.new_required",
+            "javascript.builtins.Int32Array.new_required",
+            "javascript.builtins.Int8Array.new_required",
+            "javascript.builtins.TypedArray.new_required",
+            "javascript.builtins.Uint16Array.new_required",
+            "javascript.builtins.Uint32Array.new_required",
+            "javascript.builtins.Uint8Array.new_required",
+            "javascript.builtins.Uint8ClampedArray.new_required"
+          ],
           "": {
             "version_added": "4.0.0"
           }
         },
         "constructors accept generic iterables": {
-          "bcd_path": "",
+          "bcd_path": [
+            "javascript.builtins.Float32Array.iterable_in_constructor",
+            "javascript.builtins.Float64Array.iterable_in_constructor",
+            "javascript.builtins.Int16Array.iterable_in_constructor",
+            "javascript.builtins.Int32Array.iterable_in_constructor",
+            "javascript.builtins.Int8Array.iterable_in_constructor",
+            "javascript.builtins.TypedArray.iterable_in_constructor",
+            "javascript.builtins.Uint16Array.iterable_in_constructor",
+            "javascript.builtins.Uint32Array.iterable_in_constructor",
+            "javascript.builtins.Uint8Array.iterable_in_constructor",
+            "javascript.builtins.Uint8ClampedArray.iterable_in_constructor"
+          ],
           "": {
             "version_added": "4.0.0"
           }
@@ -1871,25 +1895,25 @@
           }
         },
         "%TypedArray%.prototype.keys": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.TypedArray.keys",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.values": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.TypedArray.values",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype.entries": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.TypedArray.entries",
           "": {
             "version_added": "4.0.0"
           }
         },
         "%TypedArray%.prototype[Symbol.iterator]": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.TypedArray.@@iterator",
           "": {
             "version_added": "4.0.0"
           }
@@ -4606,7 +4630,7 @@
     "features": {
       "exponentiation (**) operator": {
         "basic support": {
-          "bcd_path": "",
+          "bcd_path": "javascript.operators.arithmetic.exponentiation",
           "": {
             "version_added": "7.0.0"
           },
@@ -4615,7 +4639,7 @@
           }
         },
         "assignment": {
-          "bcd_path": "",
+          "bcd_path": "javascript.operators.assignment.exponentiation",
           "": {
             "version_added": "7.0.0"
           },
@@ -4635,7 +4659,7 @@
       },
       "Array.prototype.includes": {
         "Array.prototype.includes": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Array.includes",
           "": {
             "version_added": "6.0.0"
           },
@@ -4653,7 +4677,7 @@
           }
         },
         "%TypedArray%.prototype.includes": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.TypedArray.includes",
           "": {
             "version_added": "6.0.0"
           },
@@ -5435,11 +5459,11 @@
       },
       "Array.prototype.{flat, flatMap}": {
         "Array.prototype.flat": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Array.flat",
           "": {}
         },
         "Array.prototype.flatMap": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Array.flatMap",
           "": {}
         }
       },
