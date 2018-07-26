@@ -2061,7 +2061,7 @@
   },
   "javascript.builtins.RegExp.lookbehind_assertion": {
     "mdn_url": "",
-    "mdn_desc": "lookbehind assertions (<code>(?&gt;= )</code> and <code>(?&gt;! )</code>)",
+    "mdn_desc": "lookbehind assertions (<code>(?&lt;= )</code> and <code>(?&lt;! )</code>)",
     "bcd_file": "javascript/builtins/RegExp.json"
   },
   "javascript.builtins.RegExp.multiline": {
