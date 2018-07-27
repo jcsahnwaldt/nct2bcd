@@ -188,9 +188,9 @@ for (const ver of versions) {
     if (name === undefined && ver.startsWith('0.12.')) continue;
     const nct = nctJson(name);
     for (const [tag, data] of Object.entries(nct)) {
-      if (tag.startsWith('_')) continue; // skip _version, _engine
+      if (tag === '_version' || tag === '_engine') continue;
       for (const [key, val] of Object.entries(data)) {
-        if (key.startsWith('_')) continue; // skip _successful, _count, _percent
+        if (key === '_successful' || key === '_count' || key === '_percent') continue;
         const parts = key.split('›');
         for (const node of find(tree, tag, ...parts, flag)) {
           vset(node, ver, val === true);
