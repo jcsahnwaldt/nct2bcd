@@ -899,6 +899,53 @@
             "version_added": "5.0.0"
           }
         }
+      },
+      "spread syntax for iterable objects": {
+        "with arrays, in function calls": {
+          "bcd_path": ""
+        },
+        "with arrays, in array literals": {
+          "bcd_path": ""
+        },
+        "with sparse arrays, in function calls": {
+          "bcd_path": ""
+        },
+        "with sparse arrays, in array literals": {
+          "bcd_path": ""
+        },
+        "with strings, in function calls": {
+          "bcd_path": ""
+        },
+        "with strings, in array literals": {
+          "bcd_path": ""
+        },
+        "with astral plane strings, in function calls": {
+          "bcd_path": ""
+        },
+        "with astral plane strings, in array literals": {
+          "bcd_path": ""
+        },
+        "with generator instances, in calls": {
+          "bcd_path": ""
+        },
+        "with generator instances, in arrays": {
+          "bcd_path": ""
+        },
+        "with generic iterables, in calls": {
+          "bcd_path": ""
+        },
+        "with generic iterables, in arrays": {
+          "bcd_path": ""
+        },
+        "with instances of iterables, in calls": {
+          "bcd_path": ""
+        },
+        "with instances of iterables, in arrays": {
+          "bcd_path": ""
+        },
+        "spreading non-iterables is a runtime error": {
+          "bcd_path": ""
+        }
       }
     },
     "bindings": {
@@ -5712,6 +5759,9 @@
             "version_added": "10.4.0"
           }
         }
+      },
+      "Object.fromEntries": {
+        "bcd_path": ""
       }
     },
     "draft (stage 2)": {
