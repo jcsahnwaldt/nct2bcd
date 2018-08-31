@@ -474,13 +474,13 @@
     "mdn_desc": "",
     "bcd_file": "javascript/builtins/DataView.json"
   },
-  "javascript.builtins.Date.@@toPrimitive": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/@@toPrimitive",
+  "javascript.builtins.Date": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date",
     "mdn_desc": "",
     "bcd_file": "javascript/builtins/Date.json"
   },
-  "javascript.builtins.Date.Date": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date",
+  "javascript.builtins.Date.@@toPrimitive": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Date/@@toPrimitive",
     "mdn_desc": "",
     "bcd_file": "javascript/builtins/Date.json"
   },
@@ -1519,6 +1519,11 @@
     "mdn_desc": "",
     "bcd_file": "javascript/builtins/Math.json"
   },
+  "javascript.builtins.Number": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "mdn_desc": "",
+    "bcd_file": "javascript/builtins/Number.json"
+  },
   "javascript.builtins.Number.EPSILON": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/EPSILON",
     "mdn_desc": "",
@@ -1551,11 +1556,6 @@
   },
   "javascript.builtins.Number.NaN": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number/NaN",
-    "mdn_desc": "",
-    "bcd_file": "javascript/builtins/Number.json"
-  },
-  "javascript.builtins.Number.Number": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Number",
     "mdn_desc": "",
     "bcd_file": "javascript/builtins/Number.json"
   },
@@ -1686,6 +1686,11 @@
   },
   "javascript.builtins.Object.freeze": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/freeze",
+    "mdn_desc": "",
+    "bcd_file": "javascript/builtins/Object.json"
+  },
+  "javascript.builtins.Object.fromEntries": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries",
     "mdn_desc": "",
     "bcd_file": "javascript/builtins/Object.json"
   },
@@ -2284,17 +2289,17 @@
     "mdn_desc": "",
     "bcd_file": "javascript/builtins/SharedArrayBuffer.json"
   },
+  "javascript.builtins.String": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "mdn_desc": "",
+    "bcd_file": "javascript/builtins/String.json"
+  },
   "javascript.builtins.String.@@iterator": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String/@@iterator",
     "mdn_desc": "",
     "bcd_file": "javascript/builtins/String.json"
   },
-  "javascript.builtins.String.String": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/String",
-    "mdn_desc": "",
-    "bcd_file": "javascript/builtins/String.json"
-  },
-  "javascript.builtins.String.String.unicode_code_point_escapes": {
+  "javascript.builtins.String.unicode_code_point_escapes": {
     "mdn_url": "",
     "mdn_desc": "Unicode code point escapes \\u{xxxxxx}",
     "bcd_file": "javascript/builtins/String.json"
@@ -2501,6 +2506,11 @@
   },
   "javascript.builtins.Symbol.asyncIterator": {
     "mdn_url": "",
+    "mdn_desc": "",
+    "bcd_file": "javascript/builtins/Symbol.json"
+  },
+  "javascript.builtins.Symbol.description": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/description",
     "mdn_desc": "",
     "bcd_file": "javascript/builtins/Symbol.json"
   },
