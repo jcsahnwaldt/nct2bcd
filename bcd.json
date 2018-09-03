@@ -1689,6 +1689,11 @@
     "mdn_desc": "",
     "bcd_file": "javascript/builtins/Object.json"
   },
+  "javascript.builtins.Object.fromEntries": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/fromEntries",
+    "mdn_desc": "",
+    "bcd_file": "javascript/builtins/Object.json"
+  },
   "javascript.builtins.Object.getOwnPropertyDescriptor": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Object/getOwnPropertyDescriptor",
     "mdn_desc": "",
@@ -2501,6 +2506,11 @@
   },
   "javascript.builtins.Symbol.asyncIterator": {
     "mdn_url": "",
+    "mdn_desc": "",
+    "bcd_file": "javascript/builtins/Symbol.json"
+  },
+  "javascript.builtins.Symbol.description": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Symbol/description",
     "mdn_desc": "",
     "bcd_file": "javascript/builtins/Symbol.json"
   },

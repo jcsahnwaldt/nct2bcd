@@ -1599,7 +1599,7 @@
           }
         },
         "%GeneratorPrototype%": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Generator",
           "": {
             "version_added": "4.0.0"
           },
@@ -1614,7 +1614,7 @@
           }
         },
         "%GeneratorPrototype%.constructor": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Generator",
           "": {
             "version_added": "4.0.0"
           },
@@ -1623,7 +1623,7 @@
           }
         },
         "%GeneratorPrototype%.throw": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Generator.throw",
           "": {
             "version_added": "4.0.0"
           },
@@ -1632,7 +1632,7 @@
           }
         },
         "%GeneratorPrototype%.return": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Generator.return",
           "": {
             "version_added": "6.0.0"
           }
@@ -1804,31 +1804,31 @@
           }
         },
         "Uint16Array": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Uint16Array",
           "": {
             "version_added": "0.10"
           }
         },
         "Int32Array": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Int32Array",
           "": {
             "version_added": "0.10"
           }
         },
         "Uint32Array": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Uint32Array",
           "": {
             "version_added": "0.10"
           }
         },
         "Float32Array": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Float32Array",
           "": {
             "version_added": "0.10"
           }
         },
         "Float64Array": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Float32Array",
           "": {
             "version_added": "0.10"
           }
@@ -1945,7 +1945,7 @@
           }
         },
         "%TypedArray%.prototype.subarray": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.TypedArray.subarray",
           "": {
             "version_added": "0.12"
           }
@@ -2853,7 +2853,7 @@
       },
       "Promise": {
         "basic functionality": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Promise",
           "": {
             "version_added": "0.12"
           }
@@ -2871,7 +2871,7 @@
           }
         },
         "Promise.all": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Promise.all",
           "": {
             "version_added": "0.12"
           }
@@ -2883,7 +2883,7 @@
           }
         },
         "Promise.race": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Promise.race",
           "": {
             "version_added": "0.12"
           }
@@ -3170,25 +3170,25 @@
     "built-in extensions": {
       "Object static methods": {
         "Object.assign": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Object.assign",
           "": {
             "version_added": "4.0.0"
           }
         },
         "Object.is": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Object.is",
           "": {
             "version_added": "0.10"
           }
         },
         "Object.getOwnPropertySymbols": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Object.getOwnPropertySymbols",
           "": {
             "version_added": "0.12"
           }
         },
         "Object.setPrototypeOf": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Object.setPrototypeOf",
           "": {
             "version_added": "0.12"
           }
@@ -3347,7 +3347,7 @@
       },
       "String.prototype methods": {
         "String.prototype.codePointAt": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.String.codePointAt",
           "": {
             "version_added": "4.0.0"
           },
@@ -3356,13 +3356,13 @@
           }
         },
         "String.prototype.normalize": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.String.normalize",
           "": {
             "version_added": "0.12"
           }
         },
         "String.prototype.repeat": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.String.repeat",
           "": {
             "version_added": "4.0.0"
           },
@@ -3371,7 +3371,7 @@
           }
         },
         "String.prototype.startsWith": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.String.startsWith",
           "": {
             "version_added": "4.0.0"
           },
@@ -3389,7 +3389,7 @@
           }
         },
         "String.prototype.endsWith": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.String.endsWith",
           "": {
             "version_added": "4.0.0"
           },
@@ -3413,7 +3413,7 @@
           }
         },
         "String.prototype[Symbol.iterator]": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.String.@@iterator",
           "": {
             "version_added": "0.12"
           }
@@ -3433,25 +3433,25 @@
           }
         },
         "RegExp.prototype[Symbol.match]": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.RegExp.@@match",
           "": {
             "version_added": "6.0.0"
           }
         },
         "RegExp.prototype[Symbol.replace]": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.RegExp.@@replace",
           "": {
             "version_added": "6.0.0"
           }
         },
         "RegExp.prototype[Symbol.split]": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.RegExp.@@split",
           "": {
             "version_added": "6.0.0"
           }
         },
         "RegExp.prototype[Symbol.search]": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.RegExp.@@search",
           "": {
             "version_added": "6.0.0"
           }
@@ -3647,19 +3647,19 @@
           }
         },
         "Number.EPSILON": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Number.EPSILON",
           "": {
             "version_added": "0.12"
           }
         },
         "Number.MIN_SAFE_INTEGER": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Number.MIN_SAFE_INTEGER",
           "": {
             "version_added": "0.12"
           }
         },
         "Number.MAX_SAFE_INTEGER": {
-          "bcd_path": "",
+          "bcd_path": "javascript.builtins.Number.MAX_SAFE_INTEGER",
           "": {
             "version_added": "0.12"
           }
@@ -5707,7 +5707,7 @@
         }
       },
       "Symbol.prototype.description": {
-        "bcd_path": "",
+        "bcd_path": "javascript.builtins.Symbol.description",
         "": {}
       },
       "BigInt": {
@@ -5808,7 +5808,7 @@
         }
       },
       "Object.fromEntries": {
-        "bcd_path": "",
+        "bcd_path": "javascript.builtins.Object.fromEntries",
         "": {}
       },
       "Set methods": {
