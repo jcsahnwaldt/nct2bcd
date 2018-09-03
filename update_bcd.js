@@ -46,6 +46,11 @@ function feq(f1, f2) {
   return true;
 }
 
+function copyVersions(target, source) {
+  target.version_added = source.version_added;
+  target.version_removed = source.version_removed;
+}
+
 // update bcd support node
 // support: bcd support node, e.g. {nodejs: {version_added: "6.0.0"} }
 // versions: versions node, e.g. { version_added: "6.0.0", version_removed: "7.0.0" }
@@ -57,14 +62,14 @@ function updateSupport(support, versions) {
   else if (Array.isArray(nodejs)) {
     for (const i in nodejs) {
       if (feq(nodejs[i].flags, versions.flags)) {
-        nodejs[i] = versions;
+        copyVersions(nodejs[i], versions);
         return;
       }
     }
     nodejs.push(versions);
   }
   else if (feq(nodejs.flags, versions.flags)) {
-    support.nodejs = versions;
+    copyVersions(support.nodejs, versions);
   }
   else {
     support.nodejs = [nodejs, versions];

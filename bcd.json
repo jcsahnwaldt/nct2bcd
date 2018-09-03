@@ -299,6 +299,11 @@
     "mdn_desc": "",
     "bcd_file": "javascript/builtins/Atomics.json"
   },
+  "javascript.builtins.Atomics.notify": {
+    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/notify",
+    "mdn_desc": "",
+    "bcd_file": "javascript/builtins/Atomics.json"
+  },
   "javascript.builtins.Atomics.or": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/or",
     "mdn_desc": "",
@@ -316,11 +321,6 @@
   },
   "javascript.builtins.Atomics.wait": {
     "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/wait",
-    "mdn_desc": "",
-    "bcd_file": "javascript/builtins/Atomics.json"
-  },
-  "javascript.builtins.Atomics.wake": {
-    "mdn_url": "https://developer.mozilla.org/docs/Web/JavaScript/Reference/Global_Objects/Atomics/wake",
     "mdn_desc": "",
     "bcd_file": "javascript/builtins/Atomics.json"
   },

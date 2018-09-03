@@ -3595,7 +3595,7 @@
         "Array.prototype.values": {
           "bcd_path": "javascript.builtins.Array.values",
           "": {
-            "version_added": "11.0.0"
+            "version_added": "10.9.0"
           }
         },
         "Array.prototype.entries": {
@@ -5255,7 +5255,7 @@
           }
         },
         "Atomics.wake": {
-          "bcd_path": "javascript.builtins.Atomics.wake",
+          "bcd_path": "javascript.builtins.Atomics.notify",
           "": {
             "version_added": "8.10.0"
           }
@@ -5617,7 +5617,7 @@
       "String.prototype.matchAll": {
         "bcd_path": "",
         "--harmony": {
-          "version_added": "11.0.0"
+          "version_added": "10.9.0"
         }
       },
       "instance class fields": {
