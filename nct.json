@@ -113,138 +113,63 @@
       "spread (...) operator": {
         "with arrays, in function calls": {
           "bcd_path": "",
-          "": {
-            "version_added": "5.0.0"
-          },
-          "--harmony": {
-            "version_added": "4.0.0"
-          }
+          "": {}
         },
         "with arrays, in array literals": {
           "bcd_path": "",
-          "": {
-            "version_added": "5.0.0"
-          },
-          "--harmony": {
-            "version_added": "4.0.0"
-          }
+          "": {}
         },
         "with sparse arrays, in function calls": {
           "bcd_path": "",
-          "": {
-            "version_added": "5.0.0"
-          },
-          "--harmony": {
-            "version_added": "4.0.0"
-          }
+          "": {}
         },
         "with sparse arrays, in array literals": {
           "bcd_path": "",
-          "": {
-            "version_added": "5.0.0"
-          },
-          "--harmony": {
-            "version_added": "4.0.0"
-          }
+          "": {}
         },
         "with strings, in function calls": {
           "bcd_path": "",
-          "": {
-            "version_added": "5.0.0"
-          },
-          "--harmony": {
-            "version_added": "4.0.0"
-          }
+          "": {}
         },
         "with strings, in array literals": {
           "bcd_path": "",
-          "": {
-            "version_added": "5.0.0"
-          },
-          "--harmony": {
-            "version_added": "4.0.0"
-          }
+          "": {}
         },
         "with astral plane strings, in function calls": {
           "bcd_path": "",
-          "": {
-            "version_added": "5.0.0"
-          },
-          "--harmony": {
-            "version_added": "4.0.0"
-          }
+          "": {}
         },
         "with astral plane strings, in array literals": {
           "bcd_path": "",
-          "": {
-            "version_added": "5.0.0"
-          },
-          "--harmony": {
-            "version_added": "4.0.0"
-          }
+          "": {}
         },
         "with generator instances, in calls": {
           "bcd_path": "",
-          "": {
-            "version_added": "5.0.0"
-          },
-          "--harmony": {
-            "version_added": "4.0.0"
-          }
+          "": {}
         },
         "with generator instances, in arrays": {
           "bcd_path": "",
-          "": {
-            "version_added": "5.0.0"
-          },
-          "--harmony": {
-            "version_added": "4.0.0"
-          }
+          "": {}
         },
         "with generic iterables, in calls": {
           "bcd_path": "",
-          "": {
-            "version_added": "5.0.0"
-          },
-          "--harmony": {
-            "version_added": "4.0.0"
-          }
+          "": {}
         },
         "with generic iterables, in arrays": {
           "bcd_path": "",
-          "": {
-            "version_added": "5.0.0"
-          },
-          "--harmony": {
-            "version_added": "4.0.0"
-          }
+          "": {}
         },
         "with instances of iterables, in calls": {
           "bcd_path": "",
-          "": {
-            "version_added": "5.0.0"
-          },
-          "--harmony": {
-            "version_added": "4.0.0"
-          }
+          "": {}
         },
         "with instances of iterables, in arrays": {
           "bcd_path": "",
-          "": {
-            "version_added": "5.0.0"
-          },
-          "--harmony": {
-            "version_added": "4.0.0"
-          }
+          "": {}
         },
         "spreading non-iterables is a runtime error": {
           "bcd_path": "",
-          "": {
-            "version_added": "5.0.0"
-          },
-          "--harmony": {
-            "version_added": "4.0.0"
-          }
+          "": {}
         }
       },
       "object literal extensions": {
@@ -902,49 +827,139 @@
       },
       "spread syntax for iterable objects": {
         "with arrays, in function calls": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with arrays, in array literals": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with sparse arrays, in function calls": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with sparse arrays, in array literals": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with strings, in function calls": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with strings, in array literals": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with astral plane strings, in function calls": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with astral plane strings, in array literals": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with generator instances, in calls": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with generator instances, in arrays": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with generic iterables, in calls": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with generic iterables, in arrays": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with instances of iterables, in calls": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "with instances of iterables, in arrays": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         },
         "spreading non-iterables is a runtime error": {
-          "bcd_path": ""
+          "bcd_path": "",
+          "": {
+            "version_added": "5.0.0"
+          },
+          "--harmony": {
+            "version_added": "4.0.0"
+          }
         }
       }
     },
@@ -3580,8 +3595,7 @@
         "Array.prototype.values": {
           "bcd_path": "javascript.builtins.Array.values",
           "": {
-            "version_added": "0.12",
-            "version_removed": "4.0.0"
+            "version_added": "11.0.0"
           }
         },
         "Array.prototype.entries": {
@@ -5602,7 +5616,9 @@
       },
       "String.prototype.matchAll": {
         "bcd_path": "",
-        "": {}
+        "--harmony": {
+          "version_added": "11.0.0"
+        }
       },
       "instance class fields": {
         "public instance class fields": {
@@ -5761,7 +5777,8 @@
         }
       },
       "Object.fromEntries": {
-        "bcd_path": ""
+        "bcd_path": "",
+        "": {}
       }
     },
     "draft (stage 2)": {
